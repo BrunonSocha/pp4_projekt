@@ -27,19 +27,19 @@
     ]
   },
   "packageFolders": {
-    "/home/bruno/.nuget/packages/": {}
+    "/home/vscode/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/bruno/Studies/Uni/PP4/EShop.Application/EShop.Application.csproj",
+      "projectUniqueName": "/workspaces/PP4/EShop.Application/EShop.Application.csproj",
       "projectName": "EShop.Application",
-      "projectPath": "/home/bruno/Studies/Uni/PP4/EShop.Application/EShop.Application.csproj",
-      "packagesPath": "/home/bruno/.nuget/packages/",
-      "outputPath": "/home/bruno/Studies/Uni/PP4/EShop.Application/obj/",
+      "projectPath": "/workspaces/PP4/EShop.Application/EShop.Application.csproj",
+      "packagesPath": "/home/vscode/.nuget/packages/",
+      "outputPath": "/workspaces/PP4/EShop.Application/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "/home/bruno/.nuget/NuGet/NuGet.Config"
+        "/home/vscode/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net8.0"
@@ -51,8 +51,8 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "/home/bruno/Studies/Uni/PP4/EShop.Domain/EShop.Domain.csproj": {
-              "projectPath": "/home/bruno/Studies/Uni/PP4/EShop.Domain/EShop.Domain.csproj"
+            "/workspaces/PP4/EShop.Domain/EShop.Domain.csproj": {
+              "projectPath": "/workspaces/PP4/EShop.Domain/EShop.Domain.csproj"
             }
           }
         }
@@ -87,7 +87,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/8.0.407/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/8.0.408/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

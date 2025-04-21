@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "sHLWVbjDlSM=",
+  "dgSpecHash": "0qmE85yNnjI=",
   "success": true,
-  "projectFilePath": "/home/bruno/Studies/Uni/PP4/EShop.Domain/EShop.Domain.csproj",
+  "projectFilePath": "/workspaces/PP4/EShop.Domain/EShop.Domain.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

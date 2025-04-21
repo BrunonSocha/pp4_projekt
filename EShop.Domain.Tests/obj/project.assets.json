@@ -5508,19 +5508,19 @@
     ]
   },
   "packageFolders": {
-    "/home/bruno/.nuget/packages/": {}
+    "/home/vscode/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/bruno/Studies/Uni/PP4/EShop.Domain.Tests/EShop.Domain.Tests.csproj",
+      "projectUniqueName": "/workspaces/PP4/EShop.Domain.Tests/EShop.Domain.Tests.csproj",
       "projectName": "EShop.Domain.Tests",
-      "projectPath": "/home/bruno/Studies/Uni/PP4/EShop.Domain.Tests/EShop.Domain.Tests.csproj",
-      "packagesPath": "/home/bruno/.nuget/packages/",
-      "outputPath": "/home/bruno/Studies/Uni/PP4/EShop.Domain.Tests/obj/",
+      "projectPath": "/workspaces/PP4/EShop.Domain.Tests/EShop.Domain.Tests.csproj",
+      "packagesPath": "/home/vscode/.nuget/packages/",
+      "outputPath": "/workspaces/PP4/EShop.Domain.Tests/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "/home/bruno/.nuget/NuGet/NuGet.Config"
+        "/home/vscode/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net8.0"
@@ -5582,7 +5582,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/8.0.407/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/8.0.408/PortableRuntimeIdentifierGraph.json"
       }
     }
   }
