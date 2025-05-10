@@ -83,6 +83,10 @@
 /workspaces/PP4/EShopService/obj/Debug/net8.0/EShopService.MvcApplicationPartsAssemblyInfo.cs
 /workspaces/PP4/EShopService/obj/Debug/net8.0/EShopService.MvcApplicationPartsAssemblyInfo.cache
 /workspaces/PP4/EShopService/obj/Debug/net8.0/EShopService.sourcelink.json
+<<<<<<< HEAD
+=======
+/workspaces/PP4/EShopService/obj/Debug/net8.0/scopedcss/bundle/EShopService.styles.css
+>>>>>>> 58349a8c267c1fb5acc924d64d21dcabf0bf9217
 /workspaces/PP4/EShopService/obj/Debug/net8.0/staticwebassets.build.json
 /workspaces/PP4/EShopService/obj/Debug/net8.0/staticwebassets.development.json
 /workspaces/PP4/EShopService/obj/Debug/net8.0/staticwebassets/msbuild.EShopService.Microsoft.AspNetCore.StaticWebAssets.props
@@ -90,7 +94,10 @@
 /workspaces/PP4/EShopService/obj/Debug/net8.0/staticwebassets/msbuild.buildMultiTargeting.EShopService.props
 /workspaces/PP4/EShopService/obj/Debug/net8.0/staticwebassets/msbuild.buildTransitive.EShopService.props
 /workspaces/PP4/EShopService/obj/Debug/net8.0/staticwebassets.pack.json
+<<<<<<< HEAD
 /workspaces/PP4/EShopService/obj/Debug/net8.0/scopedcss/bundle/EShopService.styles.css
+=======
+>>>>>>> 58349a8c267c1fb5acc924d64d21dcabf0bf9217
 /workspaces/PP4/EShopService/obj/Debug/net8.0/EShopSer.DBFD32C1.Up2Date
 /workspaces/PP4/EShopService/obj/Debug/net8.0/EShopService.dll
 /workspaces/PP4/EShopService/obj/Debug/net8.0/refint/EShopService.dll

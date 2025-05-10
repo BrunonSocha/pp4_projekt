@@ -1,0 +1,12 @@
+/workspaces/PP4/EShop.Domain/bin/Debug/net8.0/EShop.Domain.deps.json
+/workspaces/PP4/EShop.Domain/bin/Debug/net8.0/EShop.Domain.dll
+/workspaces/PP4/EShop.Domain/bin/Debug/net8.0/EShop.Domain.pdb
+/workspaces/PP4/EShop.Domain/obj/Debug/net8.0/EShop.Domain.GeneratedMSBuildEditorConfig.editorconfig
+/workspaces/PP4/EShop.Domain/obj/Debug/net8.0/EShop.Domain.AssemblyInfoInputs.cache
+/workspaces/PP4/EShop.Domain/obj/Debug/net8.0/EShop.Domain.AssemblyInfo.cs
+/workspaces/PP4/EShop.Domain/obj/Debug/net8.0/EShop.Domain.csproj.CoreCompileInputs.cache
+/workspaces/PP4/EShop.Domain/obj/Debug/net8.0/EShop.Domain.sourcelink.json
+/workspaces/PP4/EShop.Domain/obj/Debug/net8.0/EShop.Domain.dll
+/workspaces/PP4/EShop.Domain/obj/Debug/net8.0/refint/EShop.Domain.dll
+/workspaces/PP4/EShop.Domain/obj/Debug/net8.0/EShop.Domain.pdb
+/workspaces/PP4/EShop.Domain/obj/Debug/net8.0/ref/EShop.Domain.dll
