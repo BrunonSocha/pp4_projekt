@@ -1,6 +1,4 @@
-﻿namespace EShopService.Models;
-
-public class Product : BaseModel
+﻿public class Product : BaseModel
 {
     public string Name { get; set; }
 
