@@ -31,10 +31,15 @@ namespace EShopService.Controllers
         {
         }
 
-        // PUT api/<ProductController>/5
-        [HttpPut("{id}")]
-        public void Put(int id, [FromBody] string value)
+        // DELETE api/<ProductController>/5
+        [HttpDelete("{id}")]
+        [Authorize(Policy = "AdminOnly")].GetAsync(id);
+        public async Task<ActionResult> Delete(int id)
         {
+            var product = await _productService.GetAsync(id);
+            product.Deleted = true;
+            var result = await _productService.UpdateAsync(product);
+            return Ok(result);
         }
 
         // DELETE api/<ProductController>/5

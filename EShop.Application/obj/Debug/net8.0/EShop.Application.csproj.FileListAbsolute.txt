@@ -1,0 +1,16 @@
+/workspaces/PP4/EShop.Application/bin/Debug/net8.0/EShop.Application.deps.json
+/workspaces/PP4/EShop.Application/bin/Debug/net8.0/EShop.Application.dll
+/workspaces/PP4/EShop.Application/bin/Debug/net8.0/EShop.Application.pdb
+/workspaces/PP4/EShop.Application/bin/Debug/net8.0/EShop.Domain.dll
+/workspaces/PP4/EShop.Application/bin/Debug/net8.0/EShop.Domain.pdb
+/workspaces/PP4/EShop.Application/obj/Debug/net8.0/EShop.Application.csproj.AssemblyReference.cache
+/workspaces/PP4/EShop.Application/obj/Debug/net8.0/EShop.Application.GeneratedMSBuildEditorConfig.editorconfig
+/workspaces/PP4/EShop.Application/obj/Debug/net8.0/EShop.Application.AssemblyInfoInputs.cache
+/workspaces/PP4/EShop.Application/obj/Debug/net8.0/EShop.Application.AssemblyInfo.cs
+/workspaces/PP4/EShop.Application/obj/Debug/net8.0/EShop.Application.csproj.CoreCompileInputs.cache
+/workspaces/PP4/EShop.Application/obj/Debug/net8.0/EShop.Application.sourcelink.json
+/workspaces/PP4/EShop.Application/obj/Debug/net8.0/EShop.Ap.140E939F.Up2Date
+/workspaces/PP4/EShop.Application/obj/Debug/net8.0/EShop.Application.dll
+/workspaces/PP4/EShop.Application/obj/Debug/net8.0/refint/EShop.Application.dll
+/workspaces/PP4/EShop.Application/obj/Debug/net8.0/EShop.Application.pdb
+/workspaces/PP4/EShop.Application/obj/Debug/net8.0/ref/EShop.Application.dll
