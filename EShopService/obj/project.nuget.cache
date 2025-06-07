@@ -1,14 +1,14 @@
 {
   "version": 2,
-  "dgSpecHash": "Wk+2DcOiWTk=",
+  "dgSpecHash": "1JWdaP4/zP4=",
   "success": true,
-  "projectFilePath": "/workspaces/PP4/EShopService/EShopService.csproj",
+  "projectFilePath": "H:\\PPP\\EShopService\\EShopService.csproj",
   "expectedPackageFiles": [
-    "/home/vscode/.nuget/packages/microsoft.aspnetcore.openapi/9.0.3/microsoft.aspnetcore.openapi.9.0.3.nupkg.sha512",
-    "/home/vscode/.nuget/packages/microsoft.openapi/1.6.23/microsoft.openapi.1.6.23.nupkg.sha512",
-    "/home/vscode/.nuget/packages/swashbuckle.aspnetcore.swagger/8.1.4/swashbuckle.aspnetcore.swagger.8.1.4.nupkg.sha512",
-    "/home/vscode/.nuget/packages/swashbuckle.aspnetcore.swaggergen/8.1.4/swashbuckle.aspnetcore.swaggergen.8.1.4.nupkg.sha512",
-    "/home/vscode/.nuget/packages/swashbuckle.aspnetcore.swaggerui/8.1.4/swashbuckle.aspnetcore.swaggerui.8.1.4.nupkg.sha512"
+    "C:\\Users\\Pawel\\.nuget\\packages\\microsoft.aspnetcore.openapi\\9.0.3\\microsoft.aspnetcore.openapi.9.0.3.nupkg.sha512",
+    "C:\\Users\\Pawel\\.nuget\\packages\\microsoft.openapi\\1.6.23\\microsoft.openapi.1.6.23.nupkg.sha512",
+    "C:\\Users\\Pawel\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\8.1.4\\swashbuckle.aspnetcore.swagger.8.1.4.nupkg.sha512",
+    "C:\\Users\\Pawel\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\8.1.4\\swashbuckle.aspnetcore.swaggergen.8.1.4.nupkg.sha512",
+    "C:\\Users\\Pawel\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\8.1.4\\swashbuckle.aspnetcore.swaggerui.8.1.4.nupkg.sha512"
   ],
   "logs": []
 }
