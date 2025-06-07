@@ -3,8 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\okular\\ProjektPP\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{5483AE0B-55E5-4FEB-8813-BB96017ECE9D}|EShopService\\EShopService.csproj|c:\\users\\okular\\projektpp\\eshopservice\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5483AE0B-55E5-4FEB-8813-BB96017ECE9D}|EShopService\\EShopService.csproj|solutionrelative:eshopservice\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{5483AE0B-55E5-4FEB-8813-BB96017ECE9D}|EShopService\\EShopService.csproj|c:\\users\\okular\\projektpp\\eshopservice\\data\\datacontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5483AE0B-55E5-4FEB-8813-BB96017ECE9D}|EShopService\\EShopService.csproj|solutionrelative:eshopservice\\data\\datacontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5483AE0B-55E5-4FEB-8813-BB96017ECE9D}|EShopService\\EShopService.csproj|c:\\users\\okular\\projektpp\\eshopservice\\controllers\\shoppingcartcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5483AE0B-55E5-4FEB-8813-BB96017ECE9D}|EShopService\\EShopService.csproj|solutionrelative:eshopservice\\controllers\\shoppingcartcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5483AE0B-55E5-4FEB-8813-BB96017ECE9D}|EShopService\\EShopService.csproj|c:\\users\\okular\\projektpp\\eshopservice\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5483AE0B-55E5-4FEB-8813-BB96017ECE9D}|EShopService\\EShopService.csproj|solutionrelative:eshopservice\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -23,14 +35,53 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\okular\\ProjektPP\\EShopService\\Program.cs",
+              "RelativeDocumentMoniker": "EShopService\\Program.cs",
+              "ToolTip": "C:\\Users\\okular\\ProjektPP\\EShopService\\Program.cs",
+              "RelativeToolTip": "EShopService\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-07T12:06:17.094Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "WeatherForecastController.cs",
+              "DocumentMoniker": "C:\\Users\\okular\\ProjektPP\\EShopService\\Controllers\\WeatherForecastController.cs",
+              "RelativeDocumentMoniker": "EShopService\\Controllers\\WeatherForecastController.cs",
+              "ToolTip": "C:\\Users\\okular\\ProjektPP\\EShopService\\Controllers\\WeatherForecastController.cs",
+              "RelativeToolTip": "EShopService\\Controllers\\WeatherForecastController.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAAwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-07T12:06:02.049Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "DataContext.cs",
               "DocumentMoniker": "C:\\Users\\okular\\ProjektPP\\EShopService\\Data\\DataContext.cs",
               "RelativeDocumentMoniker": "EShopService\\Data\\DataContext.cs",
               "ToolTip": "C:\\Users\\okular\\ProjektPP\\EShopService\\Data\\DataContext.cs",
               "RelativeToolTip": "EShopService\\Data\\DataContext.cs",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAYwBkAAAAeAAAAAAAAAA==",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAYwBcAAAAbAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-07T11:42:47.04Z",
+              "WhenOpened": "2025-06-07T11:58:04.613Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ShoppingCartController.cs",
+              "DocumentMoniker": "C:\\Users\\okular\\ProjektPP\\EShopService\\Controllers\\ShoppingCartController.cs",
+              "RelativeDocumentMoniker": "EShopService\\Controllers\\ShoppingCartController.cs",
+              "ToolTip": "C:\\Users\\okular\\ProjektPP\\EShopService\\Controllers\\ShoppingCartController.cs",
+              "RelativeToolTip": "EShopService\\Controllers\\ShoppingCartController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-07T11:57:55.431Z",
               "EditorCaption": ""
             }
           ]
