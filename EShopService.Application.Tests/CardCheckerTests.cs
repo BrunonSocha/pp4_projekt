@@ -58,11 +58,11 @@ public class CardCheckerTests
     }
 
     [Theory]
-    [InlineData("Not a correct card.", "lmao")]
-    [InlineData("Not a correct card.", "1111")]
-    [InlineData("Not a correct card.", "6221 2345 6789 0123​​")]
-    [InlineData("Unknown card type.", "1111111111111117")]
-    [InlineData("Unknown card type.", "1111-1111-1111-1117")]
+    [InlineData("Incorrect card number", "lmao")]
+    [InlineData("Incorrect card number", "1111")]
+    [InlineData("Incorrect card number", "6221 2345 6789 0123​​")]
+    [InlineData("Unknown card type", "1111111111111117")]
+    [InlineData("Unknown card type", "1111-1111-1111-1117")]
     public void GetCardType_Checks_IncorrectNumbers(string cardType, string cardNumber)
     {
         // No arrangement needed as CardChecker is a static class

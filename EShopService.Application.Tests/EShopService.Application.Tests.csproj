@@ -18,4 +18,8 @@
     <Using Include="Xunit" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\EShopService.Application\EShopService.Application.csproj" />
+  </ItemGroup>
+
 </Project>
