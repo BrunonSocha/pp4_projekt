@@ -1,0 +1,5 @@
+/workspaces/PP4/EShopService.Application.Tests/obj/Debug/net9.0/EShopService.Application.Tests.csproj.AssemblyReference.cache
+/workspaces/PP4/EShopService.Application.Tests/obj/Debug/net9.0/EShopService.Application.Tests.GeneratedMSBuildEditorConfig.editorconfig
+/workspaces/PP4/EShopService.Application.Tests/obj/Debug/net9.0/EShopService.Application.Tests.AssemblyInfoInputs.cache
+/workspaces/PP4/EShopService.Application.Tests/obj/Debug/net9.0/EShopService.Application.Tests.AssemblyInfo.cs
+/workspaces/PP4/EShopService.Application.Tests/obj/Debug/net9.0/EShopService.Application.Tests.csproj.CoreCompileInputs.cache
