@@ -32,3 +32,7 @@ C:\Users\okular\ProjektPP\EShopService\obj\Debug\net9.0\EShopService.pdb
 C:\Users\okular\ProjektPP\EShopService\obj\Debug\net9.0\EShopService.genruntimeconfig.cache
 C:\Users\okular\ProjektPP\EShopService\obj\Debug\net9.0\ref\EShopService.dll
 C:\Users\okular\ProjektPP\EShopService\obj\Debug\net9.0\staticwebassets.upToDateCheck.txt
+C:\Users\okular\ProjektPP\EShopService\obj\Debug\net9.0\EShopService.sourcelink.json
+C:\Users\okular\ProjektPP\EShopService\bin\Debug\net9.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\okular\ProjektPP\EShopService\bin\Debug\net9.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\okular\ProjektPP\EShopService\bin\Debug\net9.0\Swashbuckle.AspNetCore.SwaggerUI.dll
