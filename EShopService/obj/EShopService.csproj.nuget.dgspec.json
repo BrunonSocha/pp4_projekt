@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "H:\\PPP\\EShopService\\EShopService.csproj": {}
+    "C:\\Users\\Pawel\\Source\\Repos\\pp4_projekt\\eshopservice\\EShopService.csproj": {}
   },
   "projects": {
-    "H:\\PPP\\EShopService\\EShopService.csproj": {
+    "C:\\Users\\Pawel\\Source\\Repos\\pp4_projekt\\eshopservice\\EShopService.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "H:\\PPP\\EShopService\\EShopService.csproj",
+        "projectUniqueName": "C:\\Users\\Pawel\\Source\\Repos\\pp4_projekt\\eshopservice\\EShopService.csproj",
         "projectName": "EShopService",
-        "projectPath": "H:\\PPP\\EShopService\\EShopService.csproj",
+        "projectPath": "C:\\Users\\Pawel\\Source\\Repos\\pp4_projekt\\eshopservice\\EShopService.csproj",
         "packagesPath": "C:\\Users\\Pawel\\.nuget\\packages\\",
-        "outputPath": "H:\\PPP\\EShopService\\obj\\",
+        "outputPath": "C:\\Users\\Pawel\\Source\\Repos\\pp4_projekt\\eshopservice\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -52,7 +52,27 @@
           "dependencies": {
             "Microsoft.AspNetCore.OpenApi": {
               "target": "Package",
-              "version": "[9.0.3, )"
+              "version": "[9.0.6, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[9.0.6, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[9.0.6, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[9.0.6, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[9.0.6, )"
             },
             "Swashbuckle.AspNetCore.SwaggerGen": {
               "target": "Package",
