@@ -3,16 +3,27 @@
   "WorkspaceRootPath": "C:\\Users\\Pawel\\source\\repos\\pp4_projekt\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{5483AE0B-55E5-4FEB-8813-BB96017ECE9D}|EShopService\\EShopService.csproj|c:\\users\\pawel\\source\\repos\\pp4_projekt\\eshopservice\\eshopdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5483AE0B-55E5-4FEB-8813-BB96017ECE9D}|EShopService\\EShopService.csproj|solutionrelative:eshopservice\\eshopdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{5483AE0B-55E5-4FEB-8813-BB96017ECE9D}|EShopService\\EShopService.csproj|c:\\users\\pawel\\source\\repos\\pp4_projekt\\eshopservice\\eshopdbcontextseed.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5483AE0B-55E5-4FEB-8813-BB96017ECE9D}|EShopService\\EShopService.csproj|solutionrelative:eshopservice\\eshopdbcontextseed.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5483AE0B-55E5-4FEB-8813-BB96017ECE9D}|EShopService\\EShopService.csproj|c:\\users\\pawel\\source\\repos\\pp4_projekt\\eshopservice\\weatherforecast.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5483AE0B-55E5-4FEB-8813-BB96017ECE9D}|EShopService\\EShopService.csproj|solutionrelative:eshopservice\\weatherforecast.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/EShopDb/True/SqlTable/dbo.Products.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{5483AE0B-55E5-4FEB-8813-BB96017ECE9D}|EShopService\\EShopService.csproj|c:\\users\\pawel\\source\\repos\\pp4_projekt\\eshopservice\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5483AE0B-55E5-4FEB-8813-BB96017ECE9D}|EShopService\\EShopService.csproj|solutionrelative:eshopservice\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5483AE0B-55E5-4FEB-8813-BB96017ECE9D}|EShopService\\EShopService.csproj|c:\\users\\pawel\\source\\repos\\pp4_projekt\\eshopservice\\eshopdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5483AE0B-55E5-4FEB-8813-BB96017ECE9D}|EShopService\\EShopService.csproj|solutionrelative:eshopservice\\eshopdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5483AE0B-55E5-4FEB-8813-BB96017ECE9D}|EShopService\\EShopService.csproj|c:\\users\\pawel\\source\\repos\\pp4_projekt\\eshopservice\\ieshopdbcontextseed.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5483AE0B-55E5-4FEB-8813-BB96017ECE9D}|EShopService\\EShopService.csproj|solutionrelative:eshopservice\\ieshopdbcontextseed.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5483AE0B-55E5-4FEB-8813-BB96017ECE9D}|EShopService\\EShopService.csproj|c:\\users\\pawel\\source\\repos\\pp4_projekt\\eshopservice\\models\\basemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5483AE0B-55E5-4FEB-8813-BB96017ECE9D}|EShopService\\EShopService.csproj|solutionrelative:eshopservice\\models\\basemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{5483AE0B-55E5-4FEB-8813-BB96017ECE9D}|EShopService\\EShopService.csproj|c:\\users\\pawel\\source\\repos\\pp4_projekt\\eshopservice\\models\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -21,6 +32,10 @@
     {
       "AbsoluteMoniker": "D:0:0:{5483AE0B-55E5-4FEB-8813-BB96017ECE9D}|EShopService\\EShopService.csproj|c:\\users\\pawel\\source\\repos\\pp4_projekt\\eshopservice\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5483AE0B-55E5-4FEB-8813-BB96017ECE9D}|EShopService\\EShopService.csproj|solutionrelative:eshopservice\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5483AE0B-55E5-4FEB-8813-BB96017ECE9D}|EShopService\\EShopService.csproj|c:\\users\\pawel\\source\\repos\\pp4_projekt\\eshopservice\\weatherforecast.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5483AE0B-55E5-4FEB-8813-BB96017ECE9D}|EShopService\\EShopService.csproj|solutionrelative:eshopservice\\weatherforecast.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Pawel\\source\\repos\\pp4_projekt\\EShopService.Application\\EShopService.Application.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
@@ -33,10 +48,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{5483AE0B-55E5-4FEB-8813-BB96017ECE9D}|EShopService\\EShopService.csproj|c:\\users\\pawel\\source\\repos\\pp4_projekt\\eshopservice\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{5483AE0B-55E5-4FEB-8813-BB96017ECE9D}|EShopService\\EShopService.csproj|solutionrelative:eshopservice\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5483AE0B-55E5-4FEB-8813-BB96017ECE9D}|EShopService\\EShopService.csproj|c:\\users\\pawel\\source\\repos\\pp4_projekt\\eshopservice\\models\\basemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5483AE0B-55E5-4FEB-8813-BB96017ECE9D}|EShopService\\EShopService.csproj|solutionrelative:eshopservice\\models\\basemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{5483AE0B-55E5-4FEB-8813-BB96017ECE9D}|EShopService\\EShopService.csproj|c:\\users\\pawel\\source\\repos\\pp4_projekt\\eshopservice\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -54,54 +65,64 @@
       "DocumentGroups": [
         {
           "DockedWidth": 52,
-          "SelectedChildIndex": 9,
+          "SelectedChildIndex": 4,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "EShopService.Application.csproj",
-              "DocumentMoniker": "C:\\Users\\Pawel\\source\\repos\\pp4_projekt\\EShopService.Application\\EShopService.Application.csproj",
-              "RelativeDocumentMoniker": "EShopService.Application\\EShopService.Application.csproj",
-              "ToolTip": "C:\\Users\\Pawel\\source\\repos\\pp4_projekt\\EShopService.Application\\EShopService.Application.csproj",
-              "RelativeToolTip": "EShopService.Application\\EShopService.Application.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-06-12T19:33:36.264Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "EShopService.Application.Tests.csproj",
-              "DocumentMoniker": "C:\\Users\\Pawel\\source\\repos\\pp4_projekt\\EShopService.Application.Tests\\EShopService.Application.Tests.csproj",
-              "RelativeDocumentMoniker": "EShopService.Application.Tests\\EShopService.Application.Tests.csproj",
-              "ToolTip": "C:\\Users\\Pawel\\source\\repos\\pp4_projekt\\EShopService.Application.Tests\\EShopService.Application.Tests.csproj",
-              "RelativeToolTip": "EShopService.Application.Tests\\EShopService.Application.Tests.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-06-12T19:33:29.34Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "WeatherForecast.cs",
-              "DocumentMoniker": "C:\\Users\\Pawel\\source\\repos\\pp4_projekt\\EShopService\\WeatherForecast.cs",
-              "RelativeDocumentMoniker": "EShopService\\WeatherForecast.cs",
-              "ToolTip": "C:\\Users\\Pawel\\source\\repos\\pp4_projekt\\EShopService\\WeatherForecast.cs",
-              "RelativeToolTip": "EShopService\\WeatherForecast.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-12T19:00:06.106Z",
-              "EditorCaption": ""
-            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 1,
+              "Title": "dbo.Products [Data]",
+              "DocumentMoniker": "ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/EShopDb/True/SqlTable/dbo.Products.sql",
+              "ToolTip": "dbo.Products [Data]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2025-06-17T19:41:35.203Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Pawel\\source\\repos\\pp4_projekt\\EShopService\\Program.cs",
+              "RelativeDocumentMoniker": "EShopService\\Program.cs",
+              "ToolTip": "C:\\Users\\Pawel\\source\\repos\\pp4_projekt\\EShopService\\Program.cs",
+              "RelativeToolTip": "EShopService\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAC0AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-12T18:52:25.876Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "IEShopDbContextSeed.cs",
+              "DocumentMoniker": "C:\\Users\\Pawel\\Source\\Repos\\pp4_projekt\\EShopService\\IEShopDbContextSeed.cs",
+              "RelativeDocumentMoniker": "EShopService\\IEShopDbContextSeed.cs",
+              "ToolTip": "C:\\Users\\Pawel\\Source\\Repos\\pp4_projekt\\EShopService\\IEShopDbContextSeed.cs",
+              "RelativeToolTip": "EShopService\\IEShopDbContextSeed.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-17T18:49:52.612Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "EShopDbContextSeed.cs",
+              "DocumentMoniker": "C:\\Users\\Pawel\\Source\\Repos\\pp4_projekt\\EShopService\\EShopDbContextSeed.cs",
+              "RelativeDocumentMoniker": "EShopService\\EShopDbContextSeed.cs",
+              "ToolTip": "C:\\Users\\Pawel\\Source\\Repos\\pp4_projekt\\EShopService\\EShopDbContextSeed.cs*",
+              "RelativeToolTip": "EShopService\\EShopDbContextSeed.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-17T18:13:42.306Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\Pawel\\source\\repos\\pp4_projekt\\EShopService\\appsettings.json",
               "RelativeDocumentMoniker": "EShopService\\appsettings.json",
@@ -114,20 +135,33 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\Pawel\\source\\repos\\pp4_projekt\\EShopService\\Program.cs",
-              "RelativeDocumentMoniker": "EShopService\\Program.cs",
-              "ToolTip": "C:\\Users\\Pawel\\source\\repos\\pp4_projekt\\EShopService\\Program.cs",
-              "RelativeToolTip": "EShopService\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAABOAAAAAAAAAA==",
+              "DocumentIndex": 8,
+              "Title": "WeatherForecast.cs",
+              "DocumentMoniker": "C:\\Users\\Pawel\\source\\repos\\pp4_projekt\\EShopService\\WeatherForecast.cs",
+              "RelativeDocumentMoniker": "EShopService\\WeatherForecast.cs",
+              "ToolTip": "C:\\Users\\Pawel\\source\\repos\\pp4_projekt\\EShopService\\WeatherForecast.cs",
+              "RelativeToolTip": "EShopService\\WeatherForecast.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-12T18:52:25.876Z",
+              "WhenOpened": "2025-06-12T19:00:06.106Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 3,
+              "Title": "EShopDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\Pawel\\source\\repos\\pp4_projekt\\EShopService\\EShopDbContext.cs",
+              "RelativeDocumentMoniker": "EShopService\\EShopDbContext.cs",
+              "ToolTip": "C:\\Users\\Pawel\\source\\repos\\pp4_projekt\\EShopService\\EShopDbContext.cs",
+              "RelativeToolTip": "EShopService\\EShopDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-12T18:43:39.525Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
               "Title": "Product.cs",
               "DocumentMoniker": "C:\\Users\\Pawel\\source\\repos\\pp4_projekt\\EShopService\\Models\\Product.cs",
               "RelativeDocumentMoniker": "EShopService\\Models\\Product.cs",
@@ -140,46 +174,59 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 9,
+              "Title": "EShopService.Application.csproj",
+              "DocumentMoniker": "C:\\Users\\Pawel\\source\\repos\\pp4_projekt\\EShopService.Application\\EShopService.Application.csproj",
+              "RelativeDocumentMoniker": "EShopService.Application\\EShopService.Application.csproj",
+              "ToolTip": "C:\\Users\\Pawel\\source\\repos\\pp4_projekt\\EShopService.Application\\EShopService.Application.csproj",
+              "RelativeToolTip": "EShopService.Application\\EShopService.Application.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-06-12T19:33:36.264Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "EShopService.Application.Tests.csproj",
+              "DocumentMoniker": "C:\\Users\\Pawel\\source\\repos\\pp4_projekt\\EShopService.Application.Tests\\EShopService.Application.Tests.csproj",
+              "RelativeDocumentMoniker": "EShopService.Application.Tests\\EShopService.Application.Tests.csproj",
+              "ToolTip": "C:\\Users\\Pawel\\source\\repos\\pp4_projekt\\EShopService.Application.Tests\\EShopService.Application.Tests.csproj",
+              "RelativeToolTip": "EShopService.Application.Tests\\EShopService.Application.Tests.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-06-12T19:33:29.34Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
               "Title": "Category.cs",
               "DocumentMoniker": "C:\\Users\\Pawel\\source\\repos\\pp4_projekt\\EShopService\\Models\\Category.cs",
               "RelativeDocumentMoniker": "EShopService\\Models\\Category.cs",
               "ToolTip": "C:\\Users\\Pawel\\source\\repos\\pp4_projekt\\EShopService\\Models\\Category.cs",
               "RelativeToolTip": "EShopService\\Models\\Category.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-06-12T18:44:20.025Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 5,
               "Title": "BaseModel.cs",
               "DocumentMoniker": "C:\\Users\\Pawel\\source\\repos\\pp4_projekt\\EShopService\\Models\\BaseModel.cs",
               "RelativeDocumentMoniker": "EShopService\\Models\\BaseModel.cs",
               "ToolTip": "C:\\Users\\Pawel\\source\\repos\\pp4_projekt\\EShopService\\Models\\BaseModel.cs",
               "RelativeToolTip": "EShopService\\Models\\BaseModel.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAZAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-06-12T18:44:16.024Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "EShopDbContext.cs",
-              "DocumentMoniker": "C:\\Users\\Pawel\\Source\\Repos\\pp4_projekt\\EShopService\\EShopDbContext.cs",
-              "RelativeDocumentMoniker": "EShopService\\EShopDbContext.cs",
-              "ToolTip": "C:\\Users\\Pawel\\Source\\Repos\\pp4_projekt\\EShopService\\EShopDbContext.cs",
-              "RelativeToolTip": "EShopService\\EShopDbContext.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAABVAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-12T18:43:39.525Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 12,
               "Title": "ProductController.cs",
               "DocumentMoniker": "C:\\Users\\Pawel\\source\\repos\\pp4_projekt\\EShopService\\Controllers\\ProductController.cs",
               "RelativeDocumentMoniker": "EShopService\\Controllers\\ProductController.cs",
@@ -192,7 +239,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 13,
               "Title": ".gitignore",
               "DocumentMoniker": "C:\\Users\\Pawel\\source\\repos\\pp4_projekt\\.gitignore",
               "RelativeDocumentMoniker": ".gitignore",
