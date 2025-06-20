@@ -39,15 +39,15 @@ namespace EShopService
             modelBuilder.Entity<Category>().Property(c => c.Name).HasMaxLength(255);
 
             modelBuilder.Entity<Cart>()
-                .HasKey(c => c.UserId);
+                .HasKey(c => c.CartId);
 
             modelBuilder.Entity<CartProduct>()
-                .HasKey(cp => new { cp.CartUserId, cp.ProductId });
+                .HasKey(cp => new { cp.CartId, cp.ProductId });
 
             modelBuilder.Entity<CartProduct>()
                 .HasOne(cp => cp.Cart)
                 .WithMany(c => c.Items)
-                .HasForeignKey(cp => cp.CartUserId);
+                .HasForeignKey(cp => cp.CartId);
 
             modelBuilder.Entity<CartProduct>()
                 .HasOne(cp => cp.Product)

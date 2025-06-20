@@ -15,13 +15,13 @@ namespace EShopService.Controllers
             _dbContext = dbContext;
         }
 
-        [HttpGet("{userId}")]
-        public async Task<ActionResult<Cart>> Get(Guid userId)
+        [HttpGet("{cartId}")]
+        public async Task<ActionResult<Cart>> Get(int cartId)
         {
             var cart = await _dbContext.Carts
                 .Include(c => c.Items)
-                    .ThenInclude(i => i.Product)
-                .FirstOrDefaultAsync(c => c.UserId == userId && !c.Deleted);
+                .ThenInclude(i => i.Product)
+                .FirstOrDefaultAsync(c => c.CartId == cartId && !c.Deleted);
                 
             if (cart == null)
                 return NotFound();
@@ -29,20 +29,21 @@ namespace EShopService.Controllers
             return Ok(cart);
         }
 
-        [HttpPost("{userId}/items/{productId}")]
-        public async Task<ActionResult<Cart>> AddItem(Guid userId, int productId, [FromQuery] int amount = 1)
+        [HttpPost("{cartId}/items/{productId}")]
+        public async Task<ActionResult<Cart>> AddItem(int cartId, int productId, [FromQuery] int amount = 1)
         {
             if (amount <= 0)
                 return BadRequest("Can't add 0 of a product.");
 
             var cart = await _dbContext.Carts
                 .Include(c => c.Items)
-                .FirstOrDefaultAsync(c => c.UserId == userId && !c.Deleted);
+                .FirstOrDefaultAsync(c => c.CartId == cartId && !c.Deleted);
 
             if (cart == null)
             {
-                cart = new Cart { UserId = userId };
+                cart = new Cart { };
                 _dbContext.Carts.Add(cart);
+                await _dbContext.SaveChangesAsync();
             }
 
             var product = await _dbContext.Products
@@ -56,7 +57,7 @@ namespace EShopService.Controllers
             }
             else
             {
-                cart.Items.Add(new CartProduct { CartUserId = userId, ProductId = productId, Amount = amount });
+                cart.Items.Add(new CartProduct { CartId = cart.CartId, ProductId = productId, Amount = amount });
             }
 
             cart.UpdatedAt = DateTime.Now;
@@ -66,13 +67,12 @@ namespace EShopService.Controllers
             return Ok(cart);
         }
 
-        [HttpDelete("{userId}/items/{productId}")]
-        [Authorize(Policy = "AdminOnly")]
-        public async Task<IActionResult> RemoveItem(Guid userId, int productId)
+        [HttpDelete("{cartId}/items/{productId}")]
+        public async Task<IActionResult> RemoveItem(int cartId, int productId)
         {
             var cart = await _dbContext.Carts
                 .Include(c => c.Items)
-                .FirstOrDefaultAsync(c => c.UserId == userId && !c.Deleted);
+                .FirstOrDefaultAsync(c => c.CartId == cartId && !c.Deleted);
 
             if (cart == null)
                 return NotFound("Cart doesn't exist.");
@@ -91,15 +91,15 @@ namespace EShopService.Controllers
         }
 
 
-        [HttpDelete("{userId}")]
+        [HttpDelete("{cartId}")]
         [Authorize(Policy = "AdminOnly")]
-        public async Task<IActionResult> DeleteCart(Guid userId)
+        public async Task<IActionResult> DeleteCart(int cartId)
         {
             var cart = await _dbContext.Carts
-                .FirstOrDefaultAsync(c => c.UserId == userId && !c.Deleted);
+                .FirstOrDefaultAsync(c => c.CartId == cartId && !c.Deleted);
 
             
-            if (cart == null || cart.Deleted)
+            if (cart == null)
                 return NotFound();
 
             cart.Deleted = true;

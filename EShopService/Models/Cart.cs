@@ -1,7 +1,8 @@
 namespace EShopService;
 
 public class Cart
-{
+{ 
+    public int CartId { get; set; }
     public Guid UserId { get; set; }
 
     public List<CartProduct> Items { get; set; } = new();

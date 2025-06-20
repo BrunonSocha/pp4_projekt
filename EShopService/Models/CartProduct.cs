@@ -2,7 +2,7 @@ namespace EShopService;
 
 public class CartProduct
 {
-    public Guid CartUserId { get; set; }
+    public int CartId { get; set; }
 
     public Cart Cart { get; set; } = default!;
 
