@@ -1,0 +1,6 @@
+C:\Users\Pawel\Source\Repos\pp4_projekt\UserService\obj\Debug\net9.0\staticwebassets.build.json
+C:\Users\Pawel\Source\Repos\pp4_projekt\UserService\obj\Debug\net9.0\staticwebassets.build.json
+C:\Users\Pawel\Source\Repos\pp4_projekt\UserService\obj\Debug\net9.0\staticwebassets.build.json
+C:\Users\Pawel\Source\Repos\pp4_projekt\UserService\obj\Debug\net9.0\staticwebassets.build.json
+C:\Users\Pawel\Source\Repos\pp4_projekt\UserService\obj\Debug\net9.0\staticwebassets.build.json
+C:\Users\Pawel\Source\Repos\pp4_projekt\UserService\obj\Debug\net9.0\staticwebassets.build.json

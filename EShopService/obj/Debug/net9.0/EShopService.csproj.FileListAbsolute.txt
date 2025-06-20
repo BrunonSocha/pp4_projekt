@@ -237,3 +237,10 @@ C:\Users\Pawel\Source\Repos\pp4_projekt\EShopService\bin\Debug\net9.0\runtimes\w
 C:\Users\Pawel\Source\Repos\pp4_projekt\EShopService\bin\Debug\net9.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
 C:\Users\Pawel\Source\Repos\pp4_projekt\EShopService\bin\Debug\net9.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
 C:\Users\Pawel\Source\Repos\pp4_projekt\EShopService\obj\Debug\net9.0\staticwebassets.upToDateCheck.txt
+C:\Users\Pawel\Source\Repos\pp4_projekt\EShopService\bin\Debug\net9.0\UserService.deps.json
+C:\Users\Pawel\Source\Repos\pp4_projekt\EShopService\bin\Debug\net9.0\UserService.runtimeconfig.json
+C:\Users\Pawel\Source\Repos\pp4_projekt\EShopService\bin\Debug\net9.0\UserService.staticwebassets.endpoints.json
+C:\Users\Pawel\Source\Repos\pp4_projekt\EShopService\bin\Debug\net9.0\UserService.exe
+C:\Users\Pawel\Source\Repos\pp4_projekt\EShopService\bin\Debug\net9.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Users\Pawel\Source\Repos\pp4_projekt\EShopService\bin\Debug\net9.0\UserService.dll
+C:\Users\Pawel\Source\Repos\pp4_projekt\EShopService\bin\Debug\net9.0\UserService.pdb

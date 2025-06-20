@@ -1,11 +1,23 @@
 {
   "Version": 1,
-  "Hash": "gDP8uaIVyvs8c/b2rFzJ6AJCeMqENT8/MwOpaJ3kD9w=",
+  "Hash": "aGINHBHz/uPmhrs+J/fkuZxhnXgq2uku4hK32SUoFdI=",
   "Source": "EShopService",
   "BasePath": "_content/EShopService",
   "Mode": "Default",
   "ManifestType": "Build",
-  "ReferencedProjectsConfiguration": [],
+  "ReferencedProjectsConfiguration": [
+    {
+      "Identity": "C:\\Users\\Pawel\\Source\\Repos\\pp4_projekt\\UserService\\UserService.csproj",
+      "Version": 2,
+      "Source": "UserService",
+      "GetPublishAssetsTargets": "ComputeReferencedStaticWebAssetsPublishManifest;GetCurrentProjectPublishStaticWebAssetItems",
+      "AdditionalPublishProperties": "Configuration=Debug;Platform=AnyCPU",
+      "AdditionalPublishPropertiesToRemove": "WebPublishProfileFile;TargetFramework",
+      "GetBuildAssetsTargets": "GetCurrentProjectBuildStaticWebAssetItems",
+      "AdditionalBuildProperties": "Configuration=Debug;Platform=AnyCPU",
+      "AdditionalBuildPropertiesToRemove": "WebPublishProfileFile;TargetFramework"
+    }
+  ],
   "DiscoveryPatterns": [],
   "Assets": [],
   "Endpoints": []
