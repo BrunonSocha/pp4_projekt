@@ -55,12 +55,12 @@ namespace EShopService.Controllers
         [Authorize(Policy = "AdminOnly")]
         public ActionResult Delete(int id)
         {
-            var product = _category.FirstOrDefault(p => p.Id == id && !p.Deleted);
-            if (product == null)
+            var category = _category.FirstOrDefault(p => p.Id == id && !p.Deleted);
+            if (category == null)
                 return NotFound();
 
-            product.Deleted = true;
-            product.UpdatedAt = DateTime.Now;
+            category.Deleted = true;
+            category.UpdatedAt = DateTime.Now;
 
             return Ok(new { message = "Category deleted" });
         }
