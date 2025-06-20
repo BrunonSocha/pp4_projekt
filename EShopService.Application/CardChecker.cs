@@ -1,13 +1,18 @@
 ﻿namespace EShopService.Application;
 
+using EShopService.Domain.Exceptions;
+
 public static class CardChecker
 {
-    public bool ValidateCard(string cardNumber)
+    public static bool ValidateCard(string cardNumber)
     {
         cardNumber = cardNumber.Replace(" ", "");
         if (!cardNumber.All(char.IsDigit))
-            return false;
-
+            throw new CardNumberInvalidEx("The card should only contain digits.");
+        if (cardNumber.Length < 13)
+            throw new CardNumberTooShortEx();
+        else if (cardNumber.Length > 19)
+            throw new CardNumberTooLongEx();
         int sum = 0;
         bool alternate = false;
 
@@ -53,9 +58,6 @@ public static class CardChecker
         if (Regex.IsMatch(cardNumber, @"^(50|5[6-9]|6\d)\d{10,17}$"))
             return "Maestro";
         // an example of a card that passes luhn's algorithm yet isn't a credit card number: 1111111111111117
-        else
-        {
-            return "Unknown card provider";
-        }
+        throw new CardNumberInvalidEx("Unknown card type.");
     }
 }

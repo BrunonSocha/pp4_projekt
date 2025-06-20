@@ -10,7 +10,7 @@ public class Product : BaseModel
     public int Stock { get; set; }
 
     public string? Sku { get; set; }
-
     public Category Category { get; set; } = default!;
 
+    public int CategoryId { get; set; }
 }

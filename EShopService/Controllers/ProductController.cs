@@ -1,5 +1,6 @@
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 
 namespace EShopService.Controllers
 {
@@ -7,19 +8,32 @@ namespace EShopService.Controllers
     [ApiController]
     public class ProductController : ControllerBase
     {
-        private static readonly List<Product> _products = new();
-        private static int _nextId = 1;
+        private readonly EShopDbContext _dbContext;
+
+        public ProductController(EShopDbContext dbContext)
+        {
+            _dbContext = dbContext;
+        }
 
         [HttpGet]
-        public ActionResult<IEnumerable<Product>> Get()
+        public async Task<ActionResult<IEnumerable<Product>>> Get()
         {
-            return Ok(_products.Where(p => !p.Deleted));
+            var products = await _dbContext.Products
+                .Where(p => !p.Deleted)
+                .Include(p => p.Category)
+                .ToListAsync();
+
+            return Ok(products);
         }
 
         [HttpGet("{id}")]
-        public ActionResult<Product> Get(int id)
+        public async Task<ActionResult<Product>> Get(int id)
         {
-            var product = _products.FirstOrDefault(p => p.Id == id && !p.Deleted);
+            var product = await _dbContext.Products
+                .Include(p => p.Category)
+                .FirstOrDefaultAsync(p => p.Id == id && !p.Deleted);
+
+
             if (product == null)
                 return NotFound();
 
@@ -27,22 +41,33 @@ namespace EShopService.Controllers
         }
 
         [HttpPost]
-        public ActionResult<Product> Post([FromBody] Product product)
+        public async Task<ActionResult<Product>> Post([FromBody] Product product)
         {
-            product.Id = _nextId++;
+            if (!ModelState.IsValid)
+                return BadRequest(ModelState);
+
+            if (!await _dbContext.Categories.AnyAsync(c => c.Id == product.CategoryId && !c.Deleted))
+                return BadRequest("Invalid CategoryId");
+
             product.CreatedAt = DateTime.Now;
             product.UpdatedAt = DateTime.Now;
-            _products.Add(product);
+            _dbContext.Products.Add(product);
+            await _dbContext.SaveChangesAsync();
 
             return CreatedAtAction(nameof(Get), new { id = product.Id }, product);
         }
 
         [HttpPut("{id}")]
-        public ActionResult<Product> Put(int id, [FromBody] Product updated)
+        public async Task<IActionResult> Put(int id, [FromBody] Product updated)
         {
-            var product = _products.FirstOrDefault(p => p.Id == id && !p.Deleted);
-            if (product == null)
+            if (id != updated.Id)
+                return BadRequest("Wrong ID.");
+            var product = await _dbContext.Products.FindAsync(id);
+            if (product == null || product.Deleted)
                 return NotFound();
+
+            if (!await _dbContext.Categories.AnyAsync(c => c.Id == updated.CategoryId && !c.Deleted))
+                return BadRequest("Invalid CategoryId");
 
             product.Name = updated.Name;
             product.Ean = updated.Ean;
@@ -50,24 +75,25 @@ namespace EShopService.Controllers
             product.Stock = updated.Stock;
             product.Price = updated.Price;
             product.Category = updated.Category;
+            product.CategoryId = updated.CategoryId;
             product.UpdatedAt = DateTime.Now;
             product.UpdatedBy = updated.UpdatedBy;
-
-            return Ok(product);
+            await _dbContext.SaveChangesAsync();
+            return NoContent();
         }
 
         [HttpDelete("{id}")]
         [Authorize(Policy = "AdminOnly")]
-        public ActionResult Delete(int id)
+        public async Task<IActionResult> Delete(int id)
         {
-            var product = _products.FirstOrDefault(p => p.Id == id && !p.Deleted);
-            if (product == null)
+            var product = await _dbContext.Products.FindAsync(id);
+            if (product == null || product.Deleted)
                 return NotFound();
 
             product.Deleted = true;
             product.UpdatedAt = DateTime.Now;
 
-            return Ok(new { message = "Product deleted" });
+            return Ok(new { message = "Product deleted." });
         }
     }
 }
