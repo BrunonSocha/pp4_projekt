@@ -1,3 +1,5 @@
 .devcontainer/
 .vscode/
 *.vsidx
+obj/
+bin/
