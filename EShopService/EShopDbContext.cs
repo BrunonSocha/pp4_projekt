@@ -20,6 +20,10 @@ namespace EShopService
 
         public DbSet<CartProduct> CartProducts { get; set; } = default!;
 
+        public DbSet<User> Users { get; set; } = default!;
+
+        public DbSet<Order> Orders { get; set; } = default!;
+
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
             optionsBuilder.UseSqlServer("Server=(localdb)\\mssqllocaldb;Database=EShopDb;Trusted_Connection=True");
@@ -60,6 +64,18 @@ namespace EShopService
                 .HasOne(cp => cp.Product)
                 .WithMany()
                 .HasForeignKey(cp => cp.ProductId);
+
+            modelBuilder.Entity<Order>()
+                .HasOne(o => o.User)
+                .WithMany(u => u.Orders)
+                .HasForeignKey(o => o.UserId);
+
+            modelBuilder.Entity<Order>()
+                .HasOne(o => o.Cart)
+                .WithOne()
+                .HasForeignKey<Order>(o => o.CartId)
+                .OnDelete(DeleteBehavior.Restrict);
+
         }
     }
 }
