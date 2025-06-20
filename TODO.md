@@ -27,3 +27,5 @@
 ## Models
 - Add User
 
+## General
+- Streamline models and take out inheritable properties from child classes
