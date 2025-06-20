@@ -4,3 +4,5 @@
 obj/
 bin/obj/
 bin/
+EShopService/bin
+UserService/bin

@@ -35,8 +35,15 @@ namespace EShopService
                 .HasForeignKey(p => p.CategoryId)
                 .IsRequired();
 
-            modelBuilder.Entity<Product>().Property(p => p.Name).HasMaxLength(255);
-            modelBuilder.Entity<Category>().Property(c => c.Name).HasMaxLength(255);
+            modelBuilder.Entity<Product>()
+                .Property(p => p.Name)
+                .HasMaxLength(255);
+            modelBuilder.Entity<Product>()
+                .Property(pr => pr.Price)
+                .HasPrecision(18, 2);
+            modelBuilder.Entity<Category>()
+                .Property(c => c.Name)
+                .HasMaxLength(255);
 
             modelBuilder.Entity<Cart>()
                 .HasKey(c => c.CartId);
