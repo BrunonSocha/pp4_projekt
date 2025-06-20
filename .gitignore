@@ -2,4 +2,5 @@
 .vscode/
 *.vsidx
 obj/
+bin/obj/
 bin/
