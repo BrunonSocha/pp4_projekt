@@ -10,7 +10,7 @@ namespace EShopService.Controllers
     {
         private readonly EShopDbContext _dbContext;
 
-        public CategoryController(EShopDbContext dbContext)
+        public CartController(EShopDbContext dbContext)
         {
             _dbContext = dbContext;
         }
@@ -19,7 +19,7 @@ namespace EShopService.Controllers
         public async Task<ActionResult<Cart>> Get(Guid userId)
         {
             var cart = await _dbContext.Carts
-                .Include(cart => c.Items)
+                .Include(c => c.Items)
                     .ThenInclude(i => i.Product)
                 .FirstOrDefaultAsync(c => c.UserId == userId && !c.Deleted);
                 
@@ -45,6 +45,10 @@ namespace EShopService.Controllers
                 _dbContext.Carts.Add(cart);
             }
 
+            var product = await _dbContext.Products
+                .FirstOrDefaultAsync(p => p.Id == productId && !p.Deleted);
+            if (product == null)
+                return NotFound("Product doesn't exist.");
             var existingItem = cart.Items.FirstOrDefault(i => i.ProductId == productId);
             if (existingItem != null)
             {
@@ -62,40 +66,48 @@ namespace EShopService.Controllers
             return Ok(cart);
         }
 
-        [HttpPut("{id}")]
-        public async Task<IActionResult> Put(int id, [FromBody] Category updated)
+        [HttpDelete("{userId}/items/{productId}")]
+        [Authorize(Policy = "AdminOnly")]
+        public async Task<IActionResult> RemoveItem(Guid userId, int productId)
         {
-            if (id != updated.Id)
-                return BadRequest("Wrong ID.");
+            var cart = await _dbContext.Carts
+                .Include(c => c.Items)
+                .FirstOrDefaultAsync(c => c.UserId == userId && !c.Deleted);
 
-            var category = await _dbContext.Categories.FindAsync(id);
+            if (cart == null)
+                return NotFound("Cart doesn't exist.");
 
-            if (category == null || category.Deleted)
-                return NotFound();
+            var item = cart.Items.FirstOrDefault(i => i.ProductId == productId);
+            if (item == null)
+                return NotFound("Product not found in the cart.");
 
-            category.Name = updated.Name;
-            category.UpdatedAt = DateTime.Now;
-            category.UpdatedBy = updated.UpdatedBy;
+            cart.Items.Remove(item);
+            cart.UpdatedAt = DateTime.Now;
 
             await _dbContext.SaveChangesAsync();
 
-            return NoContent();
+            return Ok(new { message = "Product removed from cart." });
+            
         }
 
-        [HttpDelete("{id}")]
+
+        [HttpDelete("{userId}")]
         [Authorize(Policy = "AdminOnly")]
-        public async Task<IActionResult> Delete(int id)
+        public async Task<IActionResult> DeleteCart(Guid userId)
         {
-            var category = await _dbContext.Categories.FindAsync(id);
-            if (category == null || category.Deleted)
+            var cart = await _dbContext.Carts
+                .FirstOrDefaultAsync(c => c.UserId == userId && !c.Deleted);
+
+            
+            if (cart == null || cart.Deleted)
                 return NotFound();
 
-            category.Deleted = true;
-            category.UpdatedAt = DateTime.Now;
+            cart.Deleted = true;
+            cart.UpdatedAt = DateTime.Now;
 
             await _dbContext.SaveChangesAsync();
 
-            return Ok(new { message = "Category deleted." });
+            return Ok(new { message = "Cart deleted."});
         }
     }
 }
