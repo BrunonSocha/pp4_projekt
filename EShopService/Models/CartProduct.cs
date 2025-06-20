@@ -2,19 +2,13 @@ namespace EShopService;
 
 public class CartProduct
 {
+    public Guid CartUserId { get; set; }
+
+    public Cart Cart { get; set; } = default!;
+
     public int ProductId { get; set; }
 
-    public string ProductName { get; set; } = string.Empty;
+    public Product Product { get; set; } = default!;
 
-    public string? Ean { get; set; }
-
-    public string? Sku { get; set; }
-
-    public decimal Price { get; set; }
-
-    public int CategoryId { get; set; }
-
-    public string CategoryName { get; set; } = string.Empty;
-
-    public int Quantity { get; set; }
+    public int Amount { get; set; }
 }
