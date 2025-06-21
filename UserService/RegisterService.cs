@@ -1,5 +1,5 @@
 ﻿using UserService.User.Application.Services;
-using EShop.Abstractions;
+using EShopAbstractions;
 
 namespace UserService
 {

@@ -1,5 +1,6 @@
 using EShopService;
-using EShop.Abstractions;
+using EShopAbstractions;
+using EShopAbstractions.Models;
 namespace EShopService.Application.Services;
 
 public interface ICartService

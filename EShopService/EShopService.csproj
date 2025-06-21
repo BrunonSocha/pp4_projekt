@@ -19,7 +19,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\EShopService.Application\EShopService.Application.csproj" />
-    <ProjectReference Include="..\EShop.Abstractions\EShop.Abstractions.csproj" />
+    <ProjectReference Include="..\EShop.Abstractions\EShopAbstractions.csproj" />
   </ItemGroup>
 
 </Project>
