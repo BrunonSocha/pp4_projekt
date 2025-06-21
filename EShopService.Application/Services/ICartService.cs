@@ -1,3 +1,4 @@
+using EShopService;
 namespace EShopService.Application.Services;
 
 public interface ICartService

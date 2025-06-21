@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/workspaces/PP4/EShopService/EShopService.Domain/EShopService.Domain.csproj": {}
+    "/workspaces/PP4/EShopService.Domain/EShopService.Domain.csproj": {}
   },
   "projects": {
-    "/workspaces/PP4/EShopService/EShopService.Domain/EShopService.Domain.csproj": {
+    "/workspaces/PP4/EShopService.Domain/EShopService.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/workspaces/PP4/EShopService/EShopService.Domain/EShopService.Domain.csproj",
+        "projectUniqueName": "/workspaces/PP4/EShopService.Domain/EShopService.Domain.csproj",
         "projectName": "EShopService.Domain",
-        "projectPath": "/workspaces/PP4/EShopService/EShopService.Domain/EShopService.Domain.csproj",
+        "projectPath": "/workspaces/PP4/EShopService.Domain/EShopService.Domain.csproj",
         "packagesPath": "/home/vscode/.nuget/packages/",
-        "outputPath": "/workspaces/PP4/EShopService/EShopService.Domain/obj/",
+        "outputPath": "/workspaces/PP4/EShopService.Domain/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/home/vscode/.nuget/NuGet/NuGet.Config"
@@ -38,7 +38,7 @@
           "auditLevel": "low",
           "auditMode": "direct"
         },
-        "SdkAnalysisLevel": "9.0.300"
+        "SdkAnalysisLevel": "9.0.200"
       },
       "frameworks": {
         "net9.0": {
@@ -59,7 +59,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/9.0.300/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/9.0.203/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

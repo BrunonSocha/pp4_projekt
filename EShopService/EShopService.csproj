@@ -24,6 +24,8 @@
 
   <ItemGroup>
     <ProjectReference Include="..\UserService\UserService.csproj" />
+    <ProjectReference Include="..\EShopService.Domain\EShopService.Domain.csproj" />
+    <ProjectReference Include="..\EShopService.Application\EShopService.Application.csproj" />
   </ItemGroup>
 
 </Project>

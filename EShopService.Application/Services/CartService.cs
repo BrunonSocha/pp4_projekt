@@ -1,3 +1,4 @@
+using EShopService;
 namespace EShopService.Application.Services;
 
 public class CartService : ICartService
@@ -34,7 +35,7 @@ public class CartService : ICartService
             .FirstOrDefaultAsync(p => p.Id == productId && !p.Deleted);
 
         if (product == null)
-            throw new NotFoundEx("Product doesn't exist.");
+            throw new Exception("Product doesn't exist.");
 
         var existingItem = cart.Items.FirstOrDefault(i => i.ProductId == productId);
 
