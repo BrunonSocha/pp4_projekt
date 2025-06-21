@@ -13,11 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("EShopService.Domain")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-<<<<<<< HEAD
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+038feb973b9b164372385d3ca31db3299c693c5e")]
-=======
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f8679f1147a667e28290a98ffb8f5d7392ceabe3")]
->>>>>>> wip-abstractions
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+8f46a985b35e8187b40d3cc359537f2ff1a47891")]
 [assembly: System.Reflection.AssemblyProductAttribute("EShopService.Domain")]
 [assembly: System.Reflection.AssemblyTitleAttribute("EShopService.Domain")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

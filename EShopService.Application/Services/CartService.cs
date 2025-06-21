@@ -1,4 +1,5 @@
 using EShopService;
+using EShop.Abstractions.Models;
 namespace EShopService.Application.Services;
 
 public class CartService : ICartService

@@ -1,5 +1,6 @@
 ﻿namespace EShopService.Application;
 
+using System.Text.RegularExpressions;
 using EShopService.Domain.Exceptions;
 
 public static class CardChecker
