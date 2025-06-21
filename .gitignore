@@ -16,3 +16,4 @@ obj/
 */bin
 */obj
 */appsettings.Development.json
+*/.vs
