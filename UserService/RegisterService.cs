@@ -1,15 +1,19 @@
 ﻿using UserService.User.Application.Services;
 using EShopAbstractions;
+using UserService.Repositories;
+using System.Threading.Tasks;
 
 namespace UserService
 {
     public class RegisterService : IRegisterService
     {
         private readonly IEShopDbContext _context;
+        private readonly IRepository _repository;
 
-        public RegisterService(IEShopDbContext context)
+        public RegisterService(IEShopDbContext context, IRepository repository)
         {
             _context = context;
+            _repository = repository;
         }
 
         protected IJwtTokenService _jwtTokenService;
@@ -18,10 +22,15 @@ namespace UserService
             _jwtTokenService = jwtTokenService;
         }
 
-        public void Register(Models.RegisterRequest request)
+        public async Task<bool> Register(Models.RegisterRequest request)
         {
-            if (_context.Users.Any(u => u.Username == request.Username))
-                throw new Exception("User already exists");
+            var email = await _repository.GetByEmailAsync(request.Email);
+            var username = await _repository.GetByUsernameAsync(request.Username);
+
+            if (email != null || username != null)
+            {
+                throw new Exception("Username already exists");
+            }
 
             var user = new EShopAbstractions.Models.User
             {
@@ -30,8 +39,8 @@ namespace UserService
                 Group = "users"
             };
 
-            _context.Users.Add(user);
-            _context.SaveChangesAsync();
+            await _repository.AddAsync(user);
+            return true;
         }
     }
 }

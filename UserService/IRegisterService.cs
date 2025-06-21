@@ -2,6 +2,6 @@
 {
     public interface IRegisterService
     {
-        void Register(Models.RegisterRequest request);
+        Task<bool> Register(Models.RegisterRequest request);
     }
 }
