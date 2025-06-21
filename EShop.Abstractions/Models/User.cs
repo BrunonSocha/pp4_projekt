@@ -1,4 +1,6 @@
-namespace EShopService;
+using EShopService;
+
+namespace EShopAbstractions.Models;
 
 public class User
 {

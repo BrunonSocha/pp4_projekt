@@ -1,3 +1,5 @@
+using EShopAbstractions.Models;
+
 namespace EShopService;
 
 public class CartProduct

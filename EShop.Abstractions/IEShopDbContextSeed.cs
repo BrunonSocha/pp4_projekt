@@ -1,4 +1,4 @@
-﻿namespace EShopService
+﻿namespace EShopAbstractions
 {
     public interface IEShopDbContextSeed
     {
