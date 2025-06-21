@@ -6,3 +6,13 @@ bin/obj/
 bin/
 EShopService/bin
 UserService/bin
+bin/
+obj/
+*.pdb
+*.dll
+*.exe
+*.cache
+*.json
+*/bin
+*/obj
+*/appsettings.Development.json

@@ -1,9 +1,8 @@
 {
   "ExpandedNodes": [
     "",
-    "\\EShopService",
-    "\\UserService"
+    "\\EShopService"
   ],
-  "SelectedNode": "\\EShopService\\EShopDbContextSeed.cs",
+  "SelectedNode": "\\EShopService\\EShopService.csproj",
   "PreviewInSolutionExplorer": false
 }

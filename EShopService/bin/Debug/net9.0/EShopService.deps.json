@@ -8,6 +8,8 @@
     ".NETCoreApp,Version=v9.0": {
       "EShopService/1.0.0": {
         "dependencies": {
+          "EShopAbstractions": "1.0.0",
+          "Microsoft.AspNetCore.Authentication.JwtBearer": "9.0.6",
           "Microsoft.AspNetCore.OpenApi": "9.0.6",
           "Microsoft.EntityFrameworkCore": "9.0.6",
           "Microsoft.EntityFrameworkCore.Design": "9.0.6",
@@ -1060,8 +1062,21 @@
           }
         }
       },
+      "EShopAbstractions/1.0.0": {
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore": "9.0.6",
+          "Microsoft.EntityFrameworkCore.SqlServer": "9.0.6"
+        },
+        "runtime": {
+          "EShopAbstractions.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
       "UserService/1.0.0": {
         "dependencies": {
+          "EShopAbstractions": "1.0.0",
           "Microsoft.AspNetCore.Authentication.JwtBearer": "9.0.6",
           "Swashbuckle.AspNetCore": "6.6.2"
         },
@@ -1653,6 +1668,11 @@
       "sha512": "sha512-IXoJOXIqc39AIe+CIR7koBtRGMiCt/LPM3lI+PELtDIy9XdyeSrwXFdWV9dzJ2Awl0paLWUaknLxFQ5HpHZUog==",
       "path": "system.windows.extensions/6.0.0",
       "hashPath": "system.windows.extensions.6.0.0.nupkg.sha512"
+    },
+    "EShopAbstractions/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
     },
     "UserService/1.0.0": {
       "type": "project",
