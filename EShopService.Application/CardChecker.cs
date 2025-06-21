@@ -1,7 +1,7 @@
 ﻿namespace EShopService.Application;
 
+using EShopService.Domain;
 using System.Text.RegularExpressions;
-using EShopService.Domain.Exceptions;
 
 public static class CardChecker
 {
@@ -35,7 +35,7 @@ public static class CardChecker
         return (sum % 10 == 0);
     }
 
-    public string GetCardType(string cardNumber)
+    public static string GetCardType(string cardNumber)
     {
         cardNumber = cardNumber.Replace(" ", "").Replace("-", "");
 
