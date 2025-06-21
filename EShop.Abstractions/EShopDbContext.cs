@@ -1,8 +1,9 @@
 ﻿using System.Runtime.CompilerServices;
+using EShopService;
 using Microsoft.EntityFrameworkCore;
 
-namespace EShopService
-    {
+namespace EShop.Abstractions
+{
         public class EShopDbContext : DbContext
         {
         public EShopDbContext()

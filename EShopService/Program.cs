@@ -1,6 +1,7 @@
 using System.Net;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.EntityFrameworkCore;
+using EShop.Abstractions;
 
 namespace EShopService
 {
