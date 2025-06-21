@@ -49,9 +49,6 @@ namespace EShopService
                 .Property(c => c.Name)
                 .HasMaxLength(255);
 
-            modelBuilder.Entity<Cart>()
-                .HasKey(c => c.CartId);
-
             modelBuilder.Entity<CartProduct>()
                 .HasKey(cp => new { cp.CartId, cp.ProductId });
 
@@ -66,15 +63,21 @@ namespace EShopService
                 .HasForeignKey(cp => cp.ProductId);
 
             modelBuilder.Entity<Order>()
-                .HasOne(o => o.User)
-                .WithMany(u => u.Orders)
-                .HasForeignKey(o => o.UserId);
-
-            modelBuilder.Entity<Order>()
                 .HasOne(o => o.Cart)
                 .WithOne()
                 .HasForeignKey<Order>(o => o.CartId)
                 .OnDelete(DeleteBehavior.Restrict);
+
+            modelBuilder.Entity<User>()
+                .HasKey(u => u.UserId);
+
+            modelBuilder.Entity<User>()
+                .Property(u => u.Username)
+                .HasMaxLength(255);
+
+            modelBuilder.Entity<User>()
+                .Property(u => u.Email)
+                .HasMaxLength(255);
 
         }
     }

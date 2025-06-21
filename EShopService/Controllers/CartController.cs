@@ -21,7 +21,7 @@ namespace EShopService.Controllers
             var cart = await _dbContext.Carts
                 .Include(c => c.Items)
                 .ThenInclude(i => i.Product)
-                .FirstOrDefaultAsync(c => c.CartId == cartId && !c.Deleted);
+                .FirstOrDefaultAsync(c => c.Id == cartId && !c.Deleted);
                 
             if (cart == null)
                 return NotFound();
@@ -37,7 +37,7 @@ namespace EShopService.Controllers
 
             var cart = await _dbContext.Carts
                 .Include(c => c.Items)
-                .FirstOrDefaultAsync(c => c.CartId == cartId && !c.Deleted);
+                .FirstOrDefaultAsync(c => c.Id == cartId && !c.Deleted);
 
             if (cart == null)
             {
@@ -48,20 +48,22 @@ namespace EShopService.Controllers
 
             var product = await _dbContext.Products
                 .FirstOrDefaultAsync(p => p.Id == productId && !p.Deleted);
+
             if (product == null)
                 return NotFound("Product doesn't exist.");
+
             var existingItem = cart.Items.FirstOrDefault(i => i.ProductId == productId);
+
             if (existingItem != null)
             {
                 existingItem.Amount += amount;
             }
             else
             {
-                cart.Items.Add(new CartProduct { CartId = cart.CartId, ProductId = productId, Amount = amount });
+                cart.Items.Add(new CartProduct { CartId = cart.Id, ProductId = productId, Amount = amount });
             }
 
             cart.UpdatedAt = DateTime.Now;
-
             await _dbContext.SaveChangesAsync();
 
             return Ok(cart);
@@ -72,7 +74,7 @@ namespace EShopService.Controllers
         {
             var cart = await _dbContext.Carts
                 .Include(c => c.Items)
-                .FirstOrDefaultAsync(c => c.CartId == cartId && !c.Deleted);
+                .FirstOrDefaultAsync(c => c.Id == cartId && !c.Deleted);
 
             if (cart == null)
                 return NotFound("Cart doesn't exist.");
@@ -96,7 +98,7 @@ namespace EShopService.Controllers
         public async Task<IActionResult> DeleteCart(int cartId)
         {
             var cart = await _dbContext.Carts
-                .FirstOrDefaultAsync(c => c.CartId == cartId && !c.Deleted);
+                .FirstOrDefaultAsync(c => c.Id == cartId && !c.Deleted);
 
             
             if (cart == null)

@@ -18,11 +18,10 @@ namespace EShopService.Controllers
         public async Task<ActionResult<Order>> GetOrder(int id)
         {
             var order = await _dbContext.Orders
-                .Include(o => o.User)
                 .Include(o => o.Cart)
                     .ThenInclude(c => c.Items)
                     .ThenInclude(cp => cp.Product)
-                .FirstOrDefaultAsync(o => o.OrderId == id);
+                .FirstOrDefaultAsync(o => o.Id == id);
 
             if (order == null)
                 return NotFound();
@@ -33,30 +32,30 @@ namespace EShopService.Controllers
         [HttpPost]
         public async Task<ActionResult<Order>> CreateOrder([FromBody] CreateOrderRequest request)
         {
-            var user = await _dbContext.Users.FindAsync(request.UserId);
+            var user = await _dbContext.Users.FirstOrDefaultAsync(u => u.UserId == request.UserId);
             if (user == null)
                 return BadRequest("User doesn't exist.");
 
             var cart = await _dbContext.Carts
                 .Include(c => c.Items)
-                .FirstOrDefaultAsync(c => c.CartId == request.CartId && !c.Deleted);
+                .FirstOrDefaultAsync(c => c.Id == request.CartId && !c.Deleted);
 
             if (cart == null)
                 return BadRequest("Cart doesn't exist or has been deleted.");
 
-            var order = new Order { UserId = request.UserId, CartId = request.CartId, OrderDate = DateTime.Now };
+            var order = new Order { CartId = cart.Id, CreatedBy = user.UserId, CreatedAt = DateTime.Now };
             cart.Deleted = true;
             cart.UpdatedAt = DateTime.Now;
 
             _dbContext.Orders.Add(order);
             await _dbContext.SaveChangesAsync();
-            return CreatedAtAction(nameof(GetOrder), new { id = order.OrderId }, order);
+            return CreatedAtAction(nameof(GetOrder), new { id = order.Id }, order);
         }
     }
 
     public class CreateOrderRequest
     {
-        public int UserId { get; set; }
+        public Guid UserId { get; set; }
         
         public int CartId { get; set; }
     }

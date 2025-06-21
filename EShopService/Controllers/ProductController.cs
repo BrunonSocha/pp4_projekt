@@ -43,9 +43,6 @@ namespace EShopService.Controllers
         [HttpPost]
         public async Task<ActionResult<Product>> Post([FromBody] Product product)
         {
-            if (!ModelState.IsValid)
-                return BadRequest(ModelState);
-
             if (!await _dbContext.Categories.AnyAsync(c => c.Id == product.CategoryId && !c.Deleted))
                 return BadRequest("Invalid CategoryId");
 
@@ -74,7 +71,6 @@ namespace EShopService.Controllers
             product.Sku = updated.Sku;
             product.Stock = updated.Stock;
             product.Price = updated.Price;
-            product.Category = updated.Category;
             product.CategoryId = updated.CategoryId;
             product.UpdatedAt = DateTime.Now;
             product.UpdatedBy = updated.UpdatedBy;
@@ -86,12 +82,14 @@ namespace EShopService.Controllers
         [Authorize(Policy = "AdminOnly")]
         public async Task<IActionResult> Delete(int id)
         {
-            var product = await _dbContext.Products.FindAsync(id);
-            if (product == null || product.Deleted)
+            var product = await _dbContext.Products.FirstOrDefaultAsync(p => p.Id == id && !p.Deleted);
+            if (product == null)
                 return NotFound();
 
             product.Deleted = true;
             product.UpdatedAt = DateTime.Now;
+
+            await _dbContext.SaveChangesAsync();
 
             return Ok(new { message = "Product deleted." });
         }

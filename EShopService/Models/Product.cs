@@ -3,6 +3,7 @@ namespace EShopService;
 public class Product : BaseModel
 {
 
+    public string? Name { get; set; }
     public string? Ean { get; set; }
 
     public decimal Price { get; set; }

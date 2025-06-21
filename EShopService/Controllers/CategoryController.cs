@@ -40,9 +40,6 @@ namespace EShopService.Controllers
         [HttpPost]
         public async Task<ActionResult<Category>> Post([FromBody] Category category)
         {
-            if (!ModelState.IsValid)
-                return BadRequest(ModelState);
-
             category.CreatedAt = DateTime.Now;
             category.UpdatedAt = DateTime.Now;
 
@@ -58,9 +55,9 @@ namespace EShopService.Controllers
             if (id != updated.Id)
                 return BadRequest("Wrong ID.");
 
-            var category = await _dbContext.Categories.FindAsync(id);
+            var category = await _dbContext.Categories.FirstOrDefaultAsync(c => c.Id == id && !c.Deleted);
 
-            if (category == null || category.Deleted)
+            if (category == null)
                 return NotFound();
 
             category.Name = updated.Name;
