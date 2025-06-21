@@ -38,6 +38,20 @@
                 context.Products.AddRange(products);
                 context.SaveChanges();
             }
+
+            if (!context.Users.Any())
+            {
+                var users = new List<User>
+                {
+                    new User { Username = "Thomas", Group = "employees", Email = "doot@comp.com" },
+                    new User { Username = "Onio32", Group = "users", Email = "doot@comp.com" },
+                    new User { Username = "Ben", Group = "admins", Email = "doot@comp.com" },
+                    new User { Username = "Mamby25", Group = "users", Email= "doot@comp.com" },
+                };
+
+                context.Users.AddRange(users);
+                context.SaveChanges();
+            }
         }
     }
 }

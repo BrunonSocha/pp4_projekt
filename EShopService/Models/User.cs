@@ -7,5 +7,7 @@ public class User
 
     public string Email { get; set; } = default!;
 
+    public string Group { get; set; } = default!;
+
     public List<Order> Orders { get; set; } = new();
 }

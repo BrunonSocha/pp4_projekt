@@ -97,6 +97,33 @@ namespace EShopService.Migrations
                     b.ToTable("Categories");
                 });
 
+            modelBuilder.Entity("EShopService.Order", b =>
+                {
+                    b.Property<int>("OrderId")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("OrderId"));
+
+                    b.Property<int>("CartId")
+                        .HasColumnType("int");
+
+                    b.Property<DateTime>("OrderDate")
+                        .HasColumnType("datetime2");
+
+                    b.Property<int>("UserId")
+                        .HasColumnType("int");
+
+                    b.HasKey("OrderId");
+
+                    b.HasIndex("CartId")
+                        .IsUnique();
+
+                    b.HasIndex("UserId");
+
+                    b.ToTable("Orders");
+                });
+
             modelBuilder.Entity("EShopService.Product", b =>
                 {
                     b.Property<int>("Id")
@@ -125,6 +152,7 @@ namespace EShopService.Migrations
                         .HasColumnType("nvarchar(255)");
 
                     b.Property<decimal>("Price")
+                        .HasPrecision(18, 2)
                         .HasColumnType("decimal(18,2)");
 
                     b.Property<string>("Sku")
@@ -146,6 +174,31 @@ namespace EShopService.Migrations
                     b.ToTable("Products");
                 });
 
+            modelBuilder.Entity("EShopService.User", b =>
+                {
+                    b.Property<int>("UserId")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("UserId"));
+
+                    b.Property<string>("Email")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("Group")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("Username")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.HasKey("UserId");
+
+                    b.ToTable("Users");
+                });
+
             modelBuilder.Entity("EShopService.CartProduct", b =>
                 {
                     b.HasOne("EShopService.Cart", "Cart")
@@ -165,6 +218,25 @@ namespace EShopService.Migrations
                     b.Navigation("Product");
                 });
 
+            modelBuilder.Entity("EShopService.Order", b =>
+                {
+                    b.HasOne("EShopService.Cart", "Cart")
+                        .WithOne()
+                        .HasForeignKey("EShopService.Order", "CartId")
+                        .OnDelete(DeleteBehavior.Restrict)
+                        .IsRequired();
+
+                    b.HasOne("EShopService.User", "User")
+                        .WithMany("Orders")
+                        .HasForeignKey("UserId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("Cart");
+
+                    b.Navigation("User");
+                });
+
             modelBuilder.Entity("EShopService.Product", b =>
                 {
                     b.HasOne("EShopService.Category", "Category")
@@ -179,6 +251,11 @@ namespace EShopService.Migrations
             modelBuilder.Entity("EShopService.Cart", b =>
                 {
                     b.Navigation("Items");
+                });
+
+            modelBuilder.Entity("EShopService.User", b =>
+                {
+                    b.Navigation("Orders");
                 });
 #pragma warning restore 612, 618
         }
