@@ -1,5 +1,0 @@
-/workspaces/PP4/EShopService.Application/obj/Debug/net9.0/EShopService.Application.GeneratedMSBuildEditorConfig.editorconfig
-/workspaces/PP4/EShopService.Application/obj/Debug/net9.0/EShopService.Application.AssemblyInfoInputs.cache
-/workspaces/PP4/EShopService.Application/obj/Debug/net9.0/EShopService.Application.AssemblyInfo.cs
-/workspaces/PP4/EShopService.Application/obj/Debug/net9.0/EShopService.Application.csproj.CoreCompileInputs.cache
-/workspaces/PP4/EShopService.Application/obj/Debug/net9.0/EShopService.Application.sourcelink.json
