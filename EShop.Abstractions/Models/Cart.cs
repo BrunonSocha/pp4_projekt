@@ -1,4 +1,7 @@
-namespace EShopService;
+using EShopAbstractions;
+using EShopService;
+
+namespace EShopAbstractions.Models;
 
 public class Cart : BaseModel
 { 

@@ -8,7 +8,7 @@
     ".NETCoreApp,Version=v9.0": {
       "EShopService/1.0.0": {
         "dependencies": {
-          "EShop.Abstractions": "1.0.0",
+          "EShopAbstractions": "1.0.0",
           "Microsoft.AspNetCore.OpenApi": "9.0.6",
           "Microsoft.EntityFrameworkCore": "9.0.6",
           "Microsoft.EntityFrameworkCore.Design": "9.0.6",
@@ -1061,13 +1061,13 @@
           }
         }
       },
-      "EShop.Abstractions/1.0.0": {
+      "EShopAbstractions/1.0.0": {
         "dependencies": {
           "Microsoft.EntityFrameworkCore": "9.0.6",
           "Microsoft.EntityFrameworkCore.SqlServer": "9.0.6"
         },
         "runtime": {
-          "EShop.Abstractions.dll": {
+          "EShopAbstractions.dll": {
             "assemblyVersion": "1.0.0.0",
             "fileVersion": "1.0.0.0"
           }
@@ -1075,7 +1075,7 @@
       },
       "UserService/1.0.0": {
         "dependencies": {
-          "EShop.Abstractions": "1.0.0",
+          "EShopAbstractions": "1.0.0",
           "Microsoft.AspNetCore.Authentication.JwtBearer": "9.0.6",
           "Swashbuckle.AspNetCore": "6.6.2"
         },
@@ -1668,7 +1668,7 @@
       "path": "system.windows.extensions/6.0.0",
       "hashPath": "system.windows.extensions.6.0.0.nupkg.sha512"
     },
-    "EShop.Abstractions/1.0.0": {
+    "EShopAbstractions/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

@@ -3,48 +3,124 @@
   "WorkspaceRootPath": "C:\\Users\\Pawel\\source\\repos\\pp4v2_projekt\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{5483AE0B-55E5-4FEB-8813-BB96017ECE9D}|EShopService\\EShopService.csproj|c:\\users\\pawel\\source\\repos\\pp4v2_projekt\\eshopservice\\controllers\\ordercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5483AE0B-55E5-4FEB-8813-BB96017ECE9D}|EShopService\\EShopService.csproj|solutionrelative:eshopservice\\controllers\\ordercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{5483AE0B-55E5-4FEB-8813-BB96017ECE9D}|EShopService\\EShopService.csproj|c:\\users\\pawel\\source\\repos\\pp4v2_projekt\\eshopservice\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5483AE0B-55E5-4FEB-8813-BB96017ECE9D}|EShopService\\EShopService.csproj|solutionrelative:eshopservice\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7C481F2D-CE91-439A-A768-25CCF2D8B7C7}|EShop.Abstractions\\EShop.Abstractions.csproj|c:\\users\\pawel\\source\\repos\\pp4v2_projekt\\eshop.abstractions\\models\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7C481F2D-CE91-439A-A768-25CCF2D8B7C7}|EShop.Abstractions\\EShop.Abstractions.csproj|solutionrelative:eshop.abstractions\\models\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{5483AE0B-55E5-4FEB-8813-BB96017ECE9D}|EShopService\\EShopService.csproj|c:\\users\\pawel\\source\\repos\\pp4v2_projekt\\eshopservice\\controllers\\ordercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5483AE0B-55E5-4FEB-8813-BB96017ECE9D}|EShopService\\EShopService.csproj|solutionrelative:eshopservice\\controllers\\ordercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B2353DBB-DCF2-46D9-ADA1-79DBAD899DA5}|UserService\\UserService.csproj|c:\\users\\pawel\\source\\repos\\pp4v2_projekt\\userservice\\controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B2353DBB-DCF2-46D9-ADA1-79DBAD899DA5}|UserService\\UserService.csproj|solutionrelative:userservice\\controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{5483AE0B-55E5-4FEB-8813-BB96017ECE9D}|EShopService\\EShopService.csproj|c:\\users\\pawel\\source\\repos\\pp4v2_projekt\\eshopservice\\controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5483AE0B-55E5-4FEB-8813-BB96017ECE9D}|EShopService\\EShopService.csproj|solutionrelative:eshopservice\\controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B2353DBB-DCF2-46D9-ADA1-79DBAD899DA5}|UserService\\UserService.csproj|c:\\users\\pawel\\source\\repos\\pp4v2_projekt\\userservice\\models\\loginrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B2353DBB-DCF2-46D9-ADA1-79DBAD899DA5}|UserService\\UserService.csproj|solutionrelative:userservice\\models\\loginrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B2353DBB-DCF2-46D9-ADA1-79DBAD899DA5}|UserService\\UserService.csproj|c:\\users\\pawel\\source\\repos\\pp4v2_projekt\\userservice\\iloginservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B2353DBB-DCF2-46D9-ADA1-79DBAD899DA5}|UserService\\UserService.csproj|solutionrelative:userservice\\iloginservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B2353DBB-DCF2-46D9-ADA1-79DBAD899DA5}|UserService\\UserService.csproj|c:\\users\\pawel\\source\\repos\\pp4v2_projekt\\userservice\\ijwttokenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B2353DBB-DCF2-46D9-ADA1-79DBAD899DA5}|UserService\\UserService.csproj|solutionrelative:userservice\\ijwttokenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B2353DBB-DCF2-46D9-ADA1-79DBAD899DA5}|UserService\\UserService.csproj|c:\\users\\pawel\\source\\repos\\pp4v2_projekt\\userservice\\loginservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B2353DBB-DCF2-46D9-ADA1-79DBAD899DA5}|UserService\\UserService.csproj|solutionrelative:userservice\\loginservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B2353DBB-DCF2-46D9-ADA1-79DBAD899DA5}|UserService\\UserService.csproj|c:\\users\\pawel\\source\\repos\\pp4v2_projekt\\userservice\\invalidcredentialsexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B2353DBB-DCF2-46D9-ADA1-79DBAD899DA5}|UserService\\UserService.csproj|solutionrelative:userservice\\invalidcredentialsexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{5483AE0B-55E5-4FEB-8813-BB96017ECE9D}|EShopService\\EShopService.csproj|c:\\users\\pawel\\source\\repos\\pp4v2_projekt\\eshopservice\\controllers\\cartcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5483AE0B-55E5-4FEB-8813-BB96017ECE9D}|EShopService\\EShopService.csproj|solutionrelative:eshopservice\\controllers\\cartcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{5483AE0B-55E5-4FEB-8813-BB96017ECE9D}|EShopService\\EShopService.csproj|c:\\users\\pawel\\source\\repos\\pp4v2_projekt\\eshopservice\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5483AE0B-55E5-4FEB-8813-BB96017ECE9D}|EShopService\\EShopService.csproj|solutionrelative:eshopservice\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5483AE0B-55E5-4FEB-8813-BB96017ECE9D}|EShopService\\EShopService.csproj|c:\\users\\pawel\\source\\repos\\pp4v2_projekt\\eshopservice\\controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5483AE0B-55E5-4FEB-8813-BB96017ECE9D}|EShopService\\EShopService.csproj|solutionrelative:eshopservice\\controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B2353DBB-DCF2-46D9-ADA1-79DBAD899DA5}|UserService\\UserService.csproj|c:\\users\\pawel\\source\\repos\\pp4v2_projekt\\userservice\\models\\registerrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B2353DBB-DCF2-46D9-ADA1-79DBAD899DA5}|UserService\\UserService.csproj|solutionrelative:userservice\\models\\registerrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B2353DBB-DCF2-46D9-ADA1-79DBAD899DA5}|UserService\\UserService.csproj|c:\\users\\pawel\\source\\repos\\pp4v2_projekt\\userservice\\ijwttokenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B2353DBB-DCF2-46D9-ADA1-79DBAD899DA5}|UserService\\UserService.csproj|solutionrelative:userservice\\ijwttokenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B2353DBB-DCF2-46D9-ADA1-79DBAD899DA5}|UserService\\UserService.csproj|c:\\users\\pawel\\source\\repos\\pp4v2_projekt\\userservice\\invalidcredentialsexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B2353DBB-DCF2-46D9-ADA1-79DBAD899DA5}|UserService\\UserService.csproj|solutionrelative:userservice\\invalidcredentialsexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B2353DBB-DCF2-46D9-ADA1-79DBAD899DA5}|UserService\\UserService.csproj|c:\\users\\pawel\\source\\repos\\pp4v2_projekt\\userservice\\iloginservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B2353DBB-DCF2-46D9-ADA1-79DBAD899DA5}|UserService\\UserService.csproj|solutionrelative:userservice\\iloginservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B2353DBB-DCF2-46D9-ADA1-79DBAD899DA5}|UserService\\UserService.csproj|c:\\users\\pawel\\source\\repos\\pp4v2_projekt\\userservice\\jwttokenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B2353DBB-DCF2-46D9-ADA1-79DBAD899DA5}|UserService\\UserService.csproj|solutionrelative:userservice\\jwttokenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B2353DBB-DCF2-46D9-ADA1-79DBAD899DA5}|UserService\\UserService.csproj|c:\\users\\pawel\\source\\repos\\pp4v2_projekt\\userservice\\loginservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B2353DBB-DCF2-46D9-ADA1-79DBAD899DA5}|UserService\\UserService.csproj|solutionrelative:userservice\\loginservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B2353DBB-DCF2-46D9-ADA1-79DBAD899DA5}|UserService\\UserService.csproj|c:\\users\\pawel\\source\\repos\\pp4v2_projekt\\userservice\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B2353DBB-DCF2-46D9-ADA1-79DBAD899DA5}|UserService\\UserService.csproj|solutionrelative:userservice\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B2353DBB-DCF2-46D9-ADA1-79DBAD899DA5}|UserService\\UserService.csproj|c:\\users\\pawel\\source\\repos\\pp4v2_projekt\\userservice\\registerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B2353DBB-DCF2-46D9-ADA1-79DBAD899DA5}|UserService\\UserService.csproj|solutionrelative:userservice\\registerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7C481F2D-CE91-439A-A768-25CCF2D8B7C7}|EShop.Abstractions\\EShopAbstractions.csproj|c:\\users\\pawel\\source\\repos\\pp4v2_projekt\\eshop.abstractions\\ieshopdbcontextseed.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7C481F2D-CE91-439A-A768-25CCF2D8B7C7}|EShop.Abstractions\\EShopAbstractions.csproj|solutionrelative:eshop.abstractions\\ieshopdbcontextseed.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7C481F2D-CE91-439A-A768-25CCF2D8B7C7}|EShop.Abstractions\\EShopAbstractions.csproj|c:\\users\\pawel\\source\\repos\\pp4v2_projekt\\eshop.abstractions\\ieshopdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7C481F2D-CE91-439A-A768-25CCF2D8B7C7}|EShop.Abstractions\\EShopAbstractions.csproj|solutionrelative:eshop.abstractions\\ieshopdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7C481F2D-CE91-439A-A768-25CCF2D8B7C7}|EShop.Abstractions\\EShopAbstractions.csproj|c:\\users\\pawel\\source\\repos\\pp4v2_projekt\\eshop.abstractions\\eshopdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7C481F2D-CE91-439A-A768-25CCF2D8B7C7}|EShop.Abstractions\\EShopAbstractions.csproj|solutionrelative:eshop.abstractions\\eshopdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7C481F2D-CE91-439A-A768-25CCF2D8B7C7}|EShop.Abstractions\\EShopAbstractions.csproj|c:\\users\\pawel\\source\\repos\\pp4v2_projekt\\eshop.abstractions\\eshopdbcontextseed.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7C481F2D-CE91-439A-A768-25CCF2D8B7C7}|EShop.Abstractions\\EShopAbstractions.csproj|solutionrelative:eshop.abstractions\\eshopdbcontextseed.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7C481F2D-CE91-439A-A768-25CCF2D8B7C7}|EShop.Abstractions\\EShopAbstractions.csproj|c:\\users\\pawel\\source\\repos\\pp4v2_projekt\\eshop.abstractions\\models\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7C481F2D-CE91-439A-A768-25CCF2D8B7C7}|EShop.Abstractions\\EShopAbstractions.csproj|solutionrelative:eshop.abstractions\\models\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7C481F2D-CE91-439A-A768-25CCF2D8B7C7}|EShop.Abstractions\\EShopAbstractions.csproj|c:\\users\\pawel\\source\\repos\\pp4v2_projekt\\eshop.abstractions\\models\\cart.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7C481F2D-CE91-439A-A768-25CCF2D8B7C7}|EShop.Abstractions\\EShopAbstractions.csproj|solutionrelative:eshop.abstractions\\models\\cart.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7C481F2D-CE91-439A-A768-25CCF2D8B7C7}|EShop.Abstractions\\EShopAbstractions.csproj|c:\\users\\pawel\\source\\repos\\pp4v2_projekt\\eshop.abstractions\\models\\basemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7C481F2D-CE91-439A-A768-25CCF2D8B7C7}|EShop.Abstractions\\EShopAbstractions.csproj|solutionrelative:eshop.abstractions\\models\\basemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7C481F2D-CE91-439A-A768-25CCF2D8B7C7}|EShop.Abstractions\\EShopAbstractions.csproj|c:\\users\\pawel\\source\\repos\\pp4v2_projekt\\eshop.abstractions\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7C481F2D-CE91-439A-A768-25CCF2D8B7C7}|EShop.Abstractions\\EShopAbstractions.csproj|solutionrelative:eshop.abstractions\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7C481F2D-CE91-439A-A768-25CCF2D8B7C7}|EShop.Abstractions\\EShopAbstractions.csproj|c:\\users\\pawel\\source\\repos\\pp4v2_projekt\\eshop.abstractions\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7C481F2D-CE91-439A-A768-25CCF2D8B7C7}|EShop.Abstractions\\EShopAbstractions.csproj|solutionrelative:eshop.abstractions\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7C481F2D-CE91-439A-A768-25CCF2D8B7C7}|EShop.Abstractions\\EShopAbstractions.csproj|c:\\users\\pawel\\source\\repos\\pp4v2_projekt\\eshop.abstractions\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7C481F2D-CE91-439A-A768-25CCF2D8B7C7}|EShop.Abstractions\\EShopAbstractions.csproj|solutionrelative:eshop.abstractions\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7C481F2D-CE91-439A-A768-25CCF2D8B7C7}|EShop.Abstractions\\EShopAbstractions.csproj|c:\\users\\pawel\\source\\repos\\pp4v2_projekt\\eshop.abstractions\\models\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7C481F2D-CE91-439A-A768-25CCF2D8B7C7}|EShop.Abstractions\\EShopAbstractions.csproj|solutionrelative:eshop.abstractions\\models\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7C481F2D-CE91-439A-A768-25CCF2D8B7C7}|EShop.Abstractions\\EShopAbstractions.csproj|c:\\users\\pawel\\source\\repos\\pp4v2_projekt\\eshop.abstractions\\models\\cartproduct.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7C481F2D-CE91-439A-A768-25CCF2D8B7C7}|EShop.Abstractions\\EShopAbstractions.csproj|solutionrelative:eshop.abstractions\\models\\cartproduct.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7C481F2D-CE91-439A-A768-25CCF2D8B7C7}|EShop.Abstractions\\EShopAbstractions.csproj|c:\\users\\pawel\\source\\repos\\pp4v2_projekt\\eshop.abstractions\\eshopabstractions.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{7C481F2D-CE91-439A-A768-25CCF2D8B7C7}|EShop.Abstractions\\EShopAbstractions.csproj|solutionrelative:eshop.abstractions\\eshopabstractions.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B2353DBB-DCF2-46D9-ADA1-79DBAD899DA5}|UserService\\UserService.csproj|c:\\users\\pawel\\source\\repos\\pp4v2_projekt\\userservice\\controllers\\valuescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B2353DBB-DCF2-46D9-ADA1-79DBAD899DA5}|UserService\\UserService.csproj|solutionrelative:userservice\\controllers\\valuescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B2353DBB-DCF2-46D9-ADA1-79DBAD899DA5}|UserService\\UserService.csproj|c:\\users\\pawel\\source\\repos\\pp4v2_projekt\\userservice\\controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B2353DBB-DCF2-46D9-ADA1-79DBAD899DA5}|UserService\\UserService.csproj|solutionrelative:userservice\\controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5483AE0B-55E5-4FEB-8813-BB96017ECE9D}|EShopService\\EShopService.csproj|c:\\users\\pawel\\source\\repos\\pp4v2_projekt\\eshopservice\\migrations\\20250621115806_initial.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5483AE0B-55E5-4FEB-8813-BB96017ECE9D}|EShopService\\EShopService.csproj|solutionrelative:eshopservice\\migrations\\20250621115806_initial.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B2353DBB-DCF2-46D9-ADA1-79DBAD899DA5}|UserService\\UserService.csproj|c:\\users\\pawel\\source\\repos\\pp4v2_projekt\\userservice\\models\\loginrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B2353DBB-DCF2-46D9-ADA1-79DBAD899DA5}|UserService\\UserService.csproj|solutionrelative:userservice\\models\\loginrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{5483AE0B-55E5-4FEB-8813-BB96017ECE9D}|EShopService\\EShopService.csproj|c:\\users\\pawel\\source\\repos\\pp4v2_projekt\\eshopservice\\migrations\\20250621115806_initial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -55,36 +131,8 @@
       "RelativeMoniker": "D:0:0:{5483AE0B-55E5-4FEB-8813-BB96017ECE9D}|EShopService\\EShopService.csproj|solutionrelative:eshopservice\\migrations\\eshopdbcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5483AE0B-55E5-4FEB-8813-BB96017ECE9D}|EShopService\\EShopService.csproj|c:\\users\\pawel\\source\\repos\\pp4v2_projekt\\eshopservice\\controllers\\cartcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5483AE0B-55E5-4FEB-8813-BB96017ECE9D}|EShopService\\EShopService.csproj|solutionrelative:eshopservice\\controllers\\cartcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{5483AE0B-55E5-4FEB-8813-BB96017ECE9D}|EShopService\\EShopService.csproj|c:\\users\\pawel\\source\\repos\\pp4v2_projekt\\eshopservice\\eshopservice.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
       "RelativeMoniker": "D:0:0:{5483AE0B-55E5-4FEB-8813-BB96017ECE9D}|EShopService\\EShopService.csproj|solutionrelative:eshopservice\\eshopservice.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7C481F2D-CE91-439A-A768-25CCF2D8B7C7}|EShop.Abstractions\\EShop.Abstractions.csproj|c:\\users\\pawel\\source\\repos\\pp4v2_projekt\\eshop.abstractions\\eshopdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7C481F2D-CE91-439A-A768-25CCF2D8B7C7}|EShop.Abstractions\\EShop.Abstractions.csproj|solutionrelative:eshop.abstractions\\eshopdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7C481F2D-CE91-439A-A768-25CCF2D8B7C7}|EShop.Abstractions\\EShop.Abstractions.csproj|c:\\users\\pawel\\source\\repos\\pp4v2_projekt\\eshop.abstractions\\ieshopdbcontextseed.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7C481F2D-CE91-439A-A768-25CCF2D8B7C7}|EShop.Abstractions\\EShop.Abstractions.csproj|solutionrelative:eshop.abstractions\\ieshopdbcontextseed.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7C481F2D-CE91-439A-A768-25CCF2D8B7C7}|EShop.Abstractions\\EShop.Abstractions.csproj|c:\\users\\pawel\\source\\repos\\pp4v2_projekt\\eshop.abstractions\\ieshopdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7C481F2D-CE91-439A-A768-25CCF2D8B7C7}|EShop.Abstractions\\EShop.Abstractions.csproj|solutionrelative:eshop.abstractions\\ieshopdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7C481F2D-CE91-439A-A768-25CCF2D8B7C7}|EShop.Abstractions\\EShop.Abstractions.csproj|c:\\users\\pawel\\source\\repos\\pp4v2_projekt\\eshop.abstractions\\eshopdbcontextseed.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7C481F2D-CE91-439A-A768-25CCF2D8B7C7}|EShop.Abstractions\\EShop.Abstractions.csproj|solutionrelative:eshop.abstractions\\eshopdbcontextseed.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7C481F2D-CE91-439A-A768-25CCF2D8B7C7}|EShop.Abstractions\\EShop.Abstractions.csproj|c:\\users\\pawel\\source\\repos\\pp4v2_projekt\\eshop.abstractions\\eshop.abstractions.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{7C481F2D-CE91-439A-A768-25CCF2D8B7C7}|EShop.Abstractions\\EShop.Abstractions.csproj|solutionrelative:eshop.abstractions\\eshop.abstractions.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7C481F2D-CE91-439A-A768-25CCF2D8B7C7}|EShop.Abstractions\\EShop.Abstractions.csproj|c:\\users\\pawel\\source\\repos\\pp4v2_projekt\\eshop.abstractions\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7C481F2D-CE91-439A-A768-25CCF2D8B7C7}|EShop.Abstractions\\EShop.Abstractions.csproj|solutionrelative:eshop.abstractions\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{5483AE0B-55E5-4FEB-8813-BB96017ECE9D}|EShopService\\EShopService.csproj|c:\\users\\pawel\\source\\repos\\pp4v2_projekt\\eshopservice\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
@@ -93,14 +141,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{B2353DBB-DCF2-46D9-ADA1-79DBAD899DA5}|UserService\\UserService.csproj|c:\\users\\pawel\\source\\repos\\pp4v2_projekt\\userservice\\userservice.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
       "RelativeMoniker": "D:0:0:{B2353DBB-DCF2-46D9-ADA1-79DBAD899DA5}|UserService\\UserService.csproj|solutionrelative:userservice\\userservice.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B2353DBB-DCF2-46D9-ADA1-79DBAD899DA5}|UserService\\UserService.csproj|c:\\users\\pawel\\source\\repos\\pp4v2_projekt\\userservice\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B2353DBB-DCF2-46D9-ADA1-79DBAD899DA5}|UserService\\UserService.csproj|solutionrelative:userservice\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B2353DBB-DCF2-46D9-ADA1-79DBAD899DA5}|UserService\\UserService.csproj|c:\\users\\pawel\\source\\repos\\pp4v2_projekt\\userservice\\jwttokenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B2353DBB-DCF2-46D9-ADA1-79DBAD899DA5}|UserService\\UserService.csproj|solutionrelative:userservice\\jwttokenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{B2353DBB-DCF2-46D9-ADA1-79DBAD899DA5}|UserService\\UserService.csproj|c:\\users\\pawel\\source\\repos\\pp4v2_projekt\\userservice\\models\\jwtsettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -133,93 +173,24 @@
       "DocumentGroups": [
         {
           "DockedWidth": 52,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 9,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Order.cs",
-              "DocumentMoniker": "C:\\Users\\Pawel\\source\\repos\\pp4v2_projekt\\EShop.Abstractions\\Models\\Order.cs",
-              "RelativeDocumentMoniker": "EShop.Abstractions\\Models\\Order.cs",
-              "ToolTip": "C:\\Users\\Pawel\\source\\repos\\pp4v2_projekt\\EShop.Abstractions\\Models\\Order.cs",
-              "RelativeToolTip": "EShop.Abstractions\\Models\\Order.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-21T13:37:53.198Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 11,
-              "Title": "20250621115806_Initial.cs",
-              "DocumentMoniker": "C:\\Users\\Pawel\\source\\repos\\pp4v2_projekt\\EShopService\\Migrations\\20250621115806_Initial.cs",
-              "RelativeDocumentMoniker": "EShopService\\Migrations\\20250621115806_Initial.cs",
-              "ToolTip": "C:\\Users\\Pawel\\source\\repos\\pp4v2_projekt\\EShopService\\Migrations\\20250621115806_Initial.cs",
-              "RelativeToolTip": "EShopService\\Migrations\\20250621115806_Initial.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAaAAAAAAAAAA==",
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Pawel\\source\\repos\\pp4v2_projekt\\UserService\\Program.cs",
+              "RelativeDocumentMoniker": "UserService\\Program.cs",
+              "ToolTip": "C:\\Users\\Pawel\\source\\repos\\pp4v2_projekt\\UserService\\Program.cs",
+              "RelativeToolTip": "UserService\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACEAAABAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-21T13:36:44.222Z",
+              "WhenOpened": "2025-06-18T17:52:00.784Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "OrderController.cs",
-              "DocumentMoniker": "C:\\Users\\Pawel\\source\\repos\\pp4v2_projekt\\EShopService\\Controllers\\OrderController.cs",
-              "RelativeDocumentMoniker": "EShopService\\Controllers\\OrderController.cs",
-              "ToolTip": "C:\\Users\\Pawel\\source\\repos\\pp4v2_projekt\\EShopService\\Controllers\\OrderController.cs*",
-              "RelativeToolTip": "EShopService\\Controllers\\OrderController.cs*",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACgAAAAoAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-21T13:36:24.378Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
             },
             {
               "$type": "Document",
               "DocumentIndex": 10,
-              "Title": "CategoryController.cs",
-              "DocumentMoniker": "C:\\Users\\Pawel\\source\\repos\\pp4v2_projekt\\EShopService\\Controllers\\CategoryController.cs",
-              "RelativeDocumentMoniker": "EShopService\\Controllers\\CategoryController.cs",
-              "ToolTip": "C:\\Users\\Pawel\\source\\repos\\pp4v2_projekt\\EShopService\\Controllers\\CategoryController.cs",
-              "RelativeToolTip": "EShopService\\Controllers\\CategoryController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAZAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-17T19:52:06.503Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\Pawel\\source\\repos\\pp4v2_projekt\\EShopService\\Program.cs",
-              "RelativeDocumentMoniker": "EShopService\\Program.cs",
-              "ToolTip": "C:\\Users\\Pawel\\source\\repos\\pp4v2_projekt\\EShopService\\Program.cs",
-              "RelativeToolTip": "EShopService\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-12T18:52:25.876Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "InvalidCredentialsException.cs",
-              "DocumentMoniker": "C:\\Users\\Pawel\\source\\repos\\pp4v2_projekt\\UserService\\InvalidCredentialsException.cs",
-              "RelativeDocumentMoniker": "UserService\\InvalidCredentialsException.cs",
-              "ToolTip": "C:\\Users\\Pawel\\source\\repos\\pp4v2_projekt\\UserService\\InvalidCredentialsException.cs",
-              "RelativeToolTip": "UserService\\InvalidCredentialsException.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-20T14:44:31.561Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
               "Title": "LoginService.cs",
               "DocumentMoniker": "C:\\Users\\Pawel\\source\\repos\\pp4v2_projekt\\UserService\\LoginService.cs",
               "RelativeDocumentMoniker": "UserService\\LoginService.cs",
@@ -228,6 +199,45 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-06-20T14:39:29.498Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "JwtTokenService.cs",
+              "DocumentMoniker": "C:\\Users\\Pawel\\source\\repos\\pp4v2_projekt\\UserService\\JwtTokenService.cs",
+              "RelativeDocumentMoniker": "UserService\\JwtTokenService.cs",
+              "ToolTip": "C:\\Users\\Pawel\\source\\repos\\pp4v2_projekt\\UserService\\JwtTokenService.cs",
+              "RelativeToolTip": "UserService\\JwtTokenService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACMAAABQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-20T14:31:33.337Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "ILoginService.cs",
+              "DocumentMoniker": "C:\\Users\\Pawel\\source\\repos\\pp4v2_projekt\\UserService\\ILoginService.cs",
+              "RelativeDocumentMoniker": "UserService\\ILoginService.cs",
+              "ToolTip": "C:\\Users\\Pawel\\source\\repos\\pp4v2_projekt\\UserService\\ILoginService.cs",
+              "RelativeToolTip": "UserService\\ILoginService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-20T14:44:31.777Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "InvalidCredentialsException.cs",
+              "DocumentMoniker": "C:\\Users\\Pawel\\source\\repos\\pp4v2_projekt\\UserService\\InvalidCredentialsException.cs",
+              "RelativeDocumentMoniker": "UserService\\InvalidCredentialsException.cs",
+              "ToolTip": "C:\\Users\\Pawel\\source\\repos\\pp4v2_projekt\\UserService\\InvalidCredentialsException.cs",
+              "RelativeToolTip": "UserService\\InvalidCredentialsException.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-20T14:44:31.561Z",
               "EditorCaption": ""
             },
             {
@@ -246,92 +256,118 @@
             {
               "$type": "Document",
               "DocumentIndex": 5,
-              "Title": "ILoginService.cs",
-              "DocumentMoniker": "C:\\Users\\Pawel\\source\\repos\\pp4v2_projekt\\UserService\\ILoginService.cs",
-              "RelativeDocumentMoniker": "UserService\\ILoginService.cs",
-              "ToolTip": "C:\\Users\\Pawel\\source\\repos\\pp4v2_projekt\\UserService\\ILoginService.cs",
-              "RelativeToolTip": "UserService\\ILoginService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAABAAAAAAAAAA==",
+              "Title": "RegisterRequest.cs",
+              "DocumentMoniker": "C:\\Users\\Pawel\\source\\repos\\pp4v2_projekt\\UserService\\Models\\RegisterRequest.cs",
+              "RelativeDocumentMoniker": "UserService\\Models\\RegisterRequest.cs",
+              "ToolTip": "C:\\Users\\Pawel\\source\\repos\\pp4v2_projekt\\UserService\\Models\\RegisterRequest.cs",
+              "RelativeToolTip": "UserService\\Models\\RegisterRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-20T14:44:31.777Z",
+              "WhenOpened": "2025-06-21T14:38:12.767Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "LoginRequest.cs",
-              "DocumentMoniker": "C:\\Users\\Pawel\\source\\repos\\pp4v2_projekt\\UserService\\Models\\LoginRequest.cs",
-              "RelativeDocumentMoniker": "UserService\\Models\\LoginRequest.cs",
-              "ToolTip": "C:\\Users\\Pawel\\source\\repos\\pp4v2_projekt\\UserService\\Models\\LoginRequest.cs",
-              "RelativeToolTip": "UserService\\Models\\LoginRequest.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Pawel\\source\\repos\\pp4v2_projekt\\EShopService\\Program.cs",
+              "RelativeDocumentMoniker": "EShopService\\Program.cs",
+              "ToolTip": "C:\\Users\\Pawel\\source\\repos\\pp4v2_projekt\\EShopService\\Program.cs*",
+              "RelativeToolTip": "EShopService\\Program.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAALAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-18T18:18:36.291Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "LoginController.cs",
-              "DocumentMoniker": "C:\\Users\\Pawel\\source\\repos\\pp4v2_projekt\\UserService\\Controllers\\LoginController.cs",
-              "RelativeDocumentMoniker": "UserService\\Controllers\\LoginController.cs",
-              "ToolTip": "C:\\Users\\Pawel\\source\\repos\\pp4v2_projekt\\UserService\\Controllers\\LoginController.cs",
-              "RelativeToolTip": "UserService\\Controllers\\LoginController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACUAAAARAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-18T18:13:03.46Z",
+              "WhenOpened": "2025-06-12T18:52:25.876Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "OrderController.cs",
+              "DocumentMoniker": "C:\\Users\\Pawel\\source\\repos\\pp4v2_projekt\\EShopService\\Controllers\\OrderController.cs",
+              "RelativeDocumentMoniker": "EShopService\\Controllers\\OrderController.cs",
+              "ToolTip": "C:\\Users\\Pawel\\source\\repos\\pp4v2_projekt\\EShopService\\Controllers\\OrderController.cs*",
+              "RelativeToolTip": "EShopService\\Controllers\\OrderController.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-21T13:36:24.378Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
               "Title": "ProductController.cs",
               "DocumentMoniker": "C:\\Users\\Pawel\\source\\repos\\pp4v2_projekt\\EShopService\\Controllers\\ProductController.cs",
               "RelativeDocumentMoniker": "EShopService\\Controllers\\ProductController.cs",
-              "ToolTip": "C:\\Users\\Pawel\\source\\repos\\pp4v2_projekt\\EShopService\\Controllers\\ProductController.cs",
-              "RelativeToolTip": "EShopService\\Controllers\\ProductController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAZAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\Pawel\\source\\repos\\pp4v2_projekt\\EShopService\\Controllers\\ProductController.cs*",
+              "RelativeToolTip": "EShopService\\Controllers\\ProductController.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAATAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-06-09T20:43:00.394Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "EShopDbContextModelSnapshot.cs",
-              "DocumentMoniker": "C:\\Users\\Pawel\\source\\repos\\pp4v2_projekt\\EShopService\\Migrations\\EShopDbContextModelSnapshot.cs",
-              "RelativeDocumentMoniker": "EShopService\\Migrations\\EShopDbContextModelSnapshot.cs",
-              "ToolTip": "C:\\Users\\Pawel\\source\\repos\\pp4v2_projekt\\EShopService\\Migrations\\EShopDbContextModelSnapshot.cs",
-              "RelativeToolTip": "EShopService\\Migrations\\EShopDbContextModelSnapshot.cs",
-              "ViewState": "AgIAAGEAAAAAAAAAAAAgwAcAAAAZAAAAAAAAAA==",
+              "DocumentIndex": 2,
+              "Title": "CategoryController.cs",
+              "DocumentMoniker": "C:\\Users\\Pawel\\source\\repos\\pp4v2_projekt\\EShopService\\Controllers\\CategoryController.cs",
+              "RelativeDocumentMoniker": "EShopService\\Controllers\\CategoryController.cs",
+              "ToolTip": "C:\\Users\\Pawel\\source\\repos\\pp4v2_projekt\\EShopService\\Controllers\\CategoryController.cs*",
+              "RelativeToolTip": "EShopService\\Controllers\\CategoryController.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-21T13:36:37.222Z",
+              "WhenOpened": "2025-06-17T19:52:06.503Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 3,
               "Title": "CartController.cs",
               "DocumentMoniker": "C:\\Users\\Pawel\\source\\repos\\pp4v2_projekt\\EShopService\\Controllers\\CartController.cs",
               "RelativeDocumentMoniker": "EShopService\\Controllers\\CartController.cs",
-              "ToolTip": "C:\\Users\\Pawel\\source\\repos\\pp4v2_projekt\\EShopService\\Controllers\\CartController.cs",
-              "RelativeToolTip": "EShopService\\Controllers\\CartController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAZAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\Pawel\\source\\repos\\pp4v2_projekt\\EShopService\\Controllers\\CartController.cs*",
+              "RelativeToolTip": "EShopService\\Controllers\\CartController.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-06-21T13:36:30.191Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "RegisterService.cs",
+              "DocumentMoniker": "C:\\Users\\Pawel\\source\\repos\\pp4v2_projekt\\UserService\\RegisterService.cs",
+              "RelativeDocumentMoniker": "UserService\\RegisterService.cs",
+              "ToolTip": "C:\\Users\\Pawel\\source\\repos\\pp4v2_projekt\\UserService\\RegisterService.cs*",
+              "RelativeToolTip": "UserService\\RegisterService.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-21T14:18:18.727Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "IEShopDbContextSeed.cs",
+              "DocumentMoniker": "C:\\Users\\Pawel\\source\\repos\\pp4v2_projekt\\EShop.Abstractions\\IEShopDbContextSeed.cs",
+              "RelativeDocumentMoniker": "EShop.Abstractions\\IEShopDbContextSeed.cs",
+              "ToolTip": "C:\\Users\\Pawel\\source\\repos\\pp4v2_projekt\\EShop.Abstractions\\IEShopDbContextSeed.cs*",
+              "RelativeToolTip": "EShop.Abstractions\\IEShopDbContextSeed.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-21T13:35:37.957Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 14,
-              "Title": "EShopService",
-              "DocumentMoniker": "C:\\Users\\Pawel\\Source\\Repos\\pp4v2_projekt\\EShopService\\EShopService.csproj",
-              "RelativeDocumentMoniker": "EShopService\\EShopService.csproj",
-              "ToolTip": "C:\\Users\\Pawel\\Source\\Repos\\pp4v2_projekt\\EShopService\\EShopService.csproj",
-              "RelativeToolTip": "EShopService\\EShopService.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAAKAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-06-21T13:35:49.693Z",
+              "Title": "IEShopDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\Pawel\\source\\repos\\pp4v2_projekt\\EShop.Abstractions\\IEShopDbContext.cs",
+              "RelativeDocumentMoniker": "EShop.Abstractions\\IEShopDbContext.cs",
+              "ToolTip": "C:\\Users\\Pawel\\source\\repos\\pp4v2_projekt\\EShop.Abstractions\\IEShopDbContext.cs*",
+              "RelativeToolTip": "EShop.Abstractions\\IEShopDbContext.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-21T13:35:18.471Z",
               "EditorCaption": ""
             },
             {
@@ -340,9 +376,9 @@
               "Title": "EShopDbContext.cs",
               "DocumentMoniker": "C:\\Users\\Pawel\\source\\repos\\pp4v2_projekt\\EShop.Abstractions\\EShopDbContext.cs",
               "RelativeDocumentMoniker": "EShop.Abstractions\\EShopDbContext.cs",
-              "ToolTip": "C:\\Users\\Pawel\\source\\repos\\pp4v2_projekt\\EShop.Abstractions\\EShopDbContext.cs",
-              "RelativeToolTip": "EShop.Abstractions\\EShopDbContext.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAcAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\Pawel\\source\\repos\\pp4v2_projekt\\EShop.Abstractions\\EShopDbContext.cs*",
+              "RelativeToolTip": "EShop.Abstractions\\EShopDbContext.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-06-21T13:35:42.754Z",
               "EditorCaption": ""
@@ -350,53 +386,53 @@
             {
               "$type": "Document",
               "DocumentIndex": 16,
-              "Title": "IEShopDbContextSeed.cs",
-              "DocumentMoniker": "C:\\Users\\Pawel\\source\\repos\\pp4v2_projekt\\EShop.Abstractions\\IEShopDbContextSeed.cs",
-              "RelativeDocumentMoniker": "EShop.Abstractions\\IEShopDbContextSeed.cs",
-              "ToolTip": "C:\\Users\\Pawel\\source\\repos\\pp4v2_projekt\\EShop.Abstractions\\IEShopDbContextSeed.cs",
-              "RelativeToolTip": "EShop.Abstractions\\IEShopDbContextSeed.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAcAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-21T13:35:37.957Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "IEShopDbContext.cs",
-              "DocumentMoniker": "C:\\Users\\Pawel\\source\\repos\\pp4v2_projekt\\EShop.Abstractions\\IEShopDbContext.cs",
-              "RelativeDocumentMoniker": "EShop.Abstractions\\IEShopDbContext.cs",
-              "ToolTip": "C:\\Users\\Pawel\\source\\repos\\pp4v2_projekt\\EShop.Abstractions\\IEShopDbContext.cs",
-              "RelativeToolTip": "EShop.Abstractions\\IEShopDbContext.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAcAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-21T13:35:18.471Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
               "Title": "EShopDbContextSeed.cs",
               "DocumentMoniker": "C:\\Users\\Pawel\\source\\repos\\pp4v2_projekt\\EShop.Abstractions\\EShopDbContextSeed.cs",
               "RelativeDocumentMoniker": "EShop.Abstractions\\EShopDbContextSeed.cs",
-              "ToolTip": "C:\\Users\\Pawel\\source\\repos\\pp4v2_projekt\\EShop.Abstractions\\EShopDbContextSeed.cs",
-              "RelativeToolTip": "EShop.Abstractions\\EShopDbContextSeed.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAcAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\Pawel\\source\\repos\\pp4v2_projekt\\EShop.Abstractions\\EShopDbContextSeed.cs*",
+              "RelativeToolTip": "EShop.Abstractions\\EShopDbContextSeed.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAPAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-06-21T13:35:27.332Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Order.cs",
+              "DocumentMoniker": "C:\\Users\\Pawel\\source\\repos\\pp4v2_projekt\\EShop.Abstractions\\Models\\Order.cs",
+              "RelativeDocumentMoniker": "EShop.Abstractions\\Models\\Order.cs",
+              "ToolTip": "C:\\Users\\Pawel\\source\\repos\\pp4v2_projekt\\EShop.Abstractions\\Models\\Order.cs*",
+              "RelativeToolTip": "EShop.Abstractions\\Models\\Order.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-21T13:37:53.198Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Cart.cs",
+              "DocumentMoniker": "C:\\Users\\Pawel\\source\\repos\\pp4v2_projekt\\EShop.Abstractions\\Models\\Cart.cs",
+              "RelativeDocumentMoniker": "EShop.Abstractions\\Models\\Cart.cs",
+              "ToolTip": "C:\\Users\\Pawel\\source\\repos\\pp4v2_projekt\\EShop.Abstractions\\Models\\Cart.cs*",
+              "RelativeToolTip": "EShop.Abstractions\\Models\\Cart.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-21T14:34:50.177Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 19,
-              "Title": "EShop.Abstractions",
-              "DocumentMoniker": "C:\\Users\\Pawel\\Source\\Repos\\pp4v2_projekt\\EShop.Abstractions\\EShop.Abstractions.csproj",
-              "RelativeDocumentMoniker": "EShop.Abstractions\\EShop.Abstractions.csproj",
-              "ToolTip": "C:\\Users\\Pawel\\Source\\Repos\\pp4v2_projekt\\EShop.Abstractions\\EShop.Abstractions.csproj",
-              "RelativeToolTip": "EShop.Abstractions\\EShop.Abstractions.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-06-21T13:32:45.29Z",
+              "Title": "BaseModel.cs",
+              "DocumentMoniker": "C:\\Users\\Pawel\\source\\repos\\pp4v2_projekt\\EShop.Abstractions\\Models\\BaseModel.cs",
+              "RelativeDocumentMoniker": "EShop.Abstractions\\Models\\BaseModel.cs",
+              "ToolTip": "C:\\Users\\Pawel\\source\\repos\\pp4v2_projekt\\EShop.Abstractions\\Models\\BaseModel.cs",
+              "RelativeToolTip": "EShop.Abstractions\\Models\\BaseModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-21T14:34:55.005Z",
               "EditorCaption": ""
             },
             {
@@ -414,7 +450,157 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\Pawel\\source\\repos\\pp4v2_projekt\\EShop.Abstractions\\Models\\User.cs",
+              "RelativeDocumentMoniker": "EShop.Abstractions\\Models\\User.cs",
+              "ToolTip": "C:\\Users\\Pawel\\source\\repos\\pp4v2_projekt\\EShop.Abstractions\\Models\\User.cs*",
+              "RelativeToolTip": "EShop.Abstractions\\Models\\User.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-21T14:34:15.423Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "Product.cs",
+              "DocumentMoniker": "C:\\Users\\Pawel\\source\\repos\\pp4v2_projekt\\EShop.Abstractions\\Models\\Product.cs",
+              "RelativeDocumentMoniker": "EShop.Abstractions\\Models\\Product.cs",
+              "ToolTip": "C:\\Users\\Pawel\\source\\repos\\pp4v2_projekt\\EShop.Abstractions\\Models\\Product.cs*",
+              "RelativeToolTip": "EShop.Abstractions\\Models\\Product.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-21T14:34:35.427Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "Category.cs",
+              "DocumentMoniker": "C:\\Users\\Pawel\\source\\repos\\pp4v2_projekt\\EShop.Abstractions\\Models\\Category.cs",
+              "RelativeDocumentMoniker": "EShop.Abstractions\\Models\\Category.cs",
+              "ToolTip": "C:\\Users\\Pawel\\source\\repos\\pp4v2_projekt\\EShop.Abstractions\\Models\\Category.cs*",
+              "RelativeToolTip": "EShop.Abstractions\\Models\\Category.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-21T14:34:43.541Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "CartProduct.cs",
+              "DocumentMoniker": "C:\\Users\\Pawel\\source\\repos\\pp4v2_projekt\\EShop.Abstractions\\Models\\CartProduct.cs",
+              "RelativeDocumentMoniker": "EShop.Abstractions\\Models\\CartProduct.cs",
+              "ToolTip": "C:\\Users\\Pawel\\source\\repos\\pp4v2_projekt\\EShop.Abstractions\\Models\\CartProduct.cs*",
+              "RelativeToolTip": "EShop.Abstractions\\Models\\CartProduct.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-21T14:47:12.88Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "EShopAbstractions.csproj",
+              "DocumentMoniker": "C:\\Users\\Pawel\\Source\\Repos\\pp4v2_projekt\\EShop.Abstractions\\EShopAbstractions.csproj",
+              "RelativeDocumentMoniker": "EShop.Abstractions\\EShopAbstractions.csproj",
+              "ToolTip": "C:\\Users\\Pawel\\Source\\Repos\\pp4v2_projekt\\EShop.Abstractions\\EShopAbstractions.csproj",
+              "RelativeToolTip": "EShop.Abstractions\\EShopAbstractions.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-06-21T13:32:45.29Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "ValuesController.cs",
+              "DocumentMoniker": "C:\\Users\\Pawel\\source\\repos\\pp4v2_projekt\\UserService\\Controllers\\ValuesController.cs",
+              "RelativeDocumentMoniker": "UserService\\Controllers\\ValuesController.cs",
+              "ToolTip": "C:\\Users\\Pawel\\source\\repos\\pp4v2_projekt\\UserService\\Controllers\\ValuesController.cs",
+              "RelativeToolTip": "UserService\\Controllers\\ValuesController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-21T14:37:09.486Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "LoginController.cs",
+              "DocumentMoniker": "C:\\Users\\Pawel\\source\\repos\\pp4v2_projekt\\UserService\\Controllers\\LoginController.cs",
+              "RelativeDocumentMoniker": "UserService\\Controllers\\LoginController.cs",
+              "ToolTip": "C:\\Users\\Pawel\\source\\repos\\pp4v2_projekt\\UserService\\Controllers\\LoginController.cs",
+              "RelativeToolTip": "UserService\\Controllers\\LoginController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAC0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-18T18:13:03.46Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "20250621115806_Initial.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\Pawel\\source\\repos\\pp4v2_projekt\\EShopService\\Migrations\\20250621115806_Initial.Designer.cs",
+              "RelativeDocumentMoniker": "EShopService\\Migrations\\20250621115806_Initial.Designer.cs",
+              "ToolTip": "C:\\Users\\Pawel\\source\\repos\\pp4v2_projekt\\EShopService\\Migrations\\20250621115806_Initial.Designer.cs",
+              "RelativeToolTip": "EShopService\\Migrations\\20250621115806_Initial.Designer.cs",
+              "ViewState": "AgIAAKAAAAAAAAAAAAAgwCoAAAA2AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-21T13:38:05.895Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "20250621115806_Initial.cs",
+              "DocumentMoniker": "C:\\Users\\Pawel\\source\\repos\\pp4v2_projekt\\EShopService\\Migrations\\20250621115806_Initial.cs",
+              "RelativeDocumentMoniker": "EShopService\\Migrations\\20250621115806_Initial.cs",
+              "ToolTip": "C:\\Users\\Pawel\\source\\repos\\pp4v2_projekt\\EShopService\\Migrations\\20250621115806_Initial.cs",
+              "RelativeToolTip": "EShopService\\Migrations\\20250621115806_Initial.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-21T13:36:44.222Z"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 29,
+              "Title": "LoginRequest.cs",
+              "DocumentMoniker": "C:\\Users\\Pawel\\source\\repos\\pp4v2_projekt\\UserService\\Models\\LoginRequest.cs",
+              "RelativeDocumentMoniker": "UserService\\Models\\LoginRequest.cs",
+              "ToolTip": "C:\\Users\\Pawel\\source\\repos\\pp4v2_projekt\\UserService\\Models\\LoginRequest.cs",
+              "RelativeToolTip": "UserService\\Models\\LoginRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-18T18:18:36.291Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "EShopDbContextModelSnapshot.cs",
+              "DocumentMoniker": "C:\\Users\\Pawel\\source\\repos\\pp4v2_projekt\\EShopService\\Migrations\\EShopDbContextModelSnapshot.cs",
+              "RelativeDocumentMoniker": "EShopService\\Migrations\\EShopDbContextModelSnapshot.cs",
+              "ToolTip": "C:\\Users\\Pawel\\source\\repos\\pp4v2_projekt\\EShopService\\Migrations\\EShopDbContextModelSnapshot.cs",
+              "RelativeToolTip": "EShopService\\Migrations\\EShopDbContextModelSnapshot.cs",
+              "ViewState": "AgIAAGEAAAAAAAAAAAAgwAcAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-21T13:36:37.222Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "EShopService.csproj",
+              "DocumentMoniker": "C:\\Users\\Pawel\\Source\\Repos\\pp4v2_projekt\\EShopService\\EShopService.csproj",
+              "RelativeDocumentMoniker": "EShopService\\EShopService.csproj",
+              "ToolTip": "C:\\Users\\Pawel\\Source\\Repos\\pp4v2_projekt\\EShopService\\EShopService.csproj",
+              "RelativeToolTip": "EShopService\\EShopService.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-06-21T13:35:49.693Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
               "Title": "EShopService.Application.Tests.csproj",
               "DocumentMoniker": "C:\\Users\\Pawel\\source\\repos\\pp4v2_projekt\\EShopService.Application.Tests\\EShopService.Application.Tests.csproj",
               "RelativeDocumentMoniker": "EShopService.Application.Tests\\EShopService.Application.Tests.csproj",
@@ -422,12 +608,11 @@
               "RelativeToolTip": "EShopService.Application.Tests\\EShopService.Application.Tests.csproj",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-06-12T19:33:29.34Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-12T19:33:29.34Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 34,
               "Title": "UserService.csproj",
               "DocumentMoniker": "C:\\Users\\Pawel\\Source\\Repos\\pp4v2_projekt\\UserService\\UserService.csproj",
               "RelativeDocumentMoniker": "UserService\\UserService.csproj",
@@ -440,20 +625,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\Pawel\\source\\repos\\pp4v2_projekt\\UserService\\Program.cs",
-              "RelativeDocumentMoniker": "UserService\\Program.cs",
-              "ToolTip": "C:\\Users\\Pawel\\source\\repos\\pp4v2_projekt\\UserService\\Program.cs",
-              "RelativeToolTip": "UserService\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAIBJwAsAAAAtAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-18T17:52:00.784Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 33,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\Pawel\\source\\repos\\pp4v2_projekt\\EShopService\\appsettings.json",
               "RelativeDocumentMoniker": "EShopService\\appsettings.json",
@@ -461,25 +633,11 @@
               "RelativeToolTip": "EShopService\\appsettings.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-06-12T18:53:38.266Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-12T18:53:38.266Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
-              "Title": "JwtTokenService.cs",
-              "DocumentMoniker": "C:\\Users\\Pawel\\source\\repos\\pp4v2_projekt\\UserService\\JwtTokenService.cs",
-              "RelativeDocumentMoniker": "UserService\\JwtTokenService.cs",
-              "ToolTip": "C:\\Users\\Pawel\\source\\repos\\pp4v2_projekt\\UserService\\JwtTokenService.cs",
-              "RelativeToolTip": "UserService\\JwtTokenService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACMAAABQAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-20T14:31:33.337Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 35,
               "Title": "JwtSettings.cs",
               "DocumentMoniker": "C:\\Users\\Pawel\\source\\repos\\pp4v2_projekt\\UserService\\Models\\JwtSettings.cs",
               "RelativeDocumentMoniker": "UserService\\Models\\JwtSettings.cs",
@@ -487,12 +645,11 @@
               "RelativeToolTip": "UserService\\Models\\JwtSettings.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-18T17:50:03.959Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-18T17:50:03.959Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
+              "DocumentIndex": 36,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\Pawel\\source\\repos\\pp4v2_projekt\\UserService\\appsettings.json",
               "RelativeDocumentMoniker": "UserService\\appsettings.json",
@@ -500,12 +657,11 @@
               "RelativeToolTip": "UserService\\appsettings.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-06-18T17:48:49.093Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-18T17:48:49.093Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 28,
+              "DocumentIndex": 38,
               "Title": "EShopService.Application.csproj",
               "DocumentMoniker": "C:\\Users\\Pawel\\source\\repos\\pp4v2_projekt\\EShopService.Application\\EShopService.Application.csproj",
               "RelativeDocumentMoniker": "EShopService.Application\\EShopService.Application.csproj",
@@ -513,12 +669,11 @@
               "RelativeToolTip": "EShopService.Application\\EShopService.Application.csproj",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-06-12T19:33:36.264Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-12T19:33:36.264Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 27,
+              "DocumentIndex": 37,
               "Title": "dbo.Products.sql",
               "DocumentMoniker": "ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/EShopDb/True/SqlTable/dbo.Products.sql",
               "ToolTip": "ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/EShopDb/True/SqlTable/dbo.Products.sql",
@@ -527,7 +682,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 30,
+              "DocumentIndex": 40,
               "Title": ".gitignore",
               "DocumentMoniker": "C:\\Users\\Pawel\\source\\repos\\pp4v2_projekt\\.gitignore",
               "RelativeDocumentMoniker": ".gitignore",
@@ -535,8 +690,7 @@
               "RelativeToolTip": ".gitignore",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2025-06-09T20:42:54.633Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-09T20:42:54.633Z"
             }
           ]
         }

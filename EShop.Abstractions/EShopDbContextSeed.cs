@@ -1,6 +1,7 @@
-﻿using EShopService;
+﻿using EShopAbstractions.Models;
+using EShopService;
 
-namespace EShop.Abstractions
+namespace EShopAbstractions
 {
     public class EShopDbContextSeed(EShopDbContext context) : IEShopDbContextSeed
     {

@@ -1,6 +1,7 @@
 //using Microsoft.AspNetCore.Mvc;
-//using Microsoft.EntityFrameworkCore;
-//using EShop.Abstractions;
+////using Microsoft.EntityFrameworkCore;
+//using EShopAbstractions;
+//using EShopAbstractions.Models;
 
 //namespace EShopService.Controllers
 //{
@@ -57,7 +58,7 @@
 //    public class CreateOrderRequest
 //    {
 //        public Guid UserId { get; set; }
-        
+
 //        public int CartId { get; set; }
 //    }
 //}

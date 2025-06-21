@@ -1,7 +1,8 @@
-﻿using EShopService;
+﻿using EShopAbstractions.Models;
+using EShopService;
 using Microsoft.EntityFrameworkCore;
 
-namespace EShop.Abstractions
+namespace EShopAbstractions
 {
     public interface IEShopDbContext
     {

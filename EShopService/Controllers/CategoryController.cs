@@ -1,7 +1,8 @@
 ﻿using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
-using EShop.Abstractions;
+using EShopAbstractions;
+using EShopAbstractions.Models;
 
 namespace EShopService.Controllers
 {

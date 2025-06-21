@@ -1,4 +1,6 @@
-namespace EShopService;
+using EShopAbstractions.Models;
+
+namespace EShopAbstractions;
 
 public class Order
 {

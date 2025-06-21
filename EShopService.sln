@@ -12,7 +12,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "User", "User", "{02EA681E-C
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UserService", "UserService\UserService.csproj", "{B2353DBB-DCF2-46D9-ADA1-79DBAD899DA5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EShop.Abstractions", "EShop.Abstractions\EShop.Abstractions.csproj", "{7C481F2D-CE91-439A-A768-25CCF2D8B7C7}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EShopAbstractions", "EShop.Abstractions\EShopAbstractions.csproj", "{7C481F2D-CE91-439A-A768-25CCF2D8B7C7}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

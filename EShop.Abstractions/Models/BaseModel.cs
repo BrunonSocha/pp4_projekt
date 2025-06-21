@@ -1,4 +1,4 @@
-namespace EShopService;
+namespace EShopAbstractions.Models;
 
 public abstract class BaseModel
 {
