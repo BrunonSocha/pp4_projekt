@@ -1,13 +1,9 @@
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
-<<<<<<< HEAD
-using Microsoft.EntityFrameworkCore.Query.Internal;
-using EShopService.Application;
-=======
 using EShopAbstractions;
 using EShopAbstractions.Models;
->>>>>>> wip-abstractions
+
 
 namespace EShopService.Controllers
 {
