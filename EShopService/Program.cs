@@ -6,6 +6,7 @@ using Microsoft.OpenApi.Models;
 using EShopService.Application.Services;
 using UserService.User.Application.Services;
 using UserService;
+using EShop.Application.Services;
 
 namespace EShopService
 {
@@ -19,6 +20,7 @@ namespace EShopService
             // Add services to the container.
             builder.Services.AddScoped<IOrderService, OrderService>();
             builder.Services.AddScoped<ICartService, CartService>();
+            builder.Services.AddScoped<ICategoryService, CategoryService>();
             builder.Services.AddScoped<IEShopDbContextSeed, EShopDbContextSeed>();
             builder.Services.AddControllers();
 

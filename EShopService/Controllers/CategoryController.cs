@@ -1,8 +1,13 @@
 ﻿using Microsoft.AspNetCore.Authorization;
+using EShopService.Application.Services;
 using Microsoft.AspNetCore.Mvc;
+using System.Security.Claims;
 using Microsoft.EntityFrameworkCore;
 using EShopAbstractions;
 using EShopAbstractions.Models;
+using EShop.Application.Services;
+// What? Why is the namespace different here? All other controllers work with EShopService.Application.Services, not EShop.Application.Services
+// Issue solved automatically by VSCode recommendation, I'd never figure it out myself 
 
 namespace EShopService.Controllers
 {
@@ -10,28 +15,24 @@ namespace EShopService.Controllers
     [ApiController]
     public class CategoryController : ControllerBase
     {
-        private readonly EShopDbContext _dbContext;
+        private readonly ICategoryService _categoryService;
 
-        public CategoryController(EShopDbContext dbContext)
+        public CategoryController(ICategoryService categoryService)
         {
-            _dbContext = dbContext;
+            _categoryService = categoryService;
         }
 
         [HttpGet]
         public async Task<ActionResult<IEnumerable<Category>>> Get()
         {
-            var categories = await _dbContext.Categories
-                .Where(c => !c.Deleted)
-                .ToListAsync();
-
+            var categories = await _categoryService.GetAllAsync();
             return Ok(categories);
         }
 
         [HttpGet("{id}")]
         public async Task<ActionResult<Category>> Get(int id)
         {
-            var category = await _dbContext.Categories
-                .FirstOrDefaultAsync(c => c.Id == id && !c.Deleted);
+            var category = await _categoryService.GetOneAsync(id);
 
             if (category == null)
                 return NotFound();
@@ -42,32 +43,21 @@ namespace EShopService.Controllers
         [HttpPost]
         public async Task<ActionResult<Category>> Post([FromBody] Category category)
         {
-            category.CreatedAt = DateTime.Now;
-            category.UpdatedAt = DateTime.Now;
-
-            _dbContext.Categories.Add(category);
-            await _dbContext.SaveChangesAsync();
-
-            return CreatedAtAction(nameof(Get), new { id = category.Id }, category);
+            var userId = GetUserId();
+            var created = await _categoryService.CreateAsync(category, userId);
+            return CreatedAtAction(nameof(Get), new { id = created.Id }, created);
         }
 
         [HttpPut("{id}")]
         public async Task<IActionResult> Put(int id, [FromBody] Category updated)
         {
             if (id != updated.Id)
-                return BadRequest("Wrong ID.");
+                return BadRequest("ID doesn't exist.");
 
-            var category = await _dbContext.Categories.FirstOrDefaultAsync(c => c.Id == id && !c.Deleted);
-
-            if (category == null)
-                return NotFound();
-
-            category.Name = updated.Name;
-            category.UpdatedAt = DateTime.Now;
-            category.UpdatedBy = updated.UpdatedBy;
-
-            await _dbContext.SaveChangesAsync();
-
+            var userId = GetUserId();
+            var success = await _categoryService.UpdateAsync(id, updated, userId);
+            if (!success)
+                return NotFound("Can't find the category to update.");
             return NoContent();
         }
 
@@ -75,17 +65,23 @@ namespace EShopService.Controllers
         [Authorize(Policy = "AdminOnly")]
         public async Task<IActionResult> Delete(int id)
         {
-            var category = await _dbContext.Categories.FindAsync(id);
-            if (category == null || category.Deleted)
-                return NotFound();
+            var userId = GetUserId();
+            var success = await _categoryService.DeleteAsync(id, userId);
+            if (!success)
+                return NotFound("Can't find the category to delete.");
 
-            category.Deleted = true;
-            category.UpdatedAt = DateTime.Now;
+            return Ok(new { message = "Category was deleted." });
+        }
+        
+        private Guid GetUserId()
+        {
+            var userIdClaim = User.Claims.FirstOrDefault(c => c.Type == ClaimTypes.NameIdentifier);
+            if (userIdClaim == null)
+                throw new UnauthorizedAccessException("User ID doesn't exist.");
 
-            await _dbContext.SaveChangesAsync();
-
-            return Ok(new { message = "Category deleted." });
+            return Guid.Parse(userIdClaim.Value);
         }
     }
+
 }
 

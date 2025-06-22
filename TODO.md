@@ -10,7 +10,7 @@
 
 ## 4.0
 - [x] JWT
-- [ ] Logging in
+- [x] Logging in
 - [ ] Changing passwords
 - [ ] Account modification
 - [ ] User roles
@@ -21,9 +21,9 @@
 ## Controllers
 - [ ] Different services for each controller in *EShopService*, just like in *UserService*, implement
     - [x] CartController
-    - [ ] OrderController
+    - [x] OrderController
     - [ ] ProductController
-    - [ ] CategoryController
+    - [ ] CategoryController - consult with Paweł regarding user identification
   
 ## Tests
 - [ ] In general
