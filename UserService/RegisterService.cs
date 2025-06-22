@@ -10,15 +10,11 @@ namespace UserService
         private readonly IEShopDbContext _context;
         private readonly IRepository _repository;
 
-        public RegisterService(IEShopDbContext context, IRepository repository)
+        protected IJwtTokenService _jwtTokenService;
+        public RegisterService(IEShopDbContext context, IRepository repository, IJwtTokenService jwtTokenService)
         {
             _context = context;
             _repository = repository;
-        }
-
-        protected IJwtTokenService _jwtTokenService;
-        public RegisterService(IJwtTokenService jwtTokenService)
-        {
             _jwtTokenService = jwtTokenService;
         }
 
