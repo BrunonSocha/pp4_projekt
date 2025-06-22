@@ -19,8 +19,12 @@
 
 # Things to do (for now)
 ## Controllers
-- [ ] Different services for each controller in *EShopService*, just like in *UserService*
-
+- [ ] Different services for each controller in *EShopService*, just like in *UserService*, implement
+    - [x] CartController
+    - [ ] OrderController
+    - [ ] ProductController
+    - [ ] CategoryController
+  
 ## Tests
 - [ ] In general
 
@@ -30,4 +34,4 @@
 ## General
 - [x] Streamline models and take out inheritable properties from child classes
 - [x] Controllers modified as well
-- [ ] Problem with dependencies - will have to refactor the file tree
+- [x] Problem with dependencies - will have to refactor the file tree

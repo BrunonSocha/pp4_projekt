@@ -1,88 +1,93 @@
-//using EShopService;
-//namespace EShopService.Application.Services;
-//using EShopAbstractions;
+using EShopService;
+using Microsoft.EntityFrameworkCore;
+using EShopAbstractions;
+using EShopAbstractions.Models;
 
-//public class CartService : ICartService
-//{
-//    private readonly EShopDbContext _dbContext;
+namespace EShopService.Application.Services;
 
-//    public CartService(EShopDbContext dbContext)
-//    {
-//        _dbContext = dbContext;
-//    }
+public class CartService : ICartService
+{
+   private readonly EShopDbContext _dbContext;
 
-//    public async Task<Cart?> GetCartAsync(int cartId)
-//    {
-//        var cart = await _dbContext.Carts
-//            .Include(c => c.Items)
-//            .ThenInclude(i => i.Product)
-//            .FirstOrDefaultAsync(c => c.Id == cartId && !c.Deleted);
-//    }
+   public CartService(EShopDbContext dbContext)
+   {
+       _dbContext = dbContext;
+   }
 
-//    public async Task<Cart> AddItemAsync(int cartId, int productId, int amount)
-//    {
-//        var cart = await _dbContext.Carts
-//            .Include(c => c.Items)
-//            .FirstOrDefaultAsync(c => c.Id == cartId && !c.Deleted);
+    public async Task<Cart?> GetCartAsync(int cartId)
+    {
+        var cart = await _dbContext.Carts
+            .Include(c => c.Items)
+            .ThenInclude(i => i.Product)
+            .FirstOrDefaultAsync(c => c.Id == cartId && !c.Deleted);
 
-//        if (cart == null)
-//        {
-//            cart = new Cart { };
-//            _dbContext.Carts.Add(cart);
-//            await _dbContext.SaveChangesAsync();
-//        }
+        return cart;
+   }
 
-//        var product = await _dbContext.Products
-//            .FirstOrDefaultAsync(p => p.Id == productId && !p.Deleted);
+   public async Task<Cart> AddItemAsync(int cartId, int productId, int amount)
+   {
+       var cart = await _dbContext.Carts
+           .Include(c => c.Items)
+           .FirstOrDefaultAsync(c => c.Id == cartId && !c.Deleted);
 
-//        if (product == null)
-//            throw new Exception("Product doesn't exist.");
+       if (cart == null)
+       {
+           cart = new Cart { };
+           _dbContext.Carts.Add(cart);
+           await _dbContext.SaveChangesAsync();
+       }
 
-//        var existingItem = cart.Items.FirstOrDefault(i => i.ProductId == productId);
+       var product = await _dbContext.Products
+           .FirstOrDefaultAsync(p => p.Id == productId && !p.Deleted);
 
-//        if (existingItem != null)
-//            existingItem.Amount += amount;
-//        else
-//            cart.Items.Add(new CartProduct { CartId = cart.Id, ProductId = productId, Amount = amount });
+       if (product == null)
+           throw new Exception("Product doesn't exist.");
 
-//        cart.UpdatedAt = DateTime.Now;
-//        await _dbContext.SaveChangesAsync();
+       var existingItem = cart.Items.FirstOrDefault(i => i.ProductId == productId);
 
-//        return cart;
-//    }
+       if (existingItem != null)
+           existingItem.Amount += amount;
+       else
+           cart.Items.Add(new CartProduct { CartId = cart.Id, ProductId = productId, Amount = amount });
 
-//    public async Task<bool> RemoveItemAsync(int cartId, int productId)
-//    {
-//        var cart = await _dbContext.Carts
-//            .Include(c => c.Items)
-//            .FirstOrDefaultAsync(c => c.Id == cartId && !c.Deleted);
-//        if (cart == null)
-//            return false;
+       cart.UpdatedAt = DateTime.Now;
+       await _dbContext.SaveChangesAsync();
 
-//        var item = cart.Items.FirstOrDefault(i => i.ProductId == productId);
-//        if (item == null)
-//            return false;
+       return cart;
+   }
 
-//        cart.Items.Remove(item);
-//        cart.UpdatedAt = DateTime.Now;
+   public async Task<bool> RemoveItemAsync(int cartId, int productId)
+   {
+       var cart = await _dbContext.Carts
+           .Include(c => c.Items)
+           .FirstOrDefaultAsync(c => c.Id == cartId && !c.Deleted);
+       if (cart == null)
+           return false;
 
-//        await _dbContext.SaveChangesAsync();
+       var item = cart.Items.FirstOrDefault(i => i.ProductId == productId);
+       if (item == null)
+           return false;
 
-//        return true;
-//    }
+       cart.Items.Remove(item);
+       cart.UpdatedAt = DateTime.Now;
+
+       await _dbContext.SaveChangesAsync();
+
+       return true;
+   }
 
 
-//    public async Task<bool> DeleteCartAsync(int cartId)
-//    {
-//        var cart = await _dbContext.Carts
-//            .FirstOrDefaultAsync(c => c.Id == cartId && !c.Deleted);
+   public async Task<bool> DeleteCartAsync(int cartId)
+   {
+       var cart = await _dbContext.Carts
+           .FirstOrDefaultAsync(c => c.Id == cartId && !c.Deleted);
 
-//        if (cart == null)
-//            return false;
+       if (cart == null)
+           return false;
 
-//        cart.Deleted = true;
-//        cart.UpdatedAt = DateTime.Now;
-//        await _dbContext.SaveChangesAsync;
-//        return true;
-//    }
-//}
+       cart.Deleted = true;
+       cart.UpdatedAt = DateTime.Now;
+       await _dbContext.SaveChangesAsync();
+       return true;
+   }
+}
