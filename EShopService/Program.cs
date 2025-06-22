@@ -48,6 +48,7 @@ namespace EShopService
             builder.Services.AddScoped<ICartService, CartService>();
             builder.Services.AddScoped<ICategoryService, CategoryService>();
             builder.Services.AddScoped<IProductService, ProductService>();
+            builder.Services.AddScoped<IEmailService, EmailService>();
             builder.Services.AddScoped<IEShopDbContextSeed, EShopDbContextSeed>();
             builder.Services.AddControllers();
 

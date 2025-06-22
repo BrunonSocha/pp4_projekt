@@ -8,10 +8,12 @@ namespace EShopService.Application.Services;
 public class OrderService : IOrderService
 {
     private readonly EShopDbContext _dbContext;
+    private readonly IEmailService _emailService;
 
-    public OrderService(EShopDbContext dbContext)
+    public OrderService(EShopDbContext dbContext, IEmailService emailService)
     {
         _dbContext = dbContext;
+        _emailService = emailService;
     }
 
     public async Task<object?> GetOrderAsync(int orderId)
@@ -51,6 +53,10 @@ public class OrderService : IOrderService
 
         _dbContext.Orders.Add(order);
         await _dbContext.SaveChangesAsync();
+
+        var totalPrice = cart.Items.Sum(i => i.Product.Price * i.Amount);
+        var body = $"Order number {order.OrderId} has been completed. \n Date: {order.OrderDate} \n" + string.Join("\n", cart.Items.Select(i => $"- {i.Product.Name} x{i.Amount} = {i.Product.Price * i.Amount:C}")) + $"\n Total price: {totalPrice}";
+        await _emailService.SendReceiptAsync(user.Email, $"Invoice {order.OrderId}", body);
         return order;
     }
 
