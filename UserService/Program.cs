@@ -4,7 +4,6 @@ using Microsoft.IdentityModel.Tokens;
 using UserService;
 using UserService.Models;
 using UserService.Repositories;
-using UserService.User.Application.Services;
 
 var builder = WebApplication.CreateBuilder(args);
 var jwtSettings = builder.Configuration.GetSection("Jwt");
@@ -31,7 +30,7 @@ builder.Services.AddAuthentication(options =>
     });
 
 builder.Services.AddScoped<IJwtTokenService, JwtTokenService>();
-builder.Services.AddScoped<ILoginService, LoginService>();
+builder.Services.AddScoped<UserService.ILoginService, UserService.LoginService>();
 builder.Services.AddScoped<IRegisterService, RegisterService>();
 builder.Services.AddScoped<IRepository, Repository>();
 

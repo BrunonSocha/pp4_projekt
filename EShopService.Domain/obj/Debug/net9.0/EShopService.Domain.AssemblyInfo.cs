@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("EShopService.Domain")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+622f8300b8f4413869d50c7f6e18164fd37ab9d8")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+24e06b0518864322cf180dec8514e85b70d92dcf")]
 [assembly: System.Reflection.AssemblyProductAttribute("EShopService.Domain")]
 [assembly: System.Reflection.AssemblyTitleAttribute("EShopService.Domain")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -1,4 +1,4 @@
-﻿namespace UserService.User.Application.Services
+﻿namespace UserService
 {
     public interface ILoginService
     {

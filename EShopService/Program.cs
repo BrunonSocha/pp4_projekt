@@ -4,6 +4,8 @@ using Microsoft.EntityFrameworkCore;
 using EShopAbstractions;
 using Microsoft.OpenApi.Models;
 using EShopService.Application.Services;
+using UserService.User.Application.Services;
+using UserService;
 
 namespace EShopService
 {
@@ -25,6 +27,11 @@ namespace EShopService
 
             builder.Services.AddDbContext<EShopDbContext>(options =>
                 options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
+            builder.Services.AddControllers()
+                .AddApplicationPart(typeof(UserService.Controllers.LoginController).Assembly);
+            builder.Services.AddScoped<UserService.ILoginService, UserService.LoginService>();
+            builder.Services.AddScoped<UserService.IJwtTokenService, UserService.JwtTokenService>();
+            builder.Services.AddScoped<UserService.IRegisterService, UserService.RegisterService>();
 
             builder.Services.AddEndpointsApiExplorer();
             builder.Services.AddSwaggerGen(c =>

@@ -3,32 +3,84 @@
   "WorkspaceRootPath": "C:\\Users\\Pawel\\source\\repos\\pp4v2_projekt\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{5483AE0B-55E5-4FEB-8813-BB96017ECE9D}|EShopService\\EShopService.csproj|c:\\users\\pawel\\source\\repos\\pp4v2_projekt\\eshopservice\\controllers\\cartcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5483AE0B-55E5-4FEB-8813-BB96017ECE9D}|EShopService\\EShopService.csproj|solutionrelative:eshopservice\\controllers\\cartcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5483AE0B-55E5-4FEB-8813-BB96017ECE9D}|EShopService\\EShopService.csproj|c:\\users\\pawel\\source\\repos\\pp4v2_projekt\\eshopservice\\controllers\\ordercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5483AE0B-55E5-4FEB-8813-BB96017ECE9D}|EShopService\\EShopService.csproj|solutionrelative:eshopservice\\controllers\\ordercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{5483AE0B-55E5-4FEB-8813-BB96017ECE9D}|EShopService\\EShopService.csproj|c:\\users\\pawel\\source\\repos\\pp4v2_projekt\\eshopservice\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5483AE0B-55E5-4FEB-8813-BB96017ECE9D}|EShopService\\EShopService.csproj|solutionrelative:eshopservice\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{5483AE0B-55E5-4FEB-8813-BB96017ECE9D}|EShopService\\EShopService.csproj|c:\\users\\pawel\\source\\repos\\pp4v2_projekt\\eshopservice\\controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5483AE0B-55E5-4FEB-8813-BB96017ECE9D}|EShopService\\EShopService.csproj|solutionrelative:eshopservice\\controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5483AE0B-55E5-4FEB-8813-BB96017ECE9D}|EShopService\\EShopService.csproj|c:\\users\\pawel\\source\\repos\\pp4v2_projekt\\eshopservice\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5483AE0B-55E5-4FEB-8813-BB96017ECE9D}|EShopService\\EShopService.csproj|solutionrelative:eshopservice\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{7C481F2D-CE91-439A-A768-25CCF2D8B7C7}|EShop.Abstractions\\EShopAbstractions.csproj|c:\\users\\pawel\\source\\repos\\pp4v2_projekt\\eshop.abstractions\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7C481F2D-CE91-439A-A768-25CCF2D8B7C7}|EShop.Abstractions\\EShopAbstractions.csproj|solutionrelative:eshop.abstractions\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B2353DBB-DCF2-46D9-ADA1-79DBAD899DA5}|UserService\\UserService.csproj|c:\\users\\pawel\\source\\repos\\pp4v2_projekt\\userservice\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B2353DBB-DCF2-46D9-ADA1-79DBAD899DA5}|UserService\\UserService.csproj|solutionrelative:userservice\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B2353DBB-DCF2-46D9-ADA1-79DBAD899DA5}|UserService\\UserService.csproj|c:\\users\\pawel\\source\\repos\\pp4v2_projekt\\userservice\\iloginservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B2353DBB-DCF2-46D9-ADA1-79DBAD899DA5}|UserService\\UserService.csproj|solutionrelative:userservice\\iloginservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B2353DBB-DCF2-46D9-ADA1-79DBAD899DA5}|UserService\\UserService.csproj|c:\\users\\pawel\\source\\repos\\pp4v2_projekt\\userservice\\controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B2353DBB-DCF2-46D9-ADA1-79DBAD899DA5}|UserService\\UserService.csproj|solutionrelative:userservice\\controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5483AE0B-55E5-4FEB-8813-BB96017ECE9D}|EShopService\\EShopService.csproj|c:\\users\\pawel\\source\\repos\\pp4v2_projekt\\eshopservice\\controllers\\ordercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5483AE0B-55E5-4FEB-8813-BB96017ECE9D}|EShopService\\EShopService.csproj|solutionrelative:eshopservice\\controllers\\ordercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5483AE0B-55E5-4FEB-8813-BB96017ECE9D}|EShopService\\EShopService.csproj|c:\\users\\pawel\\source\\repos\\pp4v2_projekt\\eshopservice\\controllers\\cartcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5483AE0B-55E5-4FEB-8813-BB96017ECE9D}|EShopService\\EShopService.csproj|solutionrelative:eshopservice\\controllers\\cartcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B2353DBB-DCF2-46D9-ADA1-79DBAD899DA5}|UserService\\UserService.csproj|c:\\users\\pawel\\source\\repos\\pp4v2_projekt\\userservice\\loginservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B2353DBB-DCF2-46D9-ADA1-79DBAD899DA5}|UserService\\UserService.csproj|solutionrelative:userservice\\loginservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B2353DBB-DCF2-46D9-ADA1-79DBAD899DA5}|UserService\\UserService.csproj|c:\\users\\pawel\\source\\repos\\pp4v2_projekt\\userservice\\registerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B2353DBB-DCF2-46D9-ADA1-79DBAD899DA5}|UserService\\UserService.csproj|solutionrelative:userservice\\registerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B2353DBB-DCF2-46D9-ADA1-79DBAD899DA5}|UserService\\UserService.csproj|c:\\users\\pawel\\source\\repos\\pp4v2_projekt\\userservice\\userservice.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{B2353DBB-DCF2-46D9-ADA1-79DBAD899DA5}|UserService\\UserService.csproj|solutionrelative:userservice\\userservice.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/EShopDb/True/SqlTable/dbo.CartProducts.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/EShopDb/True/SqlTable/dbo.Carts.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/EShopDb/True/SqlTable/dbo.Orders.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/EShopDb/True/SqlTable/dbo.Users.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C1A47664-370A-4465-BCC7-E92E52420AE8}|EShopService.Application\\EShopService.Application.csproj|c:\\users\\pawel\\source\\repos\\pp4v2_projekt\\eshopservice.application\\services\\orderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C1A47664-370A-4465-BCC7-E92E52420AE8}|EShopService.Application\\EShopService.Application.csproj|solutionrelative:eshopservice.application\\services\\orderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C1A47664-370A-4465-BCC7-E92E52420AE8}|EShopService.Application\\EShopService.Application.csproj|c:\\users\\pawel\\source\\repos\\pp4v2_projekt\\eshopservice.application\\services\\iorderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C1A47664-370A-4465-BCC7-E92E52420AE8}|EShopService.Application\\EShopService.Application.csproj|solutionrelative:eshopservice.application\\services\\iorderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{C1A47664-370A-4465-BCC7-E92E52420AE8}|EShopService.Application\\EShopService.Application.csproj|c:\\users\\pawel\\source\\repos\\pp4v2_projekt\\eshopservice.application\\services\\icartservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C1A47664-370A-4465-BCC7-E92E52420AE8}|EShopService.Application\\EShopService.Application.csproj|solutionrelative:eshopservice.application\\services\\icartservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C1A47664-370A-4465-BCC7-E92E52420AE8}|EShopService.Application\\EShopService.Application.csproj|c:\\users\\pawel\\source\\repos\\pp4v2_projekt\\eshopservice.application\\cardchecker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C1A47664-370A-4465-BCC7-E92E52420AE8}|EShopService.Application\\EShopService.Application.csproj|solutionrelative:eshopservice.application\\cardchecker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{C1A47664-370A-4465-BCC7-E92E52420AE8}|EShopService.Application\\EShopService.Application.csproj|c:\\users\\pawel\\source\\repos\\pp4v2_projekt\\eshopservice.application\\services\\cartservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C1A47664-370A-4465-BCC7-E92E52420AE8}|EShopService.Application\\EShopService.Application.csproj|solutionrelative:eshopservice.application\\services\\cartservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5483AE0B-55E5-4FEB-8813-BB96017ECE9D}|EShopService\\EShopService.csproj|c:\\users\\pawel\\source\\repos\\pp4v2_projekt\\eshopservice\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5483AE0B-55E5-4FEB-8813-BB96017ECE9D}|EShopService\\EShopService.csproj|solutionrelative:eshopservice\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C1A47664-370A-4465-BCC7-E92E52420AE8}|EShopService.Application\\EShopService.Application.csproj|c:\\users\\pawel\\source\\repos\\pp4v2_projekt\\eshopservice.application\\cardchecker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C1A47664-370A-4465-BCC7-E92E52420AE8}|EShopService.Application\\EShopService.Application.csproj|solutionrelative:eshopservice.application\\cardchecker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Pawel\\source\\repos\\pp4v2_projekt\\TODO.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}",
@@ -47,10 +99,6 @@
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:.gitignore||{3B902123-F8A7-4915-9F01-361F908088D0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B2353DBB-DCF2-46D9-ADA1-79DBAD899DA5}|UserService\\UserService.csproj|c:\\users\\pawel\\source\\repos\\pp4v2_projekt\\userservice\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B2353DBB-DCF2-46D9-ADA1-79DBAD899DA5}|UserService\\UserService.csproj|solutionrelative:userservice\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{7C481F2D-CE91-439A-A768-25CCF2D8B7C7}|EShop.Abstractions\\EShopAbstractions.csproj|c:\\users\\pawel\\source\\repos\\pp4v2_projekt\\eshop.abstractions\\eshopdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7C481F2D-CE91-439A-A768-25CCF2D8B7C7}|EShop.Abstractions\\EShopAbstractions.csproj|solutionrelative:eshop.abstractions\\eshopdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -59,32 +107,12 @@
       "RelativeMoniker": "D:0:0:{B2353DBB-DCF2-46D9-ADA1-79DBAD899DA5}|UserService\\UserService.csproj|solutionrelative:userservice\\repositories\\repository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B2353DBB-DCF2-46D9-ADA1-79DBAD899DA5}|UserService\\UserService.csproj|c:\\users\\pawel\\source\\repos\\pp4v2_projekt\\userservice\\registerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B2353DBB-DCF2-46D9-ADA1-79DBAD899DA5}|UserService\\UserService.csproj|solutionrelative:userservice\\registerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{B2353DBB-DCF2-46D9-ADA1-79DBAD899DA5}|UserService\\UserService.csproj|c:\\users\\pawel\\source\\repos\\pp4v2_projekt\\userservice\\iregisterservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B2353DBB-DCF2-46D9-ADA1-79DBAD899DA5}|UserService\\UserService.csproj|solutionrelative:userservice\\iregisterservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{B2353DBB-DCF2-46D9-ADA1-79DBAD899DA5}|UserService\\UserService.csproj|c:\\users\\pawel\\source\\repos\\pp4v2_projekt\\userservice\\repositories\\irepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B2353DBB-DCF2-46D9-ADA1-79DBAD899DA5}|UserService\\UserService.csproj|solutionrelative:userservice\\repositories\\irepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B2353DBB-DCF2-46D9-ADA1-79DBAD899DA5}|UserService\\UserService.csproj|c:\\users\\pawel\\source\\repos\\pp4v2_projekt\\userservice\\userservice.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{B2353DBB-DCF2-46D9-ADA1-79DBAD899DA5}|UserService\\UserService.csproj|solutionrelative:userservice\\userservice.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B2353DBB-DCF2-46D9-ADA1-79DBAD899DA5}|UserService\\UserService.csproj|c:\\users\\pawel\\source\\repos\\pp4v2_projekt\\userservice\\loginservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B2353DBB-DCF2-46D9-ADA1-79DBAD899DA5}|UserService\\UserService.csproj|solutionrelative:userservice\\loginservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B2353DBB-DCF2-46D9-ADA1-79DBAD899DA5}|UserService\\UserService.csproj|c:\\users\\pawel\\source\\repos\\pp4v2_projekt\\userservice\\controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B2353DBB-DCF2-46D9-ADA1-79DBAD899DA5}|UserService\\UserService.csproj|solutionrelative:userservice\\controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5483AE0B-55E5-4FEB-8813-BB96017ECE9D}|EShopService\\EShopService.csproj|c:\\users\\pawel\\source\\repos\\pp4v2_projekt\\eshopservice\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5483AE0B-55E5-4FEB-8813-BB96017ECE9D}|EShopService\\EShopService.csproj|solutionrelative:eshopservice\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{5483AE0B-55E5-4FEB-8813-BB96017ECE9D}|EShopService\\EShopService.csproj|c:\\users\\pawel\\source\\repos\\pp4v2_projekt\\eshopservice\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
@@ -121,88 +149,24 @@
       "DocumentGroups": [
         {
           "DockedWidth": 52,
-          "SelectedChildIndex": 7,
+          "SelectedChildIndex": 11,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "ICartService.cs",
-              "DocumentMoniker": "C:\\Users\\Pawel\\source\\repos\\pp4v2_projekt\\EShopService.Application\\Services\\ICartService.cs",
-              "RelativeDocumentMoniker": "EShopService.Application\\Services\\ICartService.cs",
-              "ToolTip": "C:\\Users\\Pawel\\source\\repos\\pp4v2_projekt\\EShopService.Application\\Services\\ICartService.cs",
-              "RelativeToolTip": "EShopService.Application\\Services\\ICartService.cs",
+              "DocumentIndex": 2,
+              "Title": "Product.cs",
+              "DocumentMoniker": "C:\\Users\\Pawel\\source\\repos\\pp4v2_projekt\\EShop.Abstractions\\Models\\Product.cs",
+              "RelativeDocumentMoniker": "EShop.Abstractions\\Models\\Product.cs",
+              "ToolTip": "C:\\Users\\Pawel\\source\\repos\\pp4v2_projekt\\EShop.Abstractions\\Models\\Product.cs",
+              "RelativeToolTip": "EShop.Abstractions\\Models\\Product.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-22T11:07:51.559Z",
+              "WhenOpened": "2025-06-22T13:24:36.401Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "TODO.md",
-              "DocumentMoniker": "C:\\Users\\Pawel\\source\\repos\\pp4v2_projekt\\TODO.md",
-              "RelativeDocumentMoniker": "TODO.md",
-              "ToolTip": "C:\\Users\\Pawel\\source\\repos\\pp4v2_projekt\\TODO.md",
-              "RelativeToolTip": "TODO.md",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAEAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001818|",
-              "WhenOpened": "2025-06-22T11:11:43.596Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\Pawel\\source\\repos\\pp4v2_projekt\\UserService\\Program.cs",
-              "RelativeDocumentMoniker": "UserService\\Program.cs",
-              "ToolTip": "C:\\Users\\Pawel\\source\\repos\\pp4v2_projekt\\UserService\\Program.cs",
-              "RelativeToolTip": "UserService\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAA3AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-21T15:56:42.272Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "CartService.cs",
-              "DocumentMoniker": "C:\\Users\\Pawel\\source\\repos\\pp4v2_projekt\\EShopService.Application\\Services\\CartService.cs",
-              "RelativeDocumentMoniker": "EShopService.Application\\Services\\CartService.cs",
-              "ToolTip": "C:\\Users\\Pawel\\source\\repos\\pp4v2_projekt\\EShopService.Application\\Services\\CartService.cs",
-              "RelativeToolTip": "EShopService.Application\\Services\\CartService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAAoAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-21T15:30:53.51Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "CardCheckerTests.cs",
-              "DocumentMoniker": "C:\\Users\\Pawel\\source\\repos\\pp4v2_projekt\\EShopService.Application.Tests\\CardCheckerTests.cs",
-              "RelativeDocumentMoniker": "EShopService.Application.Tests\\CardCheckerTests.cs",
-              "ToolTip": "C:\\Users\\Pawel\\source\\repos\\pp4v2_projekt\\EShopService.Application.Tests\\CardCheckerTests.cs",
-              "RelativeToolTip": "EShopService.Application.Tests\\CardCheckerTests.cs",
-              "ViewState": "AgIAAAUAAAAAAAAAAADwvysAAAAxAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-21T17:04:56.875Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "UserService.csproj",
-              "DocumentMoniker": "C:\\Users\\Pawel\\Source\\Repos\\pp4v2_projekt\\UserService\\UserService.csproj",
-              "RelativeDocumentMoniker": "UserService\\UserService.csproj",
-              "ToolTip": "C:\\Users\\Pawel\\Source\\Repos\\pp4v2_projekt\\UserService\\UserService.csproj",
-              "RelativeToolTip": "UserService\\UserService.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-06-21T23:07:37.083Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 26,
               "Title": "Repository.cs",
               "DocumentMoniker": "C:\\Users\\Pawel\\source\\repos\\pp4v2_projekt\\UserService\\Repositories\\Repository.cs",
               "RelativeDocumentMoniker": "UserService\\Repositories\\Repository.cs",
@@ -214,20 +178,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 7,
               "Title": "CartController.cs",
               "DocumentMoniker": "C:\\Users\\Pawel\\source\\repos\\pp4v2_projekt\\EShopService\\Controllers\\CartController.cs",
               "RelativeDocumentMoniker": "EShopService\\Controllers\\CartController.cs",
               "ToolTip": "C:\\Users\\Pawel\\source\\repos\\pp4v2_projekt\\EShopService\\Controllers\\CartController.cs",
               "RelativeToolTip": "EShopService\\Controllers\\CartController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAAAvAAAAAAAAAA==",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAQwC4AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-06-21T13:36:30.191Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "CategoryController.cs",
               "DocumentMoniker": "C:\\Users\\Pawel\\source\\repos\\pp4v2_projekt\\EShopService\\Controllers\\CategoryController.cs",
               "RelativeDocumentMoniker": "EShopService\\Controllers\\CategoryController.cs",
@@ -240,7 +204,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 19,
               "Title": "ProductController.cs",
               "DocumentMoniker": "C:\\Users\\Pawel\\source\\repos\\pp4v2_projekt\\EShopService\\Controllers\\ProductController.cs",
               "RelativeDocumentMoniker": "EShopService\\Controllers\\ProductController.cs",
@@ -253,7 +217,190 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "RegisterService.cs",
+              "DocumentMoniker": "C:\\Users\\Pawel\\source\\repos\\pp4v2_projekt\\UserService\\RegisterService.cs",
+              "RelativeDocumentMoniker": "UserService\\RegisterService.cs",
+              "ToolTip": "C:\\Users\\Pawel\\source\\repos\\pp4v2_projekt\\UserService\\RegisterService.cs",
+              "RelativeToolTip": "UserService\\RegisterService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAC4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-21T23:22:53.109Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Pawel\\source\\repos\\pp4v2_projekt\\UserService\\Program.cs",
+              "RelativeDocumentMoniker": "UserService\\Program.cs",
+              "ToolTip": "C:\\Users\\Pawel\\source\\repos\\pp4v2_projekt\\UserService\\Program.cs",
+              "RelativeToolTip": "UserService\\Program.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAACIAAAA2AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-21T15:56:42.272Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "LoginController.cs",
+              "DocumentMoniker": "C:\\Users\\Pawel\\source\\repos\\pp4v2_projekt\\UserService\\Controllers\\LoginController.cs",
+              "RelativeDocumentMoniker": "UserService\\Controllers\\LoginController.cs",
+              "ToolTip": "C:\\Users\\Pawel\\source\\repos\\pp4v2_projekt\\UserService\\Controllers\\LoginController.cs",
+              "RelativeToolTip": "UserService\\Controllers\\LoginController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB8AAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-21T23:05:55.855Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ILoginService.cs",
+              "DocumentMoniker": "C:\\Users\\Pawel\\source\\repos\\pp4v2_projekt\\UserService\\ILoginService.cs",
+              "RelativeDocumentMoniker": "UserService\\ILoginService.cs",
+              "ToolTip": "C:\\Users\\Pawel\\source\\repos\\pp4v2_projekt\\UserService\\ILoginService.cs",
+              "RelativeToolTip": "UserService\\ILoginService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-22T12:59:25.138Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "LoginService.cs",
+              "DocumentMoniker": "C:\\Users\\Pawel\\source\\repos\\pp4v2_projekt\\UserService\\LoginService.cs",
+              "RelativeDocumentMoniker": "UserService\\LoginService.cs",
+              "ToolTip": "C:\\Users\\Pawel\\source\\repos\\pp4v2_projekt\\UserService\\LoginService.cs",
+              "RelativeToolTip": "UserService\\LoginService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-21T17:09:16.582Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "OrderController.cs",
+              "DocumentMoniker": "C:\\Users\\Pawel\\source\\repos\\pp4v2_projekt\\EShopService\\Controllers\\OrderController.cs",
+              "RelativeDocumentMoniker": "EShopService\\Controllers\\OrderController.cs",
+              "ToolTip": "C:\\Users\\Pawel\\source\\repos\\pp4v2_projekt\\EShopService\\Controllers\\OrderController.cs",
+              "RelativeToolTip": "EShopService\\Controllers\\OrderController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-21T13:36:24.378Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Pawel\\source\\repos\\pp4v2_projekt\\EShopService\\Program.cs",
+              "RelativeDocumentMoniker": "EShopService\\Program.cs",
+              "ToolTip": "C:\\Users\\Pawel\\source\\repos\\pp4v2_projekt\\EShopService\\Program.cs*",
+              "RelativeToolTip": "EShopService\\Program.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACAAAABkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-12T18:52:25.876Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 10,
+              "Title": "UserService.csproj",
+              "DocumentMoniker": "C:\\Users\\Pawel\\Source\\Repos\\pp4v2_projekt\\UserService\\UserService.csproj",
+              "RelativeDocumentMoniker": "UserService\\UserService.csproj",
+              "ToolTip": "C:\\Users\\Pawel\\Source\\Repos\\pp4v2_projekt\\UserService\\UserService.csproj",
+              "RelativeToolTip": "UserService\\UserService.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-06-21T23:07:37.083Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "dbo.Users [Data]",
+              "DocumentMoniker": "ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/EShopDb/True/SqlTable/dbo.Users.sql",
+              "ToolTip": "dbo.Users [Data]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2025-06-22T11:57:42.837Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "dbo.Orders [Data]",
+              "DocumentMoniker": "ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/EShopDb/True/SqlTable/dbo.Orders.sql",
+              "ToolTip": "dbo.Orders [Data]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2025-06-22T11:57:47.094Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "dbo.Carts [Data]",
+              "DocumentMoniker": "ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/EShopDb/True/SqlTable/dbo.Carts.sql",
+              "ToolTip": "dbo.Carts [Data]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2025-06-22T11:57:51.013Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "dbo.CartProducts [Data]",
+              "DocumentMoniker": "ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/EShopDb/True/SqlTable/dbo.CartProducts.sql",
+              "ToolTip": "dbo.CartProducts [Data]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2025-06-22T11:58:40.755Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "CardCheckerTests.cs",
+              "DocumentMoniker": "C:\\Users\\Pawel\\source\\repos\\pp4v2_projekt\\EShopService.Application.Tests\\CardCheckerTests.cs",
+              "RelativeDocumentMoniker": "EShopService.Application.Tests\\CardCheckerTests.cs",
+              "ToolTip": "C:\\Users\\Pawel\\source\\repos\\pp4v2_projekt\\EShopService.Application.Tests\\CardCheckerTests.cs",
+              "RelativeToolTip": "EShopService.Application.Tests\\CardCheckerTests.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAADwvysAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-21T17:04:56.875Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "CartService.cs",
+              "DocumentMoniker": "C:\\Users\\Pawel\\source\\repos\\pp4v2_projekt\\EShopService.Application\\Services\\CartService.cs",
+              "RelativeDocumentMoniker": "EShopService.Application\\Services\\CartService.cs",
+              "ToolTip": "C:\\Users\\Pawel\\source\\repos\\pp4v2_projekt\\EShopService.Application\\Services\\CartService.cs",
+              "RelativeToolTip": "EShopService.Application\\Services\\CartService.cs",
+              "ViewState": "AgIAADsAAAAAAAAAAAAIwBwAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-21T15:30:53.51Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "TODO.md",
+              "DocumentMoniker": "C:\\Users\\Pawel\\source\\repos\\pp4v2_projekt\\TODO.md",
+              "RelativeDocumentMoniker": "TODO.md",
+              "ToolTip": "C:\\Users\\Pawel\\source\\repos\\pp4v2_projekt\\TODO.md",
+              "RelativeToolTip": "TODO.md",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001818|",
+              "WhenOpened": "2025-06-22T11:11:43.596Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
               "Title": ".gitignore",
               "DocumentMoniker": "C:\\Users\\Pawel\\source\\repos\\pp4v2_projekt\\.gitignore",
               "RelativeDocumentMoniker": ".gitignore",
@@ -266,7 +413,46 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 17,
+              "Title": "ICartService.cs",
+              "DocumentMoniker": "C:\\Users\\Pawel\\source\\repos\\pp4v2_projekt\\EShopService.Application\\Services\\ICartService.cs",
+              "RelativeDocumentMoniker": "EShopService.Application\\Services\\ICartService.cs",
+              "ToolTip": "C:\\Users\\Pawel\\source\\repos\\pp4v2_projekt\\EShopService.Application\\Services\\ICartService.cs",
+              "RelativeToolTip": "EShopService.Application\\Services\\ICartService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-22T11:07:51.559Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "OrderService.cs",
+              "DocumentMoniker": "C:\\Users\\Pawel\\source\\repos\\pp4v2_projekt\\EShopService.Application\\Services\\OrderService.cs",
+              "RelativeDocumentMoniker": "EShopService.Application\\Services\\OrderService.cs",
+              "ToolTip": "C:\\Users\\Pawel\\source\\repos\\pp4v2_projekt\\EShopService.Application\\Services\\OrderService.cs",
+              "RelativeToolTip": "EShopService.Application\\Services\\OrderService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-22T11:47:41.752Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "IOrderService.cs",
+              "DocumentMoniker": "C:\\Users\\Pawel\\source\\repos\\pp4v2_projekt\\EShopService.Application\\Services\\IOrderService.cs",
+              "RelativeDocumentMoniker": "EShopService.Application\\Services\\IOrderService.cs",
+              "ToolTip": "C:\\Users\\Pawel\\source\\repos\\pp4v2_projekt\\EShopService.Application\\Services\\IOrderService.cs",
+              "RelativeToolTip": "EShopService.Application\\Services\\IOrderService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-22T11:48:05.818Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
               "Title": "CardChecker.cs",
               "DocumentMoniker": "C:\\Users\\Pawel\\source\\repos\\pp4v2_projekt\\EShopService.Application\\CardChecker.cs",
               "RelativeDocumentMoniker": "EShopService.Application\\CardChecker.cs",
@@ -279,20 +465,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "OrderController.cs",
-              "DocumentMoniker": "C:\\Users\\Pawel\\source\\repos\\pp4v2_projekt\\EShopService\\Controllers\\OrderController.cs",
-              "RelativeDocumentMoniker": "EShopService\\Controllers\\OrderController.cs",
-              "ToolTip": "C:\\Users\\Pawel\\source\\repos\\pp4v2_projekt\\EShopService\\Controllers\\OrderController.cs*",
-              "RelativeToolTip": "EShopService\\Controllers\\OrderController.cs*",
-              "ViewState": "AgIAAAgAAAAAAAAAAAAowB8AAAALAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-21T13:36:24.378Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 30,
               "Title": "EShopService.csproj",
               "DocumentMoniker": "C:\\Users\\Pawel\\Source\\Repos\\pp4v2_projekt\\EShopService\\EShopService.csproj",
               "RelativeDocumentMoniker": "EShopService\\EShopService.csproj",
@@ -304,7 +477,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 22,
               "Title": "EShopDbContextModelSnapshot.cs",
               "DocumentMoniker": "C:\\Users\\Pawel\\source\\repos\\pp4v2_projekt\\EShopService\\Migrations\\EShopDbContextModelSnapshot.cs",
               "RelativeDocumentMoniker": "EShopService\\Migrations\\EShopDbContextModelSnapshot.cs",
@@ -317,43 +490,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "LoginService.cs",
-              "DocumentMoniker": "C:\\Users\\Pawel\\source\\repos\\pp4v2_projekt\\UserService\\LoginService.cs",
-              "RelativeDocumentMoniker": "UserService\\LoginService.cs",
-              "ToolTip": "C:\\Users\\Pawel\\source\\repos\\pp4v2_projekt\\UserService\\LoginService.cs",
-              "RelativeToolTip": "UserService\\LoginService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAA+AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-21T17:09:16.582Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 20,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\Pawel\\source\\repos\\pp4v2_projekt\\EShopService\\Program.cs",
-              "RelativeDocumentMoniker": "EShopService\\Program.cs",
-              "ToolTip": "C:\\Users\\Pawel\\source\\repos\\pp4v2_projekt\\EShopService\\Program.cs",
-              "RelativeToolTip": "EShopService\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACwAAAAVAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-12T18:52:25.876Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 19,
-              "Title": "LoginController.cs",
-              "DocumentMoniker": "C:\\Users\\Pawel\\source\\repos\\pp4v2_projekt\\UserService\\Controllers\\LoginController.cs",
-              "RelativeDocumentMoniker": "UserService\\Controllers\\LoginController.cs",
-              "ToolTip": "C:\\Users\\Pawel\\source\\repos\\pp4v2_projekt\\UserService\\Controllers\\LoginController.cs",
-              "RelativeToolTip": "UserService\\Controllers\\LoginController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAAANAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-21T23:05:55.855Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 25,
               "Title": "EShopDbContext.cs",
               "DocumentMoniker": "C:\\Users\\Pawel\\source\\repos\\pp4v2_projekt\\EShop.Abstractions\\EShopDbContext.cs",
               "RelativeDocumentMoniker": "EShop.Abstractions\\EShopDbContext.cs",
@@ -365,7 +502,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 28,
               "Title": "IRepository.cs",
               "DocumentMoniker": "C:\\Users\\Pawel\\source\\repos\\pp4v2_projekt\\UserService\\Repositories\\IRepository.cs",
               "RelativeDocumentMoniker": "UserService\\Repositories\\IRepository.cs",
@@ -377,19 +514,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "RegisterService.cs",
-              "DocumentMoniker": "C:\\Users\\Pawel\\source\\repos\\pp4v2_projekt\\UserService\\RegisterService.cs",
-              "RelativeDocumentMoniker": "UserService\\RegisterService.cs",
-              "ToolTip": "C:\\Users\\Pawel\\source\\repos\\pp4v2_projekt\\UserService\\RegisterService.cs",
-              "RelativeToolTip": "UserService\\RegisterService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAC4AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-21T23:22:53.109Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 27,
               "Title": "IRegisterService.cs",
               "DocumentMoniker": "C:\\Users\\Pawel\\source\\repos\\pp4v2_projekt\\UserService\\IRegisterService.cs",
               "RelativeDocumentMoniker": "UserService\\IRegisterService.cs",
@@ -401,7 +526,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 29,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\Pawel\\source\\repos\\pp4v2_projekt\\EShopService\\appsettings.json",
               "RelativeDocumentMoniker": "EShopService\\appsettings.json",
@@ -413,7 +538,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 31,
               "Title": "EShopService.Application.csproj",
               "DocumentMoniker": "C:\\Users\\Pawel\\Source\\Repos\\pp4v2_projekt\\EShopService.Application\\EShopService.Application.csproj",
               "RelativeDocumentMoniker": "EShopService.Application\\EShopService.Application.csproj",
@@ -425,7 +550,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 32,
               "Title": "EShopService.Application.Tests.csproj",
               "DocumentMoniker": "C:\\Users\\Pawel\\Source\\Repos\\pp4v2_projekt\\EShopService.Application.Tests\\EShopService.Application.Tests.csproj",
               "RelativeDocumentMoniker": "EShopService.Application.Tests\\EShopService.Application.Tests.csproj",
@@ -437,7 +562,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 33,
               "Title": "20250621115806_Initial.Designer.cs",
               "DocumentMoniker": "C:\\Users\\Pawel\\source\\repos\\pp4v2_projekt\\EShopService\\Migrations\\20250621115806_Initial.Designer.cs",
               "RelativeDocumentMoniker": "EShopService\\Migrations\\20250621115806_Initial.Designer.cs",
@@ -449,7 +574,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
+              "DocumentIndex": 34,
               "Title": "20250621115806_Initial.cs",
               "DocumentMoniker": "C:\\Users\\Pawel\\source\\repos\\pp4v2_projekt\\EShopService\\Migrations\\20250621115806_Initial.cs",
               "RelativeDocumentMoniker": "EShopService\\Migrations\\20250621115806_Initial.cs",
@@ -461,10 +586,10 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 27,
-              "Title": "dbo.Products.sql",
+              "DocumentIndex": 35,
+              "Title": "dbo.Products [Data]",
               "DocumentMoniker": "ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/EShopDb/True/SqlTable/dbo.Products.sql",
-              "ToolTip": "ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/EShopDb/True/SqlTable/dbo.Products.sql",
+              "ToolTip": "dbo.Products [Data]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
               "WhenOpened": "2025-06-17T19:47:37.174Z"
             }
