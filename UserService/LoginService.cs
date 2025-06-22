@@ -1,25 +1,30 @@
-﻿using UserService.User.Application.Services;
+﻿using System.Threading.Tasks;
+using UserService.Repositories;
+using UserService.User.Application.Services;
 
 namespace UserService
 {
     public class LoginService : ILoginService
     {
         protected IJwtTokenService _jwtTokenService;
-        public LoginService(IJwtTokenService jwtTokenService)
+        private readonly IRepository _repository;
+        public LoginService(IJwtTokenService jwtTokenService, IRepository repository)
         {
+            _repository =  repository;
             _jwtTokenService = jwtTokenService;
         }
 
-        public string Login(string username, string password)
+        public async Task<string> Login(string username, string password)
         {
             // TODO: sprawdzanie danych w bazie
-            if (username != "admin" || password != "admin123")
+            var existingUser = await _repository.GetByUsernameAsync(username) ?? throw new InvalidCredentialsException();
+            if (existingUser.Password != password)
             {
                 throw new InvalidCredentialsException();
             }
 
-            var roles = new List<string> { "Client", "Employee", "Administrator" };
-            var token = _jwtTokenService.GenerateToken(Guid.NewGuid(), roles);
+            var roles = existingUser.Group;
+            var token = _jwtTokenService.GenerateToken(existingUser.UserId, roles);
 
             return token;
         }

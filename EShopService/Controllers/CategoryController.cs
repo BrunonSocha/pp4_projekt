@@ -65,14 +65,16 @@ namespace EShopService.Controllers
         [Authorize(Policy = "AdminOnly")]
         public async Task<IActionResult> Delete(int id)
         {
-            var userId = GetUserId();
-            var success = await _categoryService.DeleteAsync(id, userId);
+            //var userId = GetUserId();
+            var success = await _categoryService.DeleteAsync(id, Guid.NewGuid());
             if (!success)
                 return NotFound("Can't find the category to delete.");
 
             return Ok(new { message = "Category was deleted." });
         }
         
+
+        //NO WORKY, if you insert correct Guid into card POST it throws exceptions (TODO: integration with token)
         private Guid GetUserId()
         {
             var userIdClaim = User.Claims.FirstOrDefault(c => c.Type == ClaimTypes.NameIdentifier);

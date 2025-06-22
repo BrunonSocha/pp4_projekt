@@ -16,15 +16,13 @@ namespace UserService
             _settings = settings.Value;
         }
 
-        public string GenerateToken(Guid userId, List<string> roles)
+        public string GenerateToken(Guid userId, string role)
         {
-
             var claims = new List<Claim>
         {
-            new Claim(ClaimTypes.NameIdentifier, userId.ToString())
+            new Claim(ClaimTypes.NameIdentifier, userId.ToString()),
+            new Claim(ClaimTypes.Role, role)
         };
-
-            claims.AddRange(roles.Select(role => new Claim(ClaimTypes.Role, role)));
 
             var key = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(_settings.Key));
             var creds = new SigningCredentials(key, SecurityAlgorithms.HmacSha256);
@@ -39,4 +37,5 @@ namespace UserService
             return new JwtSecurityTokenHandler().WriteToken(token);
         }
     }
+
 }

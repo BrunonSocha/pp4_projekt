@@ -9,6 +9,9 @@ using UserService;
 using EShop.Application.Services;
 using UserService.Repositories;
 using UserService.Models;
+using Microsoft.AspNetCore.Authentication.JwtBearer;
+using Microsoft.IdentityModel.Tokens;
+using System.Text;
 
 namespace EShopService
 {
@@ -18,6 +21,28 @@ namespace EShopService
         public static void Main(string[] args)
         {
             var builder = WebApplication.CreateBuilder(args);
+            var jwtSettings = builder.Configuration.GetSection("Jwt");
+            builder.Services.Configure<JwtSettings>(
+    builder.Configuration.GetSection("Jwt"));
+            builder.Services.AddAuthentication(options =>
+            {
+                options.DefaultAuthenticateScheme = JwtBearerDefaults.AuthenticationScheme;
+                options.DefaultChallengeScheme = JwtBearerDefaults.AuthenticationScheme;
+            })
+    .AddJwtBearer(options =>
+    {
+        var jwtConfig = jwtSettings.Get<JwtSettings>();
+        options.TokenValidationParameters = new TokenValidationParameters
+        {
+            ValidateIssuer = true,
+            ValidateAudience = true,
+            ValidateLifetime = true,
+            ValidateIssuerSigningKey = true,
+            ValidIssuer = jwtConfig.Issuer,
+            ValidAudience = jwtConfig.Audience,
+            IssuerSigningKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(jwtConfig.Key))
+        };
+    });
 
             // Add services to the container.
             builder.Services.AddScoped<IOrderService, OrderService>();
@@ -30,8 +55,7 @@ namespace EShopService
             builder.Services.AddEndpointsApiExplorer();
             builder.Services.AddSwaggerGen();
 
-            builder.Services.Configure<JwtSettings>(
-                builder.Configuration.GetSection("Jwt"));
+
 
             builder.Services.AddDbContext<EShopDbContext>(options =>
                 options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
@@ -75,6 +99,17 @@ namespace EShopService
                     new List<string>()
                 }
             });
+            });
+            builder.Services.AddAuthorization(options =>
+            {
+                options.AddPolicy("AdminOnly", policy =>
+                policy.RequireRole("admins"));
+
+                options.AddPolicy("EmployeeOnly", policy =>
+                policy.RequireRole("admins", "employees"));
+
+                options.AddPolicy("CustomerOnly", policy =>
+                policy.RequireRole("admins", "employees", "users"));
             });
 
             var app = builder.Build();

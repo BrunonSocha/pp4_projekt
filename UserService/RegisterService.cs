@@ -32,6 +32,7 @@ namespace UserService
             {
                 Username = request.Username,
                 Email = request.Email,
+                Password = request.Password,
                 Group = "users"
             };
 
