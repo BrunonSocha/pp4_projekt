@@ -1,10 +1,6 @@
 {
   "ExpandedNodes": [
-    "",
-    "\\EShopService.Application",
-    "\\EShopService.Application.Tests",
-    "\\EShopService.Domain",
-    "\\UserService"
+    ""
   ],
   "SelectedNode": "\\EShopService.sln",
   "PreviewInSolutionExplorer": false
