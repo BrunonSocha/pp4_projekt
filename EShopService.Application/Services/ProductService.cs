@@ -31,7 +31,7 @@ public class ProductService : IProductService
     public async Task<Product> CreateAsync(Product product, Guid userId)
     {
         if (!await _dbContext.Categories.AnyAsync(c => c.Id == product.CategoryId && !c.Deleted))
-            return new Exception("Category doesn't exist.");
+            throw new Exception("Category doesn't exist.");
 
         product.CreatedAt = DateTime.Now;
         product.CreatedBy = userId;

@@ -3,6 +3,8 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using EShopAbstractions;
 using EShopAbstractions.Models;
+using EShopService.Application.Services;
+// And here the standard ref works for some reason. No idea what's going on.
 
 namespace EShopService.Controllers
 {
@@ -10,50 +12,35 @@ namespace EShopService.Controllers
     [ApiController]
     public class ProductController : ControllerBase
     {
-        private readonly EShopDbContext _dbContext;
+        private readonly IProductService _productService;
 
-        public ProductController(EShopDbContext dbContext)
+        public ProductController(IProductService productService)
         {
-            _dbContext = dbContext;
+            _productService = productService;
         }
 
         [HttpGet]
         public async Task<ActionResult<IEnumerable<Product>>> Get()
         {
-            var products = await _dbContext.Products
-                .Where(p => !p.Deleted)
-                .Include(p => p.Category)
-                .ToListAsync();
-
+            var products = await _productService.GetAllAsync();
             return Ok(products);
         }
 
         [HttpGet("{id}")]
         public async Task<ActionResult<Product>> Get(int id)
         {
-            var product = await _dbContext.Products
-                .Include(p => p.Category)
-                .FirstOrDefaultAsync(p => p.Id == id && !p.Deleted);
-
-
+            var product = await _productService.GetOneAsync(id);
             if (product == null)
                 return NotFound();
-
             return Ok(product);
         }
 
         [HttpPost]
         public async Task<ActionResult<Product>> Post([FromBody] Product product)
         {
-            if (!await _dbContext.Categories.AnyAsync(c => c.Id == product.CategoryId && !c.Deleted))
-                return BadRequest("Invalid CategoryId");
-
-            product.CreatedAt = DateTime.Now;
-            product.UpdatedAt = DateTime.Now;
-            _dbContext.Products.Add(product);
-            await _dbContext.SaveChangesAsync();
-
-            return CreatedAtAction(nameof(Get), new { id = product.Id }, product);
+            var userId = GetUserId();
+            var created = await _productService.CreateAsync(product, userId);
+            return CreatedAtAction(nameof(Get), new { id = created.Id }, created);
         }
 
         [HttpPut("{id}")]
@@ -61,22 +48,10 @@ namespace EShopService.Controllers
         {
             if (id != updated.Id)
                 return BadRequest("Wrong ID.");
-            var product = await _dbContext.Products.FindAsync(id);
-            if (product == null || product.Deleted)
-                return NotFound();
-
-            if (!await _dbContext.Categories.AnyAsync(c => c.Id == updated.CategoryId && !c.Deleted))
-                return BadRequest("Invalid CategoryId");
-
-            product.Name = updated.Name;
-            product.Ean = updated.Ean;
-            product.Sku = updated.Sku;
-            product.Stock = updated.Stock;
-            product.Price = updated.Price;
-            product.CategoryId = updated.CategoryId;
-            product.UpdatedAt = DateTime.Now;
-            product.UpdatedBy = updated.UpdatedBy;
-            await _dbContext.SaveChangesAsync();
+            var userId = GetUserId();
+            var success = await _productService.UpdateAsync(id, updated, userId);
+            if (!success)
+                return NotFound("Can't find the product to update.");
             return NoContent();
         }
 
@@ -84,16 +59,19 @@ namespace EShopService.Controllers
         [Authorize(Policy = "AdminOnly")]
         public async Task<IActionResult> Delete(int id)
         {
-            var product = await _dbContext.Products.FirstOrDefaultAsync(p => p.Id == id && !p.Deleted);
-            if (product == null)
-                return NotFound();
-
-            product.Deleted = true;
-            product.UpdatedAt = DateTime.Now;
-
-            await _dbContext.SaveChangesAsync();
-
+            var userId = GetUserId();
+            var success = await _productService.DeleteAsync(id, userId);
+            if (!success)
+                return NotFound("Can't find the product to delete.");
             return Ok(new { message = "Product deleted." });
+        }
+
+        private Guid GetUserId()
+        {
+            var claim = User.Claims.FirstOrDefault(c => c.Type == System.Security.Claims.ClaimTypes.NameIdentifier);
+            if (claim == null)
+                throw new UnauthorizedAccessException("ID doesn't exist.");
+            return Guid.Parse(claim.Value);
         }
     }
 }

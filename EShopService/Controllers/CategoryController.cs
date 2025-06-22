@@ -57,7 +57,7 @@ namespace EShopService.Controllers
             var userId = GetUserId();
             var success = await _categoryService.UpdateAsync(id, updated, userId);
             if (!success)
-                return NotFound();
+                return NotFound("Can't find the category to update.");
             return NoContent();
         }
 
@@ -68,7 +68,7 @@ namespace EShopService.Controllers
             var userId = GetUserId();
             var success = await _categoryService.DeleteAsync(id, userId);
             if (!success)
-                return NotFound();
+                return NotFound("Can't find the category to delete.");
 
             return Ok(new { message = "Category was deleted." });
         }
