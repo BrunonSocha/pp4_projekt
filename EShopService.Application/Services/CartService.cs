@@ -1,10 +1,9 @@
 using EShopService;
 using Microsoft.EntityFrameworkCore;
-namespace EShopService.Application.Services;
-
 using EShopAbstractions;
 using EShopAbstractions.Models;
 
+namespace EShopService.Application.Services;
 
 public class CartService : ICartService
 {
