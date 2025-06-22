@@ -1,8 +1,12 @@
 ﻿using Microsoft.AspNetCore.Authorization;
+using EShopService.Application.Services;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using EShopAbstractions;
 using EShopAbstractions.Models;
+using EShop.Application.Services;
+// What? Why is the namespace different here? All other controllers work with EShopService.Application.Services, not EShop.Application.Services
+// Issue solved automatically by VSCode recommendation, I'd never figure it out myself
 
 namespace EShopService.Controllers
 {
@@ -10,28 +14,24 @@ namespace EShopService.Controllers
     [ApiController]
     public class CategoryController : ControllerBase
     {
-        private readonly EShopDbContext _dbContext;
+        private readonly ICategoryService _categoryService;
 
-        public CategoryController(EShopDbContext dbContext)
+        public CategoryController(ICategoryService categoryService)
         {
-            _dbContext = dbContext;
+            _categoryService = categoryService;
         }
 
         [HttpGet]
         public async Task<ActionResult<IEnumerable<Category>>> Get()
         {
-            var categories = await _dbContext.Categories
-                .Where(c => !c.Deleted)
-                .ToListAsync();
-
+            var categories = await _categoryService.GetAllAsync();
             return Ok(categories);
         }
 
         [HttpGet("{id}")]
         public async Task<ActionResult<Category>> Get(int id)
         {
-            var category = await _dbContext.Categories
-                .FirstOrDefaultAsync(c => c.Id == id && !c.Deleted);
+            var category = await _categoryService.GetOneAsync(id);
 
             if (category == null)
                 return NotFound();
@@ -42,32 +42,19 @@ namespace EShopService.Controllers
         [HttpPost]
         public async Task<ActionResult<Category>> Post([FromBody] Category category)
         {
-            category.CreatedAt = DateTime.Now;
-            category.UpdatedAt = DateTime.Now;
-
-            _dbContext.Categories.Add(category);
-            await _dbContext.SaveChangesAsync();
-
-            return CreatedAtAction(nameof(Get), new { id = category.Id }, category);
+            var created = await _categoryService.CreateAsync(category);
+            return CreatedAtAction(nameof(Get), new { id = created.Id }, created);
         }
 
         [HttpPut("{id}")]
         public async Task<IActionResult> Put(int id, [FromBody] Category updated)
         {
             if (id != updated.Id)
-                return BadRequest("Wrong ID.");
+                return BadRequest("ID doesn't exist.");
 
-            var category = await _dbContext.Categories.FirstOrDefaultAsync(c => c.Id == id && !c.Deleted);
-
-            if (category == null)
+            var success = await _categoryService.UpdateAsync(id, updated);
+            if (!success)
                 return NotFound();
-
-            category.Name = updated.Name;
-            category.UpdatedAt = DateTime.Now;
-            category.UpdatedBy = updated.UpdatedBy;
-
-            await _dbContext.SaveChangesAsync();
-
             return NoContent();
         }
 
@@ -75,16 +62,11 @@ namespace EShopService.Controllers
         [Authorize(Policy = "AdminOnly")]
         public async Task<IActionResult> Delete(int id)
         {
-            var category = await _dbContext.Categories.FindAsync(id);
-            if (category == null || category.Deleted)
+            var success = await _categoryService.DeleteAsync(id);
+            if (!success)
                 return NotFound();
 
-            category.Deleted = true;
-            category.UpdatedAt = DateTime.Now;
-
-            await _dbContext.SaveChangesAsync();
-
-            return Ok(new { message = "Category deleted." });
+            return Ok(new { message = "Category was deleted." });
         }
     }
 }
