@@ -26,7 +26,7 @@ namespace UserService.Controllers
             var result = await _registerService.Register(request);
             if (result)
                 return Ok("User created.");
-            return Ok("Error.");
+            return BadRequest("Error.");
         }
     }
 }
