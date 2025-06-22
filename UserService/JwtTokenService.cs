@@ -16,7 +16,7 @@ namespace UserService
             _settings = settings.Value;
         }
 
-        public string GenerateToken(int userId, List<string> roles)
+        public string GenerateToken(Guid userId, List<string> roles)
         {
 
             var claims = new List<Claim>

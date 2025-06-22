@@ -8,6 +8,7 @@ using UserService.User.Application.Services;
 using UserService;
 using EShop.Application.Services;
 using UserService.Repositories;
+using UserService.Models;
 
 namespace EShopService
 {
@@ -28,6 +29,9 @@ namespace EShopService
 
             builder.Services.AddEndpointsApiExplorer();
             builder.Services.AddSwaggerGen();
+
+            builder.Services.Configure<JwtSettings>(
+                builder.Configuration.GetSection("Jwt"));
 
             builder.Services.AddDbContext<EShopDbContext>(options =>
                 options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));

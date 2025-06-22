@@ -19,7 +19,7 @@ namespace UserService
             }
 
             var roles = new List<string> { "Client", "Employee", "Administrator" };
-            var token = _jwtTokenService.GenerateToken(123, roles);
+            var token = _jwtTokenService.GenerateToken(Guid.NewGuid(), roles);
 
             return token;
         }
