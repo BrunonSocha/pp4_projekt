@@ -54,6 +54,7 @@ namespace EShopAbstractions.Migrations
                     UserId = table.Column<Guid>(type: "uniqueidentifier", nullable: false),
                     Username = table.Column<string>(type: "nvarchar(255)", maxLength: 255, nullable: false),
                     Email = table.Column<string>(type: "nvarchar(255)", maxLength: 255, nullable: false),
+                    Password = table.Column<string>(type: "nvarchar(max)", nullable: false),
                     Group = table.Column<string>(type: "nvarchar(max)", nullable: false)
                 },
                 constraints: table =>

@@ -7,6 +7,7 @@ using EShopService.Application.Services;
 using UserService.User.Application.Services;
 using UserService;
 using EShop.Application.Services;
+using UserService.Repositories;
 
 namespace EShopService
 {
@@ -34,6 +35,9 @@ namespace EShopService
             builder.Services.AddScoped<UserService.ILoginService, UserService.LoginService>();
             builder.Services.AddScoped<UserService.IJwtTokenService, UserService.JwtTokenService>();
             builder.Services.AddScoped<UserService.IRegisterService, UserService.RegisterService>();
+            builder.Services.AddScoped<UserService.Repositories.IRepository, UserService.Repositories.Repository>();
+            builder.Services.AddScoped<IProductService, ProductService>();
+            builder.Services.AddScoped<IEShopDbContext>(provider => provider.GetRequiredService<EShopDbContext>());
 
             builder.Services.AddEndpointsApiExplorer();
             builder.Services.AddSwaggerGen(c =>

@@ -5,7 +5,7 @@ using Microsoft.EntityFrameworkCore;
 
 namespace EShopAbstractions
 {
-        public class EShopDbContext : DbContext
+        public class EShopDbContext : DbContext, IEShopDbContext
         {
         public EShopDbContext()
         {

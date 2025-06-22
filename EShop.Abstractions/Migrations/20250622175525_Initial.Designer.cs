@@ -12,7 +12,7 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace EShopAbstractions.Migrations
 {
     [DbContext(typeof(EShopDbContext))]
-    [Migration("20250622171314_Initial")]
+    [Migration("20250622175525_Initial")]
     partial class Initial
     {
         /// <inheritdoc />
@@ -150,6 +150,10 @@ namespace EShopAbstractions.Migrations
                         .HasColumnType("nvarchar(255)");
 
                     b.Property<string>("Group")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("Password")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 

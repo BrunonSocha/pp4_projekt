@@ -46,10 +46,10 @@ namespace EShopAbstractions
             {
                 var users = new List<User>
                 {
-                    new User { Username = "Thomas", Group = "employees", Email = "doot@comp.com" },
-                    new User { Username = "Onio32", Group = "users", Email = "doot@comp.com" },
-                    new User { Username = "Ben", Group = "admins", Email = "doot@comp.com" },
-                    new User { Username = "Mamby25", Group = "users", Email= "doot@comp.com" },
+                    new User { Username = "Thomas", Password = "123", Group = "employees", Email = "doot@comp.com" },
+                    new User { Username = "Onio32", Password = "142", Group = "users", Email = "doot@comp.com" },
+                    new User { Username = "Ben", Password = "12451", Group = "admins", Email = "doot@comp.com" },
+                    new User { Username = "Mamby25", Password = "135252", Group = "users", Email= "doot@comp.com" },
                 };
 
                 context.Users.AddRange(users);
