@@ -3,6 +3,7 @@ using Microsoft.AspNetCore.Builder;
 using Microsoft.EntityFrameworkCore;
 using EShopAbstractions;
 using Microsoft.OpenApi.Models;
+using EShopService.Application.Services;
 
 namespace EShopService
 {
@@ -14,7 +15,8 @@ namespace EShopService
             var builder = WebApplication.CreateBuilder(args);
 
             // Add services to the container.
-
+            builder.Services.AddScoped<IOrderService, OrderService>();
+            builder.Services.AddScoped<ICartService, CartService>();
             builder.Services.AddScoped<IEShopDbContextSeed, EShopDbContextSeed>();
             builder.Services.AddControllers();
 
