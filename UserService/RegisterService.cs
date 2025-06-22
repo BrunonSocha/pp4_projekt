@@ -1,4 +1,4 @@
-﻿using UserService.User.Application.Services;
+﻿using UserService;
 using EShopAbstractions;
 using UserService.Repositories;
 using System.Threading.Tasks;

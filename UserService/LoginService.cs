@@ -1,6 +1,5 @@
 ﻿using System.Threading.Tasks;
 using UserService.Repositories;
-using UserService.User.Application.Services;
 
 namespace UserService
 {

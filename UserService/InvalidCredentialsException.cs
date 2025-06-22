@@ -1,8 +1,8 @@
 ﻿
-namespace UserService.User.Application.Services
+namespace UserService
 {
     [Serializable]
-    internal class InvalidCredentialsException : Exception
+    public class InvalidCredentialsException : Exception
     {
         public InvalidCredentialsException() : base("Incorrect username or login") { }
     }

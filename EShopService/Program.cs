@@ -4,7 +4,6 @@ using Microsoft.EntityFrameworkCore;
 using EShopAbstractions;
 using Microsoft.OpenApi.Models;
 using EShopService.Application.Services;
-using UserService.User.Application.Services;
 using UserService;
 using EShop.Application.Services;
 using UserService.Repositories;
