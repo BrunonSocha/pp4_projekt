@@ -17,7 +17,7 @@ namespace EShopService.Controllers
         }
 
         [HttpGet("{id}")]
-        public async Task<ActionResult<Order>> GetOrder(int id)
+        public async Task<ActionResult> GetOrder(int id)
         {
             var order = await _orderService.GetOrderAsync(id);
             if (order == null)

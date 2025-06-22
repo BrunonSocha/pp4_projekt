@@ -14,13 +14,20 @@ public class OrderService : IOrderService
         _dbContext = dbContext;
     }
 
-    public async Task<Order?> GetOrderAsync(int orderId)
+    public async Task<object?> GetOrderAsync(int orderId)
     {
-        return await _dbContext.Orders
+        var order = await _dbContext.Orders
             .Include(o => o.Cart)
                 .ThenInclude(c => c.Items)
                 .ThenInclude(cp => cp.Product)
             .FirstOrDefaultAsync(o => o.OrderId == orderId);
+
+        if (order == null)
+            return null;
+        var totalPrice = order.Cart.Items
+            .Sum(item => item.Product.Price * item.Amount);
+
+        return new { Order = order, TotalPrice = totalPrice };
     }
 
     public async Task<Order> CreateOrderAsync(Guid userId, int cartId)

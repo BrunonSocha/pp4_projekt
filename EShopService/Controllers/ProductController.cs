@@ -36,19 +36,17 @@ namespace EShopService.Controllers
         }
 
         [HttpPost]
-        public async Task<ActionResult<Product>> Post([FromBody] Product product)
+        public async Task<ActionResult<Product>> Post([FromBody] Product product, Guid userId)
         {
-            var userId = GetUserId();
             var created = await _productService.CreateAsync(product, userId);
             return CreatedAtAction(nameof(Get), new { id = created.Id }, created);
         }
 
         [HttpPut("{id}")]
-        public async Task<IActionResult> Put(int id, [FromBody] Product updated)
+        public async Task<IActionResult> Put(int id, [FromBody] Product updated, Guid userId)
         {
             if (id != updated.Id)
                 return BadRequest("Wrong ID.");
-            var userId = GetUserId();
             var success = await _productService.UpdateAsync(id, updated, userId);
             if (!success)
                 return NotFound("Can't find the product to update.");
@@ -57,21 +55,12 @@ namespace EShopService.Controllers
 
         [HttpDelete("{id}")]
         [Authorize(Policy = "AdminOnly")]
-        public async Task<IActionResult> Delete(int id)
+        public async Task<IActionResult> Delete(int id, Guid userId)
         {
-            var userId = GetUserId();
             var success = await _productService.DeleteAsync(id, userId);
             if (!success)
                 return NotFound("Can't find the product to delete.");
             return Ok(new { message = "Product deleted." });
-        }
-
-        private Guid GetUserId()
-        {
-            var claim = User.Claims.FirstOrDefault(c => c.Type == System.Security.Claims.ClaimTypes.NameIdentifier);
-            if (claim == null)
-                throw new UnauthorizedAccessException("ID doesn't exist.");
-            return Guid.Parse(claim.Value);
         }
     }
 }

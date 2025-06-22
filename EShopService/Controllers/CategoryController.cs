@@ -41,20 +41,18 @@ namespace EShopService.Controllers
         }
 
         [HttpPost]
-        public async Task<ActionResult<Category>> Post([FromBody] Category category)
+        public async Task<ActionResult<Category>> Post([FromBody] Category category, Guid userId)
         {
-            var userId = GetUserId();
             var created = await _categoryService.CreateAsync(category, userId);
             return CreatedAtAction(nameof(Get), new { id = created.Id }, created);
         }
 
         [HttpPut("{id}")]
-        public async Task<IActionResult> Put(int id, [FromBody] Category updated)
+        public async Task<IActionResult> Put(int id, [FromBody] Category updated, Guid userId)
         {
             if (id != updated.Id)
                 return BadRequest("ID doesn't exist.");
 
-            var userId = GetUserId();
             var success = await _categoryService.UpdateAsync(id, updated, userId);
             if (!success)
                 return NotFound("Can't find the category to update.");
@@ -63,25 +61,13 @@ namespace EShopService.Controllers
 
         [HttpDelete("{id}")]
         [Authorize(Policy = "AdminOnly")]
-        public async Task<IActionResult> Delete(int id)
+        public async Task<IActionResult> Delete(int id, Guid userId)
         {
-            //var userId = GetUserId();
-            var success = await _categoryService.DeleteAsync(id, Guid.NewGuid());
+            var success = await _categoryService.DeleteAsync(id, userId);
             if (!success)
                 return NotFound("Can't find the category to delete.");
 
             return Ok(new { message = "Category was deleted." });
-        }
-        
-
-        //NO WORKY, if you insert correct Guid into card POST it throws exceptions (TODO: integration with token)
-        private Guid GetUserId()
-        {
-            var userIdClaim = User.Claims.FirstOrDefault(c => c.Type == ClaimTypes.NameIdentifier);
-            if (userIdClaim == null)
-                throw new UnauthorizedAccessException("User ID doesn't exist.");
-
-            return Guid.Parse(userIdClaim.Value);
         }
     }
 
