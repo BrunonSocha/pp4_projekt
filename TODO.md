@@ -23,8 +23,7 @@
     - [x] CartController
     - [x] OrderController
     - [ ] ProductController
-    - [ ] CategoryController
-- [ ] Check if updatedby works properly
+    - [ ] CategoryController - consult with Paweł regarding user identification
   
 ## Tests
 - [ ] In general

@@ -28,16 +28,18 @@ public class CategoryService : ICategoryService
             .FirstOrDefaultAsync(c => c.Id == id && !c.Deleted);
     }
 
-    public async Task<Category> CreateAsync(Category category)
+    public async Task<Category> CreateAsync(Category category, Guid userId)
     {
         category.CreatedAt = DateTime.Now;
         category.UpdatedAt = DateTime.Now;
+        category.CreatedBy = userId;
+        category.UpdatedBy = userId;
         _dbContext.Categories.Add(category);
         await _dbContext.SaveChangesAsync();
         return category;
     }
 
-    public async Task<bool> UpdateAsync(int id, Category updated)
+    public async Task<bool> UpdateAsync(int id, Category updated, Guid userId)
     {
         var category = await _dbContext.Categories.FirstOrDefaultAsync(c => c.Id == id && !c.Deleted);
         if (category == null)
@@ -45,11 +47,12 @@ public class CategoryService : ICategoryService
 
         category.Name = updated.Name;
         category.UpdatedAt = DateTime.Now;
+        category.UpdatedBy = userId;
         await _dbContext.SaveChangesAsync();
         return true;
     }
 
-    public async Task<bool> DeleteAsync(int id)
+    public async Task<bool> DeleteAsync(int id, Guid userId)
     {
         var category = await _dbContext.Categories.FindAsync(id);
         if (category == null || category.Deleted)
@@ -57,6 +60,7 @@ public class CategoryService : ICategoryService
 
         category.Deleted = true;
         category.UpdatedAt = DateTime.Now;
+        category.UpdatedBy = userId;
 
         await _dbContext.SaveChangesAsync();
         return true;

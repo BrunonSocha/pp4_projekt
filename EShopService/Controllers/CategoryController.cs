@@ -1,12 +1,13 @@
 ﻿using Microsoft.AspNetCore.Authorization;
 using EShopService.Application.Services;
 using Microsoft.AspNetCore.Mvc;
+using System.Security.Claims;
 using Microsoft.EntityFrameworkCore;
 using EShopAbstractions;
 using EShopAbstractions.Models;
 using EShop.Application.Services;
 // What? Why is the namespace different here? All other controllers work with EShopService.Application.Services, not EShop.Application.Services
-// Issue solved automatically by VSCode recommendation, I'd never figure it out myself
+// Issue solved automatically by VSCode recommendation, I'd never figure it out myself 
 
 namespace EShopService.Controllers
 {
@@ -42,7 +43,8 @@ namespace EShopService.Controllers
         [HttpPost]
         public async Task<ActionResult<Category>> Post([FromBody] Category category)
         {
-            var created = await _categoryService.CreateAsync(category);
+            var userId = GetUserId();
+            var created = await _categoryService.CreateAsync(category, userId);
             return CreatedAtAction(nameof(Get), new { id = created.Id }, created);
         }
 
@@ -52,7 +54,8 @@ namespace EShopService.Controllers
             if (id != updated.Id)
                 return BadRequest("ID doesn't exist.");
 
-            var success = await _categoryService.UpdateAsync(id, updated);
+            var userId = GetUserId();
+            var success = await _categoryService.UpdateAsync(id, updated, userId);
             if (!success)
                 return NotFound();
             return NoContent();
@@ -62,12 +65,23 @@ namespace EShopService.Controllers
         [Authorize(Policy = "AdminOnly")]
         public async Task<IActionResult> Delete(int id)
         {
-            var success = await _categoryService.DeleteAsync(id);
+            var userId = GetUserId();
+            var success = await _categoryService.DeleteAsync(id, userId);
             if (!success)
                 return NotFound();
 
             return Ok(new { message = "Category was deleted." });
         }
+        
+        private Guid GetUserId()
+        {
+            var userIdClaim = User.Claims.FirstOrDefault(c => c.Type == ClaimTypes.NameIdentifier);
+            if (userIdClaim == null)
+                throw new UnauthorizedAccessException("User ID doesn't exist.");
+
+            return Guid.Parse(userIdClaim.Value);
+        }
     }
+
 }
 

@@ -7,8 +7,8 @@ public interface ICategoryService
 {
     Task<IEnumerable<Category>> GetAllAsync();
     Task<Category?> GetOneAsync(int id);
-    Task<Category> CreateAsync(Category category);
-    Task<bool> UpdateAsync(int id, Category updated);
-    Task<bool> DeleteAsync(int id);
+    Task<Category> CreateAsync(Category category, Guid userId);
+    Task<bool> UpdateAsync(int id, Category updated, Guid userId);
+    Task<bool> DeleteAsync(int id, Guid userId);
 
 }
